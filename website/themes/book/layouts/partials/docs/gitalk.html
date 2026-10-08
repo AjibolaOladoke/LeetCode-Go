@@ -1,0 +1,33 @@
+{{ if .Site.Params.enableGitalk }}
+<div id="gitalk-container" style="width : 100%;"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1.8.0/dist/gitalk.min.js"></script>
+<!-- 修复：原来的 md5 脚本托管在 rawgit.com，该免费 CDN 已停服，导致 md5 未定义、
+     下方 md5(location.pathname) 抛错，整个评论组件渲染失败。改用仍在维护的 jsDelivr。
+     md5 算法结果一致，生成的 id 不变，历史评论(GitHub issues)仍能正确对应。 -->
+<script src="https://cdn.jsdelivr.net/npm/blueimp-md5@2.19.0/js/md5.min.js"></script>
+<script>
+  // 多语言改造后，路径多了 /en/ 或 /zh/ 语言前缀，md5(location.pathname) 随之改变，
+  // 与当初按无前缀路径(/leetcode/...)注册的 GitHub issue 对不上，导致评论加载失败。
+  // 这里把语言前缀去掉，回到改造前的原始路径，既能复用历史评论，又让中英文共享同一条评论。
+  const gitalkPath = location.pathname.replace(/\/(en|zh)\//, '/');
+  const gitalk = new Gitalk({
+    clientID: '{{ .Site.Params.Gitalk.clientID }}',
+    clientSecret: '{{ .Site.Params.Gitalk.clientSecret }}',
+    repo: '{{ .Site.Params.Gitalk.repo }}',
+    owner: '{{ .Site.Params.Gitalk.owner }}',
+    admin: ['{{ .Site.Params.Gitalk.owner }}'],
+    id: md5(gitalkPath), // Ensure uniqueness and length less than 50
+    distractionFreeMode: false, // Facebook-like distraction free mode
+    body: location.href, // GitHub issue body.
+    proxy: '{{ .Site.Params.Gitalk.proxy }}' // Gitalke proxy
+  });
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('gitalk-container').innerHTML = 'Gitalk comments not available by default when the website is previewed locally.';
+      return;
+    }
+    gitalk.render('gitalk-container');
+  })();
+</script>
+{{ end }}
