@@ -6,13 +6,13 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 
 ## Images
 
-[![LeetCode-Go](images/preview.png)](https://github.com/Swift-Tech-Co)
+[![LeetCode-Go](images/preview.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 ## Data Structures
 
 > Topics marked with ✅ have all their problems completed; those without the mark still have problems left to solve.
 
-<a href="https://www.swifttechco.com"><img src="./website/static/logo.png" alt="logo" height="550" align="right" /></a>
+<a href="https://github.com/Swift-Tech-Co/LeetCode-Go"><img src="./website/static/logo.png" alt="logo" height="550" align="right" /></a>
 
 * [Array](#array)
 * [String](#string)
@@ -50,9 +50,7 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 |Tree-based heap|1. Leftist heap<br>2. Skew heap<br>3. Binomial heap<br>4. Fibonacci heap<br>5. Pairing heap|||
 |Search|1. Hash table<br>2. Skip list<br>3. Binary search tree<br>4. AVL tree<br>5. B-tree / B+ tree / B* tree<br>6. AA tree<br>7. Red-black tree<br>8. Sorted binary heap<br>9. Splay tree<br>10. Double-chained tree<br>11. Trie<br>12. R-tree|||
 
-
 ## Algorithm
-
 
 | Algorithm | Specific Types | Related Problems | Articles |
 |:-------:|:-------|:------|:------|
@@ -67,7 +65,6 @@ This is part of the Swift Tech Co. working stack for product and engineering. It
 |Number theory||1. Greatest common divisor<br> 2. Least common multiple<br>3. Prime factorization<br>4. Primality testing<br>5. Base conversion<br>6. Arbitrary-precision arithmetic<br>7. Divisibility<br>8. Congruences<br>9. Euler's totient function<br>10. Extended Euclidean algorithm<br>11. Permutation groups<br>12. Generating functions<br>13. Discrete transforms<br>14. Cantor expansion<br>15. Matrices<br>16. Vectors<br>17. Systems of linear equations<br>18. Linear programming<br> ||
 |Geometry||1. Convex hull - gift wrapping<br>2. Convex hull - Graham scan<br>3. Line-segment problems<br> 4. Problems on polygons and polyhedra<br>||
 |NP-completeness|1. Computation models<br>2. Class-P and class-NP problems<br>3. NP-complete problems<br>4. Approximation algorithms for NP-complete problems<br>|1. Random-access machine (RAM)<br>2. Random-access stored-program machine (RASP)<br>3. Turing machine<br>4. Non-deterministic Turing machine<br>5. Class-P and class-NP languages<br>6. Polynomial-time verification<br>7. Polynomial-time reduction<br>8. Cook's theorem<br>9. CNF satisfiability (CNF-SAT)<br>10. 3-CNF satisfiability (3-SAT)<br>11. Clique problem (CLIQUE)<br>12. Vertex-cover problem (VERTEX-COVER)<br>13. Subset-sum problem (SUBSET-SUM)<br>14. Hamiltonian-cycle problem (HAM-CYCLE)<br>15. Traveling-salesman problem (TSP)<br>16. Approximation algorithm for vertex cover<br>17. Approximation algorithm for TSP<br>18. TSP with the triangle inequality<br>19. General TSP<br>20. Approximation algorithm for set cover<br>21. Approximation algorithm for subset sum<br>22. Exponential-time algorithm for subset sum<br>23. Polynomial-time approximation scheme for subset sum<br>||
-
 
 ## LeetCode Problems
 
@@ -2539,23 +2536,19 @@ None
 
 ------------------------------------------------------------------
 
-
 ## 3. Categories
 
 ## Array
 
-
 Problems List in there
-
 
 ## String
 
 Problems List in there
 
-
 ## Two Pointers
 
-[![](./topic/Two_pointers.png)](https://www.swifttechco.com)
+[![](./topic/Two_pointers.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - The classic two-pointer sliding-window pattern. Keep moving the right pointer rightward until it can no longer move (the exact condition depends on the problem). Once the right pointer reaches the far right, start moving the left pointer to release the window's left boundary. Problems 3, 76, 209, 424, 438, 567, 713, 763, 845, 881, 904, 978, 992, 1004, 1040, 1052.
 
@@ -2578,14 +2571,11 @@ Problems List in there
 - The longest run of a single repeated character achievable after replacements. Problem 424.
 - The SUM problem set. Problems 1, 15, 16, 18, 167, 923, 1074.
 
-
 Problems List in there
-
 
 ## Linked List
 
-[![](./topic/Linked_List.png)](https://www.swifttechco.com)
-
+[![](./topic/Linked_List.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - Cleverly introduce a dummy head node to make the traversal logic more uniform.
 - Use recursion flexibly. Set up the right recursive conditions and recursion solves problems elegantly. Note, however, that some problems can't use recursion: too deep a recursion causes TLE and stack overflow.
@@ -2596,13 +2586,11 @@ Problems List in there
 - Sorting a linked list in O(n * log n) time and O(1) space. There's only one approach: top-down merge sort. Problem 148.
 - Detecting whether a linked list has a cycle and, if so, outputting the index of the cycle's entry node; detecting whether two linked lists intersect and, if so, outputting the intersection node. Problems 141, 142, 160.
 
-
 Problems List in there
-
 
 ## Stack
 
-[![](./topic/Stack.png)](https://www.swifttechco.com)
+[![](./topic/Stack.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - Parentheses-matching problems and the like. Problems 20, 921, 1021.
 - Basic stack pop and push operations. Problems 71, 150, 155, 224, 225, 232, 946, 1047.
@@ -2611,21 +2599,17 @@ Problems List in there
 
 Problems List in there
 
-
 ## Tree
 
-
 Problems List in there
-
 
 ## Dynamic Programming
 
 Problems List in there
 
-
 ## Backtracking
 
-[![](./topic/Backtracking.png)](https://www.swifttechco.com)
+[![](./topic/Backtracking.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - Permutation problems. Problems 46, 47, 60, 526, 996.
 - Combination problems. Problems 39, 40, 77, 216.
@@ -2717,21 +2701,15 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 }
 ```
 
-
 Problems List in there
-
 
 ## Depth First Search
 
-
 Problems List in there
-
 
 ## Breadth First Search
 
-
 Problems List in there
-
 
 ## Binary Search
 
@@ -2861,22 +2839,17 @@ func peakIndexInMountainArray(A []int) int {
 
 Problems List in there
 
-
 ## Math
 
-
 Problems List in there
-
 
 ## Hash Table
 
-
 Problems List in there
-
 
 ## Sort
 
-[![](./topic/Sort.png)](https://www.swifttechco.com)
+[![](./topic/Sort.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - Develop a deep understanding of multi-way quicksort. Problem 75.
 - Sorting a linked list: insertion sort (Problem 147) and merge sort (Problem 148).
@@ -2887,10 +2860,9 @@ Problems List in there
 
 Problems List in there
 
-
 ## Bit Manipulation
 
-[![](./topic/Bit_Manipulation.png)](https://www.swifttechco.com)
+[![](./topic/Bit_Manipulation.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - Properties of XOR. Problems 136, 268, 389, 421.
 
@@ -2926,10 +2898,9 @@ X & ~X = 0
 
 Problems List in there
 
-
 ## Union Find
 
-[![](./topic/Union_Find.png)](https://www.swifttechco.com)
+[![](./topic/Union_Find.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - Use the union-find idea flexibly and get comfortable with the union-find template. The template offers two implementations: one with path compression + union by rank, and one that tracks the size of each set + the largest set size; each has its own use cases. Problems that fit the first template: 128, 130, 547, 684, 721, 765, 778, 839, 924, 928, 947, 952, 959, 990. Problems that fit the second template: 803, 952. In Problem 803, union by rank and counting set sizes are where time gets tight; skip these optimizations and you'll TLE.
 - Union-Find is an idea; some problems require applying it flexibly rather than blindly reusing the template, e.g. Problem 399, a stringUnionFind built on the union-find idea. Here each node is keyed by strings and a map rather than plain integer node IDs.
@@ -2938,13 +2909,11 @@ Problems List in there
 - For problems about maps, bricks, or grids, create a special node and union() all the border bricks or cells to it. Problems 130, 803.
 - Problems solvable with union-find can generally also be solved with DFS and BFS, just at a somewhat higher time complexity.
 
-
 Problems List in there
-
 
 ## Sliding Window
 
-[![](./topic/Sliding_Window.png)](https://www.swifttechco.com)
+[![](./topic/Sliding_Window.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - The classic two-pointer sliding-window pattern. Keep moving the right pointer rightward until it can no longer move (the exact condition depends on the problem). Once the right pointer reaches the far right, start moving the left pointer to release the window's left boundary. Problems 3, 76, 209, 424, 438, 567, 713, 763, 845, 881, 904, 978, 992, 1004, 1040, 1052.
 
@@ -2966,10 +2935,9 @@ Problems List in there
 
 Problems List in there
 
-
 ## Segment Tree
 
-[![](./topic/Segment_Tree.png)](https://www.swifttechco.com)
+[![](./topic/Segment_Tree.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 - The classic array-based segment-tree implementation. The pushUp logic for merging two nodes is abstracted out, so it can support arbitrary operations (common ones: addition, max, min, etc.). Problems 218, 303, 307, 699.
 - The classic counting segment tree. Problems 315, 327, 493.
@@ -2977,7 +2945,6 @@ Problems List in there
 - Lazy range updates. Problems 218, 699.
 - Discretization (coordinate compression). Watch out for one special case: suppose the three intervals are [1,10], [1,4], [6,10]; after discretization x[1]=1, x[2]=4, x[3]=6, x[4]=10, so the first interval becomes [1,4], the second [1,2], the third [3,4]. Then interval one = interval two + interval three, which contradicts the original model  before discretization it is clear that interval one > interval two + interval three. The correct fix is to insert an extra value between any two values that differ by more than 1; e.g. insert 5 between 1 4 6 10 above, giving x[1]=1, x[2]=4, x[3]=5, x[4]=6, x[5]=10. After this, interval one is 1-5, interval two is 1-2, and interval three is 4-5.
 - Build segment trees flexibly. A node can store multiple pieces of information, and the pushUp that merges two nodes can take many forms. Problems 850, 1157.
-
 
 Segment-tree problem types, from easy to hard:
 
@@ -2999,22 +2966,19 @@ Segment-tree problem types, from easy to hard:
 
 Problems List in there
 
-
 ## Binary Indexed Tree
 
-[![](./topic/Binary_Indexed_Tree.png)](https://www.swifttechco.com)
+[![](./topic/Binary_Indexed_Tree.png)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 Problems List in there
-
 
 ----------------------------------------------------------------------------------------
 
 <p align='center'>
-<a href="https://www.swifttechco.com"></a>
+<a href="https://github.com/Swift-Tech-Co/LeetCode-Go"></a>
 </p>
 
 Thank you for reading this far  here's a bonus. You can download my ACM-ICPC Algorithm Template.
-
 
 ## License
 
@@ -3024,7 +2988,7 @@ The **code** in this repository (all Go solutions) is licensed under the MIT Lic
 
 Thanks for your Star！
 
-[![Star History Chart](https://api.star-history.com/chart?repos=halfrost/LeetCode-Go&type=date&legend=top-left&sealed_token=EQkNj9wWdqUge56cVafCkwjphuAeZuxwsNNiR0KstjGR4b5wfg5byc4GRkcJHWsW1L0oXyq9peCFb-COlsFW6k-WoKEZX6bA6tHyv0YGQl9qIl0GmgFo6movMRy7LzJhMwZW_zPMT0oXVZ2SQQdzSumyKiFE0lmZZy3dvlRPtTpg0pr2Uh13bYdXH_y7)](https://www.swifttechco.com)
+[![Star History Chart](https://api.star-history.com/chart?repos=halfrost/LeetCode-Go&type=date&legend=top-left&sealed_token=EQkNj9wWdqUge56cVafCkwjphuAeZuxwsNNiR0KstjGR4b5wfg5byc4GRkcJHWsW1L0oXyq9peCFb-COlsFW6k-WoKEZX6bA6tHyv0YGQl9qIl0GmgFo6movMRy7LzJhMwZW_zPMT0oXVZ2SQQdzSumyKiFE0lmZZy3dvlRPtTpg0pr2Uh13bYdXH_y7)](https://github.com/Swift-Tech-Co/LeetCode-Go)
 
 ---
 
@@ -3040,13 +3004,21 @@ Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: swifttechco.com
+- Website: https://github.com/Swift-Tech-Co/LeetCode-Go
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
 
 ## Sources
 
