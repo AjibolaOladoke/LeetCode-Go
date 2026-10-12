@@ -1,68 +1,12 @@
+# LeetCode-Go
 
-# LeetCode in Go
+## What This Is
+
+This is part of the Swift Tech Co. working stack for product and engineering. It gathers the LeetCode-Go notes, examples and fixes that keep delivery fast, and doubles as the reference map we hand to whoever picks up this thread next.
 
 ## Images
 
-[![LeetCode-Go](https://opengraph.githubassets.com/1/halfrost/LeetCode-Go)](https://www.swifttechco.com)
-
-
-<p align="right"><strong>English</strong> | <a href="./README_zh.md">中文</a></p>
-
-[LeetCode Online Judge](https://www.swifttechco.com) is a website containing many **algorithm questions**. Most of them are real interview questions of **Google, Facebook, LinkedIn, Apple**, etc. and it always help to sharp our algorithm Skills. Level up your coding skills and quickly land a job. This is the best place to expand your knowledge and get prepared for your next interview. This repo shows my solutions in Go with the code style strictly follows the [Google Golang Style Guide](https://www.swifttechco.com). Please feel free to reference and **STAR** to support this repo, thank you!
-
-
-<p align='center'>
-<img src='./logo.png'>
-</p>
-
-[![](./website/static/wechat-qr-code.png)](https://www.swifttechco.com)
-
-<p align='center'>
-<a href="https://www.swifttechco.com" rel="nofollow"></a>
-
-<a href="https://www.swifttechco.com" rel="nofollow"></a>
-<a href="https://www.swifttechco.com" rel="nofollow"></a>
-<a href="https://www.swifttechco.com" rel="nofollow"></a>
-
-<a href="https://www.swifttechco.com"></a>
-
-
-</p>
-
-<p align='center'>
-<a href="https://www.swifttechco.com"></a>
-
-<a href="https://www.swifttechco.com">
-
-<a href="https://www.swifttechco.com"></a>
-<a href="https://www.swifttechco.com"></a>
-<a href="https://www.swifttechco.com"></a>
-<a href="https://www.swifttechco.com"></a>
-
-<a href="https://www.swifttechco.com"></a>
-</p>
-
-The solution e-book *LeetCode Cookbook*, with Progressive Web App and Dark Mode support  <a href="https://www.swifttechco.com" rel="nofollow">Online Reading</a>
-
-<p align='center'>
-<a href="https://www.swifttechco.com"></a>
-<a href="https://www.swifttechco.com"></a>
-</p>
-
-Offline PDF edition of the e-book *LeetCode Cookbook*  <a href="https://www.swifttechco.com" rel="nofollow">Download here</a>
-
-<p align='center'>
-<a href="https://www.swifttechco.com"></a>
-</p>
-
-Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS / Android browser and study anytime.
-
-<p align='center'>
-<a href="https://www.swifttechco.com"></a>
-<a href="https://www.swifttechco.com"></a>
-<a href="https://www.swifttechco.com"></a>
-</p>
-
+[![LeetCode-Go](images/preview.png)](https://github.com/Swift-Tech-Co)
 
 ## Data Structures
 
@@ -143,185 +87,185 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 
 | No.    |  Title  |  Solution  |  Acceptance |  Difficulty |  Frequency |
 |:--------:|:--------------------------------------------------------------|:--------:|:--------:|:--------:|:--------:|
-|0001|Two Sum|[Go](https://www.swifttechco.com)|49.1%|Easy||
-|0002|Add Two Numbers|[Go](https://www.swifttechco.com)|39.7%|Medium||
-|0003|Longest Substring Without Repeating Characters|[Go](https://www.swifttechco.com)|33.8%|Medium||
-|0004|Median of Two Sorted Arrays|[Go](https://www.swifttechco.com)|35.1%|Hard||
-|0005|Longest Palindromic Substring|[Go](https://www.swifttechco.com)|32.4%|Medium||
-|0006|Zigzag Conversion|[Go](https://www.swifttechco.com)|43.0%|Medium||
-|0007|Reverse Integer|[Go](https://www.swifttechco.com)|27.2%|Medium||
-|0008|String to Integer (atoi)|[Go](https://www.swifttechco.com)|16.6%|Medium||
-|0009|Palindrome Number|[Go](https://www.swifttechco.com)|52.8%|Easy||
+|0001|Two Sum|Go|49.1%|Easy||
+|0002|Add Two Numbers|Go|39.7%|Medium||
+|0003|Longest Substring Without Repeating Characters|Go|33.8%|Medium||
+|0004|Median of Two Sorted Arrays|Go|35.1%|Hard||
+|0005|Longest Palindromic Substring|Go|32.4%|Medium||
+|0006|Zigzag Conversion|Go|43.0%|Medium||
+|0007|Reverse Integer|Go|27.2%|Medium||
+|0008|String to Integer (atoi)|Go|16.6%|Medium||
+|0009|Palindrome Number|Go|52.8%|Easy||
 |0010|Regular Expression Matching||28.3%|Hard||
-|0011|Container With Most Water|[Go](https://www.swifttechco.com)|54.3%|Medium||
-|0012|Integer to Roman|[Go](https://www.swifttechco.com)|60.5%|Medium||
-|0013|Roman to Integer|[Go](https://www.swifttechco.com)|58.2%|Easy||
-|0014|Longest Common Prefix|[Go](https://www.swifttechco.com)|40.7%|Easy||
-|0015|3Sum|[Go](https://www.swifttechco.com)|32.2%|Medium||
-|0016|3Sum Closest|[Go](https://www.swifttechco.com)|46.2%|Medium||
-|0017|Letter Combinations of a Phone Number|[Go](https://www.swifttechco.com)|55.5%|Medium||
-|0018|4Sum|[Go](https://www.swifttechco.com)|36.5%|Medium||
-|0019|Remove Nth Node From End of List|[Go](https://www.swifttechco.com)|39.9%|Medium||
-|0020|Valid Parentheses|[Go](https://www.swifttechco.com)|40.7%|Easy||
-|0021|Merge Two Sorted Lists|[Go](https://www.swifttechco.com)|61.8%|Easy||
-|0022|Generate Parentheses|[Go](https://www.swifttechco.com)|71.7%|Medium||
-|0023|Merge k Sorted Lists|[Go](https://www.swifttechco.com)|48.3%|Hard||
-|0024|Swap Nodes in Pairs|[Go](https://www.swifttechco.com)|60.3%|Medium||
-|0025|Reverse Nodes in k-Group|[Go](https://www.swifttechco.com)|53.4%|Hard||
-|0026|Remove Duplicates from Sorted Array|[Go](https://www.swifttechco.com)|50.3%|Easy||
-|0027|Remove Element|[Go](https://www.swifttechco.com)|52.0%|Easy||
-|0028|Find the Index of the First Occurrence in a String|[Go](https://www.swifttechco.com)|37.4%|Medium||
-|0029|Divide Two Integers|[Go](https://www.swifttechco.com)|17.4%|Medium||
-|0030|Substring with Concatenation of All Words|[Go](https://www.swifttechco.com)|30.9%|Hard||
-|0031|Next Permutation|[Go](https://www.swifttechco.com)|37.1%|Medium||
-|0032|Longest Valid Parentheses|[Go](https://www.swifttechco.com)|32.7%|Hard||
-|0033|Search in Rotated Sorted Array|[Go](https://www.swifttechco.com)|38.6%|Medium||
-|0034|Find First and Last Position of Element in Sorted Array|[Go](https://www.swifttechco.com)|41.5%|Medium||
-|0035|Search Insert Position|[Go](https://www.swifttechco.com)|42.0%|Easy||
-|0036|Valid Sudoku|[Go](https://www.swifttechco.com)|56.7%|Medium||
-|0037|Sudoku Solver|[Go](https://www.swifttechco.com)|56.6%|Hard||
+|0011|Container With Most Water|Go|54.3%|Medium||
+|0012|Integer to Roman|Go|60.5%|Medium||
+|0013|Roman to Integer|Go|58.2%|Easy||
+|0014|Longest Common Prefix|Go|40.7%|Easy||
+|0015|3Sum|Go|32.2%|Medium||
+|0016|3Sum Closest|Go|46.2%|Medium||
+|0017|Letter Combinations of a Phone Number|Go|55.5%|Medium||
+|0018|4Sum|Go|36.5%|Medium||
+|0019|Remove Nth Node From End of List|Go|39.9%|Medium||
+|0020|Valid Parentheses|Go|40.7%|Easy||
+|0021|Merge Two Sorted Lists|Go|61.8%|Easy||
+|0022|Generate Parentheses|Go|71.7%|Medium||
+|0023|Merge k Sorted Lists|Go|48.3%|Hard||
+|0024|Swap Nodes in Pairs|Go|60.3%|Medium||
+|0025|Reverse Nodes in k-Group|Go|53.4%|Hard||
+|0026|Remove Duplicates from Sorted Array|Go|50.3%|Easy||
+|0027|Remove Element|Go|52.0%|Easy||
+|0028|Find the Index of the First Occurrence in a String|Go|37.4%|Medium||
+|0029|Divide Two Integers|Go|17.4%|Medium||
+|0030|Substring with Concatenation of All Words|Go|30.9%|Hard||
+|0031|Next Permutation|Go|37.1%|Medium||
+|0032|Longest Valid Parentheses|Go|32.7%|Hard||
+|0033|Search in Rotated Sorted Array|Go|38.6%|Medium||
+|0034|Find First and Last Position of Element in Sorted Array|Go|41.5%|Medium||
+|0035|Search Insert Position|Go|42.0%|Easy||
+|0036|Valid Sudoku|Go|56.7%|Medium||
+|0037|Sudoku Solver|Go|56.6%|Hard||
 |0038|Count and Say||51.1%|Medium||
-|0039|Combination Sum|[Go](https://www.swifttechco.com)|67.5%|Medium||
-|0040|Combination Sum II|[Go](https://www.swifttechco.com)|53.3%|Medium||
-|0041|First Missing Positive|[Go](https://www.swifttechco.com)|36.5%|Hard||
-|0042|Trapping Rain Water|[Go](https://www.swifttechco.com)|58.7%|Hard||
-|0043|Multiply Strings|[Go](https://www.swifttechco.com)|38.7%|Medium||
+|0039|Combination Sum|Go|67.5%|Medium||
+|0040|Combination Sum II|Go|53.3%|Medium||
+|0041|First Missing Positive|Go|36.5%|Hard||
+|0042|Trapping Rain Water|Go|58.7%|Hard||
+|0043|Multiply Strings|Go|38.7%|Medium||
 |0044|Wildcard Matching||26.8%|Hard||
-|0045|Jump Game II|[Go](https://www.swifttechco.com)|38.5%|Medium||
-|0046|Permutations|[Go](https://www.swifttechco.com)|74.6%|Medium||
-|0047|Permutations II|[Go](https://www.swifttechco.com)|56.6%|Medium||
-|0048|Rotate Image|[Go](https://www.swifttechco.com)|69.8%|Medium||
-|0049|Group Anagrams|[Go](https://www.swifttechco.com)|65.9%|Medium||
-|0050|Pow(x, n)|[Go](https://www.swifttechco.com)|32.8%|Medium||
-|0051|N-Queens|[Go](https://www.swifttechco.com)|62.8%|Hard||
-|0052|N-Queens II|[Go](https://www.swifttechco.com)|70.8%|Hard||
-|0053|Maximum Subarray|[Go](https://www.swifttechco.com)|50.0%|Medium||
-|0054|Spiral Matrix|[Go](https://www.swifttechco.com)|43.6%|Medium||
-|0055|Jump Game|[Go](https://www.swifttechco.com)|38.4%|Medium||
-|0056|Merge Intervals|[Go](https://www.swifttechco.com)|45.9%|Medium||
-|0057|Insert Interval|[Go](https://www.swifttechco.com)|37.9%|Medium||
-|0058|Length of Last Word|[Go](https://www.swifttechco.com)|40.3%|Easy||
-|0059|Spiral Matrix II|[Go](https://www.swifttechco.com)|66.5%|Medium||
-|0060|Permutation Sequence|[Go](https://www.swifttechco.com)|43.7%|Hard||
-|0061|Rotate List|[Go](https://www.swifttechco.com)|35.7%|Medium||
-|0062|Unique Paths|[Go](https://www.swifttechco.com)|62.2%|Medium||
-|0063|Unique Paths II|[Go](https://www.swifttechco.com)|39.1%|Medium||
-|0064|Minimum Path Sum|[Go](https://www.swifttechco.com)|60.6%|Medium||
-|0065|Valid Number|[Go](https://www.swifttechco.com)|18.6%|Hard||
-|0066|Plus One|[Go](https://www.swifttechco.com)|43.3%|Easy||
-|0067|Add Binary|[Go](https://www.swifttechco.com)|51.3%|Easy||
+|0045|Jump Game II|Go|38.5%|Medium||
+|0046|Permutations|Go|74.6%|Medium||
+|0047|Permutations II|Go|56.6%|Medium||
+|0048|Rotate Image|Go|69.8%|Medium||
+|0049|Group Anagrams|Go|65.9%|Medium||
+|0050|Pow(x, n)|Go|32.8%|Medium||
+|0051|N-Queens|Go|62.8%|Hard||
+|0052|N-Queens II|Go|70.8%|Hard||
+|0053|Maximum Subarray|Go|50.0%|Medium||
+|0054|Spiral Matrix|Go|43.6%|Medium||
+|0055|Jump Game|Go|38.4%|Medium||
+|0056|Merge Intervals|Go|45.9%|Medium||
+|0057|Insert Interval|Go|37.9%|Medium||
+|0058|Length of Last Word|Go|40.3%|Easy||
+|0059|Spiral Matrix II|Go|66.5%|Medium||
+|0060|Permutation Sequence|Go|43.7%|Hard||
+|0061|Rotate List|Go|35.7%|Medium||
+|0062|Unique Paths|Go|62.2%|Medium||
+|0063|Unique Paths II|Go|39.1%|Medium||
+|0064|Minimum Path Sum|Go|60.6%|Medium||
+|0065|Valid Number|Go|18.6%|Hard||
+|0066|Plus One|Go|43.3%|Easy||
+|0067|Add Binary|Go|51.3%|Easy||
 |0068|Text Justification||36.6%|Hard||
-|0069|Sqrt(x)|[Go](https://www.swifttechco.com)|37.0%|Easy||
-|0070|Climbing Stairs|[Go](https://www.swifttechco.com)|51.7%|Easy||
-|0071|Simplify Path|[Go](https://www.swifttechco.com)|39.2%|Medium||
+|0069|Sqrt(x)|Go|37.0%|Easy||
+|0070|Climbing Stairs|Go|51.7%|Easy||
+|0071|Simplify Path|Go|39.2%|Medium||
 |0072|Edit Distance||52.6%|Hard||
-|0073|Set Matrix Zeroes|[Go](https://www.swifttechco.com)|49.9%|Medium||
-|0074|Search a 2D Matrix|[Go](https://www.swifttechco.com)|46.7%|Medium||
-|0075|Sort Colors|[Go](https://www.swifttechco.com)|57.1%|Medium||
-|0076|Minimum Window Substring|[Go](https://www.swifttechco.com)|40.0%|Hard||
-|0077|Combinations|[Go](https://www.swifttechco.com)|66.0%|Medium||
-|0078|Subsets|[Go](https://www.swifttechco.com)|73.7%|Medium||
-|0079|Word Search|[Go](https://www.swifttechco.com)|39.8%|Medium||
-|0080|Remove Duplicates from Sorted Array II|[Go](https://www.swifttechco.com)|51.5%|Medium||
-|0081|Search in Rotated Sorted Array II|[Go](https://www.swifttechco.com)|35.7%|Medium||
-|0082|Remove Duplicates from Sorted List II|[Go](https://www.swifttechco.com)|45.4%|Medium||
-|0083|Remove Duplicates from Sorted List|[Go](https://www.swifttechco.com)|49.8%|Easy||
-|0084|Largest Rectangle in Histogram|[Go](https://www.swifttechco.com)|42.1%|Hard||
+|0073|Set Matrix Zeroes|Go|49.9%|Medium||
+|0074|Search a 2D Matrix|Go|46.7%|Medium||
+|0075|Sort Colors|Go|57.1%|Medium||
+|0076|Minimum Window Substring|Go|40.0%|Hard||
+|0077|Combinations|Go|66.0%|Medium||
+|0078|Subsets|Go|73.7%|Medium||
+|0079|Word Search|Go|39.8%|Medium||
+|0080|Remove Duplicates from Sorted Array II|Go|51.5%|Medium||
+|0081|Search in Rotated Sorted Array II|Go|35.7%|Medium||
+|0082|Remove Duplicates from Sorted List II|Go|45.4%|Medium||
+|0083|Remove Duplicates from Sorted List|Go|49.8%|Easy||
+|0084|Largest Rectangle in Histogram|Go|42.1%|Hard||
 |0085|Maximal Rectangle||44.1%|Hard||
-|0086|Partition List|[Go](https://www.swifttechco.com)|51.3%|Medium||
+|0086|Partition List|Go|51.3%|Medium||
 |0087|Scramble String||36.1%|Hard||
-|0088|Merge Sorted Array|[Go](https://www.swifttechco.com)|45.7%|Easy||
-|0089|Gray Code|[Go](https://www.swifttechco.com)|56.4%|Medium||
-|0090|Subsets II|[Go](https://www.swifttechco.com)|55.2%|Medium||
-|0091|Decode Ways|[Go](https://www.swifttechco.com)|32.2%|Medium||
-|0092|Reverse Linked List II|[Go](https://www.swifttechco.com)|45.3%|Medium||
-|0093|Restore IP Addresses|[Go](https://www.swifttechco.com)|43.3%|Medium||
-|0094|Binary Tree Inorder Traversal|[Go](https://www.swifttechco.com)|72.9%|Easy||
-|0095|Unique Binary Search Trees II|[Go](https://www.swifttechco.com)|51.4%|Medium||
-|0096|Unique Binary Search Trees|[Go](https://www.swifttechco.com)|59.2%|Medium||
-|0097|Interleaving String|[Go](https://www.swifttechco.com)|37.1%|Medium||
-|0098|Validate Binary Search Tree|[Go](https://www.swifttechco.com)|31.7%|Medium||
-|0099|Recover Binary Search Tree|[Go](https://www.swifttechco.com)|50.2%|Medium||
-|0100|Same Tree|[Go](https://www.swifttechco.com)|56.3%|Easy||
-|0101|Symmetric Tree|[Go](https://www.swifttechco.com)|52.8%|Easy||
-|0102|Binary Tree Level Order Traversal|[Go](https://www.swifttechco.com)|63.2%|Medium||
-|0103|Binary Tree Zigzag Level Order Traversal|[Go](https://www.swifttechco.com)|55.0%|Medium||
-|0104|Maximum Depth of Binary Tree|[Go](https://www.swifttechco.com)|73.0%|Easy||
-|0105|Construct Binary Tree from Preorder and Inorder Traversal|[Go](https://www.swifttechco.com)|60.6%|Medium||
-|0106|Construct Binary Tree from Inorder and Postorder Traversal|[Go](https://www.swifttechco.com)|57.3%|Medium||
-|0107|Binary Tree Level Order Traversal II|[Go](https://www.swifttechco.com)|60.2%|Medium||
-|0108|Convert Sorted Array to Binary Search Tree|[Go](https://www.swifttechco.com)|68.9%|Easy||
-|0109|Convert Sorted List to Binary Search Tree|[Go](https://www.swifttechco.com)|57.2%|Medium||
-|0110|Balanced Binary Tree|[Go](https://www.swifttechco.com)|48.1%|Easy||
-|0111|Minimum Depth of Binary Tree|[Go](https://www.swifttechco.com)|43.5%|Easy||
-|0112|Path Sum|[Go](https://www.swifttechco.com)|47.6%|Easy||
-|0113|Path Sum II|[Go](https://www.swifttechco.com)|56.5%|Medium||
-|0114|Flatten Binary Tree to Linked List|[Go](https://www.swifttechco.com)|61.0%|Medium||
-|0115|Distinct Subsequences|[Go](https://www.swifttechco.com)|43.7%|Hard||
-|0116|Populating Next Right Pointers in Each Node|[Go](https://www.swifttechco.com)|59.3%|Medium||
+|0088|Merge Sorted Array|Go|45.7%|Easy||
+|0089|Gray Code|Go|56.4%|Medium||
+|0090|Subsets II|Go|55.2%|Medium||
+|0091|Decode Ways|Go|32.2%|Medium||
+|0092|Reverse Linked List II|Go|45.3%|Medium||
+|0093|Restore IP Addresses|Go|43.3%|Medium||
+|0094|Binary Tree Inorder Traversal|Go|72.9%|Easy||
+|0095|Unique Binary Search Trees II|Go|51.4%|Medium||
+|0096|Unique Binary Search Trees|Go|59.2%|Medium||
+|0097|Interleaving String|Go|37.1%|Medium||
+|0098|Validate Binary Search Tree|Go|31.7%|Medium||
+|0099|Recover Binary Search Tree|Go|50.2%|Medium||
+|0100|Same Tree|Go|56.3%|Easy||
+|0101|Symmetric Tree|Go|52.8%|Easy||
+|0102|Binary Tree Level Order Traversal|Go|63.2%|Medium||
+|0103|Binary Tree Zigzag Level Order Traversal|Go|55.0%|Medium||
+|0104|Maximum Depth of Binary Tree|Go|73.0%|Easy||
+|0105|Construct Binary Tree from Preorder and Inorder Traversal|Go|60.6%|Medium||
+|0106|Construct Binary Tree from Inorder and Postorder Traversal|Go|57.3%|Medium||
+|0107|Binary Tree Level Order Traversal II|Go|60.2%|Medium||
+|0108|Convert Sorted Array to Binary Search Tree|Go|68.9%|Easy||
+|0109|Convert Sorted List to Binary Search Tree|Go|57.2%|Medium||
+|0110|Balanced Binary Tree|Go|48.1%|Easy||
+|0111|Minimum Depth of Binary Tree|Go|43.5%|Easy||
+|0112|Path Sum|Go|47.6%|Easy||
+|0113|Path Sum II|Go|56.5%|Medium||
+|0114|Flatten Binary Tree to Linked List|Go|61.0%|Medium||
+|0115|Distinct Subsequences|Go|43.7%|Hard||
+|0116|Populating Next Right Pointers in Each Node|Go|59.3%|Medium||
 |0117|Populating Next Right Pointers in Each Node II||49.6%|Medium||
-|0118|Pascal's Triangle|[Go](https://www.swifttechco.com)|68.9%|Easy||
-|0119|Pascal's Triangle II|[Go](https://www.swifttechco.com)|59.5%|Easy||
-|0120|Triangle|[Go](https://www.swifttechco.com)|53.8%|Medium||
-|0121|Best Time to Buy and Sell Stock|[Go](https://www.swifttechco.com)|54.5%|Easy||
-|0122|Best Time to Buy and Sell Stock II|[Go](https://www.swifttechco.com)|63.2%|Medium||
+|0118|Pascal's Triangle|Go|68.9%|Easy||
+|0119|Pascal's Triangle II|Go|59.5%|Easy||
+|0120|Triangle|Go|53.8%|Medium||
+|0121|Best Time to Buy and Sell Stock|Go|54.5%|Easy||
+|0122|Best Time to Buy and Sell Stock II|Go|63.2%|Medium||
 |0123|Best Time to Buy and Sell Stock III||44.8%|Hard||
-|0124|Binary Tree Maximum Path Sum|[Go](https://www.swifttechco.com)|38.4%|Hard||
-|0125|Valid Palindrome|[Go](https://www.swifttechco.com)|43.5%|Easy||
-|0126|Word Ladder II|[Go](https://www.swifttechco.com)|27.6%|Hard||
-|0127|Word Ladder|[Go](https://www.swifttechco.com)|36.6%|Hard||
-|0128|Longest Consecutive Sequence|[Go](https://www.swifttechco.com)|49.0%|Medium||
-|0129|Sum Root to Leaf Numbers|[Go](https://www.swifttechco.com)|58.6%|Medium||
-|0130|Surrounded Regions|[Go](https://www.swifttechco.com)|35.8%|Medium||
-|0131|Palindrome Partitioning|[Go](https://www.swifttechco.com)|62.3%|Medium||
+|0124|Binary Tree Maximum Path Sum|Go|38.4%|Hard||
+|0125|Valid Palindrome|Go|43.5%|Easy||
+|0126|Word Ladder II|Go|27.6%|Hard||
+|0127|Word Ladder|Go|36.6%|Hard||
+|0128|Longest Consecutive Sequence|Go|49.0%|Medium||
+|0129|Sum Root to Leaf Numbers|Go|58.6%|Medium||
+|0130|Surrounded Regions|Go|35.8%|Medium||
+|0131|Palindrome Partitioning|Go|62.3%|Medium||
 |0132|Palindrome Partitioning II||33.6%|Hard||
 |0133|Clone Graph||50.5%|Medium||
 |0134|Gas Station||45.0%|Medium||
-|0135|Candy|[Go](https://www.swifttechco.com)|40.7%|Hard||
-|0136|Single Number|[Go](https://www.swifttechco.com)|70.0%|Easy||
-|0137|Single Number II|[Go](https://www.swifttechco.com)|57.7%|Medium||
-|0138|Copy List with Random Pointer|[Go](https://www.swifttechco.com)|50.4%|Medium||
+|0135|Candy|Go|40.7%|Hard||
+|0136|Single Number|Go|70.0%|Easy||
+|0137|Single Number II|Go|57.7%|Medium||
+|0138|Copy List with Random Pointer|Go|50.4%|Medium||
 |0139|Word Break||45.4%|Medium||
 |0140|Word Break II||44.3%|Hard||
-|0141|Linked List Cycle|[Go](https://www.swifttechco.com)|46.8%|Easy||
-|0142|Linked List Cycle II|[Go](https://www.swifttechco.com)|46.2%|Medium||
-|0143|Reorder List|[Go](https://www.swifttechco.com)|50.9%|Medium||
-|0144|Binary Tree Preorder Traversal|[Go](https://www.swifttechco.com)|64.5%|Easy||
-|0145|Binary Tree Postorder Traversal|[Go](https://www.swifttechco.com)|66.5%|Easy||
-|0146|LRU Cache|[Go](https://www.swifttechco.com)|40.5%|Medium||
-|0147|Insertion Sort List|[Go](https://www.swifttechco.com)|50.1%|Medium||
-|0148|Sort List|[Go](https://www.swifttechco.com)|54.0%|Medium||
+|0141|Linked List Cycle|Go|46.8%|Easy||
+|0142|Linked List Cycle II|Go|46.2%|Medium||
+|0143|Reorder List|Go|50.9%|Medium||
+|0144|Binary Tree Preorder Traversal|Go|64.5%|Easy||
+|0145|Binary Tree Postorder Traversal|Go|66.5%|Easy||
+|0146|LRU Cache|Go|40.5%|Medium||
+|0147|Insertion Sort List|Go|50.1%|Medium||
+|0148|Sort List|Go|54.0%|Medium||
 |0149|Max Points on a Line||21.7%|Hard||
-|0150|Evaluate Reverse Polish Notation|[Go](https://www.swifttechco.com)|44.1%|Medium||
-|0151|Reverse Words in a String|[Go](https://www.swifttechco.com)|30.2%|Medium||
-|0152|Maximum Product Subarray|[Go](https://www.swifttechco.com)|34.9%|Medium||
-|0153|Find Minimum in Rotated Sorted Array|[Go](https://www.swifttechco.com)|48.4%|Medium||
-|0154|Find Minimum in Rotated Sorted Array II|[Go](https://www.swifttechco.com)|43.4%|Hard||
-|0155|Min Stack|[Go](https://www.swifttechco.com)|51.7%|Medium||
+|0150|Evaluate Reverse Polish Notation|Go|44.1%|Medium||
+|0151|Reverse Words in a String|Go|30.2%|Medium||
+|0152|Maximum Product Subarray|Go|34.9%|Medium||
+|0153|Find Minimum in Rotated Sorted Array|Go|48.4%|Medium||
+|0154|Find Minimum in Rotated Sorted Array II|Go|43.4%|Hard||
+|0155|Min Stack|Go|51.7%|Medium||
 |0156|Binary Tree Upside Down||61.5%|Medium||
 |0157|Read N Characters Given Read4||40.7%|Easy||
 |0158|Read N Characters Given read4 II - Call Multiple Times||41.4%|Hard||
 |0159|Longest Substring with At Most Two Distinct Characters||53.5%|Medium||
-|0160|Intersection of Two Linked Lists|[Go](https://www.swifttechco.com)|53.1%|Easy||
+|0160|Intersection of Two Linked Lists|Go|53.1%|Easy||
 |0161|One Edit Distance||34.1%|Medium||
-|0162|Find Peak Element|[Go](https://www.swifttechco.com)|46.2%|Medium||
+|0162|Find Peak Element|Go|46.2%|Medium||
 |0163|Missing Ranges||31.9%|Easy||
-|0164|Maximum Gap|[Go](https://www.swifttechco.com)|42.6%|Hard||
+|0164|Maximum Gap|Go|42.6%|Hard||
 |0165|Compare Version Numbers||35.3%|Medium||
 |0166|Fraction to Recurring Decimal||24.0%|Medium||
-|0167|Two Sum II - Input Array Is Sorted|[Go](https://www.swifttechco.com)|60.0%|Medium||
-|0168|Excel Sheet Column Title|[Go](https://www.swifttechco.com)|34.7%|Easy||
-|0169|Majority Element|[Go](https://www.swifttechco.com)|63.8%|Easy||
+|0167|Two Sum II - Input Array Is Sorted|Go|60.0%|Medium||
+|0168|Excel Sheet Column Title|Go|34.7%|Easy||
+|0169|Majority Element|Go|63.8%|Easy||
 |0170|Two Sum III - Data structure design||37.3%|Easy||
-|0171|Excel Sheet Column Number|[Go](https://www.swifttechco.com)|61.3%|Easy||
-|0172|Factorial Trailing Zeroes|[Go](https://www.swifttechco.com)|41.6%|Medium||
-|0173|Binary Search Tree Iterator|[Go](https://www.swifttechco.com)|69.0%|Medium||
-|0174|Dungeon Game|[Go](https://www.swifttechco.com)|37.2%|Hard||
+|0171|Excel Sheet Column Number|Go|61.3%|Easy||
+|0172|Factorial Trailing Zeroes|Go|41.6%|Medium||
+|0173|Binary Search Tree Iterator|Go|69.0%|Medium||
+|0174|Dungeon Game|Go|37.2%|Hard||
 |0175|Combine Two Tables||72.8%|Easy||
 |0176|Second Highest Salary||36.4%|Medium||
 |0177|Nth Highest Salary||37.3%|Medium||
 |0178|Rank Scores||59.7%|Medium||
-|0179|Largest Number|[Go](https://www.swifttechco.com)|33.9%|Medium||
+|0179|Largest Number|Go|33.9%|Medium||
 |0180|Consecutive Numbers||46.7%|Medium||
 |0181|Employees Earning More Than Their Managers||68.4%|Easy||
 |0182|Duplicate Emails||70.5%|Easy||
@@ -329,62 +273,62 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |0184|Department Highest Salary||49.5%|Medium||
 |0185|Department Top Three Salaries||49.9%|Hard||
 |0186|Reverse Words in a String II||52.3%|Medium||
-|0187|Repeated DNA Sequences|[Go](https://www.swifttechco.com)|46.1%|Medium||
+|0187|Repeated DNA Sequences|Go|46.1%|Medium||
 |0188|Best Time to Buy and Sell Stock IV||37.8%|Hard||
-|0189|Rotate Array|[Go](https://www.swifttechco.com)|39.2%|Medium||
-|0190|Reverse Bits|[Go](https://www.swifttechco.com)|51.9%|Easy||
-|0191|Number of 1 Bits|[Go](https://www.swifttechco.com)|64.5%|Easy||
+|0189|Rotate Array|Go|39.2%|Medium||
+|0190|Reverse Bits|Go|51.9%|Easy||
+|0191|Number of 1 Bits|Go|64.5%|Easy||
 |0192|Word Frequency||25.6%|Medium||
 |0193|Valid Phone Numbers||26.0%|Easy||
 |0194|Transpose File||25.3%|Medium||
 |0195|Tenth Line||32.9%|Easy||
 |0196|Delete Duplicate Emails||58.3%|Easy||
 |0197|Rising Temperature||44.4%|Easy||
-|0198|House Robber|[Go](https://www.swifttechco.com)|48.6%|Medium||
-|0199|Binary Tree Right Side View|[Go](https://www.swifttechco.com)|61.1%|Medium||
-|0200|Number of Islands|[Go](https://www.swifttechco.com)|56.1%|Medium||
-|0201|Bitwise AND of Numbers Range|[Go](https://www.swifttechco.com)|42.2%|Medium||
-|0202|Happy Number|[Go](https://www.swifttechco.com)|54.3%|Easy||
-|0203|Remove Linked List Elements|[Go](https://www.swifttechco.com)|44.7%|Easy||
-|0204|Count Primes|[Go](https://www.swifttechco.com)|33.1%|Medium||
-|0205|Isomorphic Strings|[Go](https://www.swifttechco.com)|42.5%|Easy||
-|0206|Reverse Linked List|[Go](https://www.swifttechco.com)|72.3%|Easy||
-|0207|Course Schedule|[Go](https://www.swifttechco.com)|45.3%|Medium||
-|0208|Implement Trie (Prefix Tree)|[Go](https://www.swifttechco.com)|60.7%|Medium||
-|0209|Minimum Size Subarray Sum|[Go](https://www.swifttechco.com)|44.4%|Medium||
-|0210|Course Schedule II|[Go](https://www.swifttechco.com)|47.9%|Medium||
-|0211|Design Add and Search Words Data Structure|[Go](https://www.swifttechco.com)|43.2%|Medium||
-|0212|Word Search II|[Go](https://www.swifttechco.com)|37.0%|Hard||
-|0213|House Robber II|[Go](https://www.swifttechco.com)|40.6%|Medium||
+|0198|House Robber|Go|48.6%|Medium||
+|0199|Binary Tree Right Side View|Go|61.1%|Medium||
+|0200|Number of Islands|Go|56.1%|Medium||
+|0201|Bitwise AND of Numbers Range|Go|42.2%|Medium||
+|0202|Happy Number|Go|54.3%|Easy||
+|0203|Remove Linked List Elements|Go|44.7%|Easy||
+|0204|Count Primes|Go|33.1%|Medium||
+|0205|Isomorphic Strings|Go|42.5%|Easy||
+|0206|Reverse Linked List|Go|72.3%|Easy||
+|0207|Course Schedule|Go|45.3%|Medium||
+|0208|Implement Trie (Prefix Tree)|Go|60.7%|Medium||
+|0209|Minimum Size Subarray Sum|Go|44.4%|Medium||
+|0210|Course Schedule II|Go|47.9%|Medium||
+|0211|Design Add and Search Words Data Structure|Go|43.2%|Medium||
+|0212|Word Search II|Go|37.0%|Hard||
+|0213|House Robber II|Go|40.6%|Medium||
 |0214|Shortest Palindrome||32.2%|Hard||
-|0215|Kth Largest Element in an Array|[Go](https://www.swifttechco.com)|65.7%|Medium||
-|0216|Combination Sum III|[Go](https://www.swifttechco.com)|67.0%|Medium||
-|0217|Contains Duplicate|[Go](https://www.swifttechco.com)|61.2%|Easy||
-|0218|The Skyline Problem|[Go](https://www.swifttechco.com)|41.5%|Hard||
-|0219|Contains Duplicate II|[Go](https://www.swifttechco.com)|40.9%|Easy||
-|0220|Contains Duplicate III|[Go](https://www.swifttechco.com)|21.8%|Hard||
+|0215|Kth Largest Element in an Array|Go|65.7%|Medium||
+|0216|Combination Sum III|Go|67.0%|Medium||
+|0217|Contains Duplicate|Go|61.2%|Easy||
+|0218|The Skyline Problem|Go|41.5%|Hard||
+|0219|Contains Duplicate II|Go|40.9%|Easy||
+|0220|Contains Duplicate III|Go|21.8%|Hard||
 |0221|Maximal Square||44.4%|Medium||
-|0222|Count Complete Tree Nodes|[Go](https://www.swifttechco.com)|57.4%|Medium||
-|0223|Rectangle Area|[Go](https://www.swifttechco.com)|40.8%|Medium||
-|0224|Basic Calculator|[Go](https://www.swifttechco.com)|41.1%|Hard||
-|0225|Implement Stack using Queues|[Go](https://www.swifttechco.com)|57.4%|Easy||
-|0226|Invert Binary Tree|[Go](https://www.swifttechco.com)|73.1%|Easy||
-|0227|Basic Calculator II|[Go](https://www.swifttechco.com)|42.2%|Medium||
-|0228|Summary Ranges|[Go](https://www.swifttechco.com)|46.8%|Easy||
-|0229|Majority Element II|[Go](https://www.swifttechco.com)|44.0%|Medium||
-|0230|Kth Smallest Element in a BST|[Go](https://www.swifttechco.com)|69.2%|Medium||
-|0231|Power of Two|[Go](https://www.swifttechco.com)|45.6%|Easy||
-|0232|Implement Queue using Stacks|[Go](https://www.swifttechco.com)|61.0%|Easy||
+|0222|Count Complete Tree Nodes|Go|57.4%|Medium||
+|0223|Rectangle Area|Go|40.8%|Medium||
+|0224|Basic Calculator|Go|41.1%|Hard||
+|0225|Implement Stack using Queues|Go|57.4%|Easy||
+|0226|Invert Binary Tree|Go|73.1%|Easy||
+|0227|Basic Calculator II|Go|42.2%|Medium||
+|0228|Summary Ranges|Go|46.8%|Easy||
+|0229|Majority Element II|Go|44.0%|Medium||
+|0230|Kth Smallest Element in a BST|Go|69.2%|Medium||
+|0231|Power of Two|Go|45.6%|Easy||
+|0232|Implement Queue using Stacks|Go|61.0%|Easy||
 |0233|Number of Digit One||34.2%|Hard||
-|0234|Palindrome Linked List|[Go](https://www.swifttechco.com)|49.4%|Easy||
-|0235|Lowest Common Ancestor of a Binary Search Tree|[Go](https://www.swifttechco.com)|60.1%|Medium||
-|0236|Lowest Common Ancestor of a Binary Tree|[Go](https://www.swifttechco.com)|57.9%|Medium||
-|0237|Delete Node in a Linked List|[Go](https://www.swifttechco.com)|75.1%|Medium||
-|0238|Product of Array Except Self|[Go](https://www.swifttechco.com)|64.7%|Medium||
-|0239|Sliding Window Maximum|[Go](https://www.swifttechco.com)|46.6%|Hard||
-|0240|Search a 2D Matrix II|[Go](https://www.swifttechco.com)|50.5%|Medium||
+|0234|Palindrome Linked List|Go|49.4%|Easy||
+|0235|Lowest Common Ancestor of a Binary Search Tree|Go|60.1%|Medium||
+|0236|Lowest Common Ancestor of a Binary Tree|Go|57.9%|Medium||
+|0237|Delete Node in a Linked List|Go|75.1%|Medium||
+|0238|Product of Array Except Self|Go|64.7%|Medium||
+|0239|Sliding Window Maximum|Go|46.6%|Hard||
+|0240|Search a 2D Matrix II|Go|50.5%|Medium||
 |0241|Different Ways to Add Parentheses||63.1%|Medium||
-|0242|Valid Anagram|[Go](https://www.swifttechco.com)|62.7%|Easy||
+|0242|Valid Anagram|Go|62.7%|Easy||
 |0243|Shortest Word Distance||64.9%|Easy||
 |0244|Shortest Word Distance II||60.7%|Medium||
 |0245|Shortest Word Distance III||57.5%|Medium||
@@ -399,106 +343,106 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |0254|Factor Combinations||48.8%|Medium||
 |0255|Verify Preorder Sequence in Binary Search Tree||48.0%|Medium||
 |0256|Paint House||60.5%|Medium||
-|0257|Binary Tree Paths|[Go](https://www.swifttechco.com)|60.5%|Easy||
-|0258|Add Digits|[Go](https://www.swifttechco.com)|63.3%|Easy||
+|0257|Binary Tree Paths|Go|60.5%|Easy||
+|0258|Add Digits|Go|63.3%|Easy||
 |0259|3Sum Smaller||50.7%|Medium||
-|0260|Single Number III|[Go](https://www.swifttechco.com)|67.4%|Medium||
+|0260|Single Number III|Go|67.4%|Medium||
 |0261|Graph Valid Tree||46.8%|Medium||
 |0262|Trips and Users||38.4%|Hard||
-|0263|Ugly Number|[Go](https://www.swifttechco.com)|41.7%|Easy||
-|0264|Ugly Number II|[Go](https://www.swifttechco.com)|46.1%|Medium||
+|0263|Ugly Number|Go|41.7%|Easy||
+|0264|Ugly Number II|Go|46.1%|Medium||
 |0265|Paint House II||52.2%|Hard||
 |0266|Palindrome Permutation||65.8%|Easy||
 |0267|Palindrome Permutation II||40.4%|Medium||
-|0268|Missing Number|[Go](https://www.swifttechco.com)|61.5%|Easy||
+|0268|Missing Number|Go|61.5%|Easy||
 |0269|Alien Dictionary||35.2%|Hard||
 |0270|Closest Binary Search Tree Value||54.5%|Easy||
 |0271|Encode and Decode Strings||41.3%|Medium||
 |0272|Closest Binary Search Tree Value II||58.2%|Hard||
 |0273|Integer to English Words||29.9%|Hard||
-|0274|H-Index|[Go](https://www.swifttechco.com)|38.1%|Medium||
-|0275|H-Index II|[Go](https://www.swifttechco.com)|37.4%|Medium||
+|0274|H-Index|Go|38.1%|Medium||
+|0275|H-Index II|Go|37.4%|Medium||
 |0276|Paint Fence||44.0%|Medium||
 |0277|Find the Celebrity||46.7%|Medium||
-|0278|First Bad Version|[Go](https://www.swifttechco.com)|42.9%|Easy||
-|0279|Perfect Squares|[Go](https://www.swifttechco.com)|52.2%|Medium||
+|0278|First Bad Version|Go|42.9%|Easy||
+|0279|Perfect Squares|Go|52.2%|Medium||
 |0280|Wiggle Sort||66.3%|Medium||
 |0281|Zigzag Iterator||62.3%|Medium||
 |0282|Expression Add Operators||39.2%|Hard||
-|0283|Move Zeroes|[Go](https://www.swifttechco.com)|61.3%|Easy||
-|0284|Peeking Iterator|[Go](https://www.swifttechco.com)|58.2%|Medium||
+|0283|Move Zeroes|Go|61.3%|Easy||
+|0284|Peeking Iterator|Go|58.2%|Medium||
 |0285|Inorder Successor in BST||48.3%|Medium||
 |0286|Walls and Gates||60.2%|Medium||
-|0287|Find the Duplicate Number|[Go](https://www.swifttechco.com)|59.1%|Medium||
+|0287|Find the Duplicate Number|Go|59.1%|Medium||
 |0288|Unique Word Abbreviation||25.2%|Medium||
 |0289|Game of Life||66.6%|Medium||
-|0290|Word Pattern|[Go](https://www.swifttechco.com)|40.4%|Easy||
+|0290|Word Pattern|Go|40.4%|Easy||
 |0291|Word Pattern II||46.9%|Medium||
 |0292|Nim Game||55.8%|Easy||
 |0293|Flip Game||63.0%|Easy||
 |0294|Flip Game II||51.7%|Medium||
 |0295|Find Median from Data Stream||51.1%|Hard||
 |0296|Best Meeting Point||59.6%|Hard||
-|0297|Serialize and Deserialize Binary Tree|[Go](https://www.swifttechco.com)|54.9%|Hard||
+|0297|Serialize and Deserialize Binary Tree|Go|54.9%|Hard||
 |0298|Binary Tree Longest Consecutive Sequence||52.5%|Medium||
-|0299|Bulls and Cows|[Go](https://www.swifttechco.com)|48.5%|Medium||
-|0300|Longest Increasing Subsequence|[Go](https://www.swifttechco.com)|51.5%|Medium||
-|0301|Remove Invalid Parentheses|[Go](https://www.swifttechco.com)|47.1%|Hard||
+|0299|Bulls and Cows|Go|48.5%|Medium||
+|0300|Longest Increasing Subsequence|Go|51.5%|Medium||
+|0301|Remove Invalid Parentheses|Go|47.1%|Hard||
 |0302|Smallest Rectangle Enclosing Black Pixels||58.2%|Hard||
-|0303|Range Sum Query - Immutable|[Go](https://www.swifttechco.com)|57.9%|Easy||
-|0304|Range Sum Query 2D - Immutable|[Go](https://www.swifttechco.com)|52.1%|Medium||
+|0303|Range Sum Query - Immutable|Go|57.9%|Easy||
+|0304|Range Sum Query 2D - Immutable|Go|52.1%|Medium||
 |0305|Number of Islands II||39.5%|Hard||
-|0306|Additive Number|[Go](https://www.swifttechco.com)|30.9%|Medium||
-|0307|Range Sum Query - Mutable|[Go](https://www.swifttechco.com)|40.7%|Medium||
+|0306|Additive Number|Go|30.9%|Medium||
+|0307|Range Sum Query - Mutable|Go|40.7%|Medium||
 |0308|Range Sum Query 2D - Mutable||42.2%|Hard||
-|0309|Best Time to Buy and Sell Stock with Cooldown|[Go](https://www.swifttechco.com)|54.4%|Medium||
+|0309|Best Time to Buy and Sell Stock with Cooldown|Go|54.4%|Medium||
 |0310|Minimum Height Trees||38.5%|Medium||
 |0311|Sparse Matrix Multiplication||67.1%|Medium||
 |0312|Burst Balloons||56.9%|Hard||
 |0313|Super Ugly Number||45.8%|Medium||
 |0314|Binary Tree Vertical Order Traversal||52.0%|Medium||
-|0315|Count of Smaller Numbers After Self|[Go](https://www.swifttechco.com)|42.8%|Hard||
+|0315|Count of Smaller Numbers After Self|Go|42.8%|Hard||
 |0316|Remove Duplicate Letters||44.5%|Medium||
 |0317|Shortest Distance from All Buildings||43.0%|Hard||
-|0318|Maximum Product of Word Lengths|[Go](https://www.swifttechco.com)|60.1%|Medium||
-|0319|Bulb Switcher|[Go](https://www.swifttechco.com)|48.0%|Medium||
+|0318|Maximum Product of Word Lengths|Go|60.1%|Medium||
+|0319|Bulb Switcher|Go|48.0%|Medium||
 |0320|Generalized Abbreviation||57.3%|Medium||
 |0321|Create Maximum Number||28.8%|Hard||
-|0322|Coin Change|[Go](https://www.swifttechco.com)|41.5%|Medium||
+|0322|Coin Change|Go|41.5%|Medium||
 |0323|Number of Connected Components in an Undirected Graph||62.0%|Medium||
-|0324|Wiggle Sort II|[Go](https://www.swifttechco.com)|32.9%|Medium||
+|0324|Wiggle Sort II|Go|32.9%|Medium||
 |0325|Maximum Size Subarray Sum Equals k||49.3%|Medium||
-|0326|Power of Three|[Go](https://www.swifttechco.com)|45.2%|Easy||
-|0327|Count of Range Sum|[Go](https://www.swifttechco.com)|36.0%|Hard||
-|0328|Odd Even Linked List|[Go](https://www.swifttechco.com)|60.2%|Medium||
-|0329|Longest Increasing Path in a Matrix|[Go](https://www.swifttechco.com)|52.1%|Hard||
+|0326|Power of Three|Go|45.2%|Easy||
+|0327|Count of Range Sum|Go|36.0%|Hard||
+|0328|Odd Even Linked List|Go|60.2%|Medium||
+|0329|Longest Increasing Path in a Matrix|Go|52.1%|Hard||
 |0330|Patching Array||40.0%|Hard||
-|0331|Verify Preorder Serialization of a Binary Tree|[Go](https://www.swifttechco.com)|44.2%|Medium||
+|0331|Verify Preorder Serialization of a Binary Tree|Go|44.2%|Medium||
 |0332|Reconstruct Itinerary||40.9%|Hard||
 |0333|Largest BST Subtree||42.3%|Medium||
 |0334|Increasing Triplet Subsequence||42.7%|Medium||
 |0335|Self Crossing||29.3%|Hard||
 |0336|Palindrome Pairs||35.2%|Hard||
-|0337|House Robber III|[Go](https://www.swifttechco.com)|53.8%|Medium||
-|0338|Counting Bits|[Go](https://www.swifttechco.com)|75.2%|Easy||
+|0337|House Robber III|Go|53.8%|Medium||
+|0338|Counting Bits|Go|75.2%|Easy||
 |0339|Nested List Weight Sum||82.0%|Medium||
 |0340|Longest Substring with At Most K Distinct Characters||47.8%|Medium||
-|0341|Flatten Nested List Iterator|[Go](https://www.swifttechco.com)|61.5%|Medium||
-|0342|Power of Four|[Go](https://www.swifttechco.com)|45.6%|Easy||
-|0343|Integer Break|[Go](https://www.swifttechco.com)|55.3%|Medium||
-|0344|Reverse String|[Go](https://www.swifttechco.com)|76.1%|Easy||
-|0345|Reverse Vowels of a String|[Go](https://www.swifttechco.com)|47.7%|Easy||
+|0341|Flatten Nested List Iterator|Go|61.5%|Medium||
+|0342|Power of Four|Go|45.6%|Easy||
+|0343|Integer Break|Go|55.3%|Medium||
+|0344|Reverse String|Go|76.1%|Easy||
+|0345|Reverse Vowels of a String|Go|47.7%|Easy||
 |0346|Moving Average from Data Stream||77.0%|Easy||
-|0347|Top K Frequent Elements|[Go](https://www.swifttechco.com)|64.8%|Medium||
+|0347|Top K Frequent Elements|Go|64.8%|Medium||
 |0348|Design Tic-Tac-Toe||57.6%|Medium||
-|0349|Intersection of Two Arrays|[Go](https://www.swifttechco.com)|70.2%|Easy||
-|0350|Intersection of Two Arrays II|[Go](https://www.swifttechco.com)|55.5%|Easy||
-|0351|Android Unlock Patterns|[Go](https://www.swifttechco.com)|51.3%|Medium||
-|0352|Data Stream as Disjoint Intervals|[Go](https://www.swifttechco.com)|51.5%|Hard||
+|0349|Intersection of Two Arrays|Go|70.2%|Easy||
+|0350|Intersection of Two Arrays II|Go|55.5%|Easy||
+|0351|Android Unlock Patterns|Go|51.3%|Medium||
+|0352|Data Stream as Disjoint Intervals|Go|51.5%|Hard||
 |0353|Design Snake Game||39.0%|Medium||
-|0354|Russian Doll Envelopes|[Go](https://www.swifttechco.com)|38.3%|Hard||
+|0354|Russian Doll Envelopes|Go|38.3%|Hard||
 |0356|Line Reflection||34.6%|Medium||
-|0357|Count Numbers with Unique Digits|[Go](https://www.swifttechco.com)|51.5%|Medium||
+|0357|Count Numbers with Unique Digits|Go|51.5%|Medium||
 |0358|Rearrange String k Distance Apart||37.5%|Hard||
 |0359|Logger Rate Limiter||75.5%|Easy||
 |0360|Sort Transformed Array||54.6%|Medium||
@@ -508,694 +452,694 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |0364|Nested List Weight Sum II||67.3%|Medium||
 |0365|Water and Jug Problem||36.5%|Medium||
 |0366|Find Leaves of Binary Tree||80.1%|Medium||
-|0367|Valid Perfect Square|[Go](https://www.swifttechco.com)|43.3%|Easy||
-|0368|Largest Divisible Subset|[Go](https://www.swifttechco.com)|41.2%|Medium||
+|0367|Valid Perfect Square|Go|43.3%|Easy||
+|0368|Largest Divisible Subset|Go|41.2%|Medium||
 |0369|Plus One Linked List||60.9%|Medium||
 |0370|Range Addition||70.8%|Medium||
-|0371|Sum of Two Integers|[Go](https://www.swifttechco.com)|50.7%|Medium||
-|0372|Super Pow|[Go](https://www.swifttechco.com)|37.2%|Medium||
-|0373|Find K Pairs with Smallest Sums|[Go](https://www.swifttechco.com)|38.4%|Medium||
-|0374|Guess Number Higher or Lower|[Go](https://www.swifttechco.com)|50.4%|Easy||
+|0371|Sum of Two Integers|Go|50.7%|Medium||
+|0372|Super Pow|Go|37.2%|Medium||
+|0373|Find K Pairs with Smallest Sums|Go|38.4%|Medium||
+|0374|Guess Number Higher or Lower|Go|50.4%|Easy||
 |0375|Guess Number Higher or Lower II||46.3%|Medium||
-|0376|Wiggle Subsequence|[Go](https://www.swifttechco.com)|48.2%|Medium||
-|0377|Combination Sum IV|[Go](https://www.swifttechco.com)|52.1%|Medium||
-|0378|Kth Smallest Element in a Sorted Matrix|[Go](https://www.swifttechco.com)|61.6%|Medium||
+|0376|Wiggle Subsequence|Go|48.2%|Medium||
+|0377|Combination Sum IV|Go|52.1%|Medium||
+|0378|Kth Smallest Element in a Sorted Matrix|Go|61.6%|Medium||
 |0379|Design Phone Directory||50.9%|Medium||
 |0380|Insert Delete GetRandom O(1)||52.0%|Medium||
 |0381|Insert Delete GetRandom O(1) - Duplicates allowed||35.7%|Hard||
-|0382|Linked List Random Node|[Go](https://www.swifttechco.com)|59.5%|Medium||
-|0383|Ransom Note|[Go](https://www.swifttechco.com)|57.6%|Easy||
-|0384|Shuffle an Array|[Go](https://www.swifttechco.com)|57.6%|Medium||
-|0385|Mini Parser|[Go](https://www.swifttechco.com)|36.5%|Medium||
-|0386|Lexicographical Numbers|[Go](https://www.swifttechco.com)|60.5%|Medium||
-|0387|First Unique Character in a String|[Go](https://www.swifttechco.com)|58.8%|Easy||
+|0382|Linked List Random Node|Go|59.5%|Medium||
+|0383|Ransom Note|Go|57.6%|Easy||
+|0384|Shuffle an Array|Go|57.6%|Medium||
+|0385|Mini Parser|Go|36.5%|Medium||
+|0386|Lexicographical Numbers|Go|60.5%|Medium||
+|0387|First Unique Character in a String|Go|58.8%|Easy||
 |0388|Longest Absolute File Path||46.5%|Medium||
-|0389|Find the Difference|[Go](https://www.swifttechco.com)|60.4%|Easy||
-|0390|Elimination Game|[Go](https://www.swifttechco.com)|46.6%|Medium||
-|0391|Perfect Rectangle|[Go](https://www.swifttechco.com)|32.5%|Hard||
-|0392|Is Subsequence|[Go](https://www.swifttechco.com)|49.3%|Easy||
-|0393|UTF-8 Validation|[Go](https://www.swifttechco.com)|45.2%|Medium||
-|0394|Decode String|[Go](https://www.swifttechco.com)|57.5%|Medium||
-|0395|Longest Substring with At Least K Repeating Characters|[Go](https://www.swifttechco.com)|44.8%|Medium||
-|0396|Rotate Function|[Go](https://www.swifttechco.com)|40.3%|Medium||
-|0397|Integer Replacement|[Go](https://www.swifttechco.com)|35.1%|Medium||
+|0389|Find the Difference|Go|60.4%|Easy||
+|0390|Elimination Game|Go|46.6%|Medium||
+|0391|Perfect Rectangle|Go|32.5%|Hard||
+|0392|Is Subsequence|Go|49.3%|Easy||
+|0393|UTF-8 Validation|Go|45.2%|Medium||
+|0394|Decode String|Go|57.5%|Medium||
+|0395|Longest Substring with At Least K Repeating Characters|Go|44.8%|Medium||
+|0396|Rotate Function|Go|40.3%|Medium||
+|0397|Integer Replacement|Go|35.1%|Medium||
 |0398|Random Pick Index||62.9%|Medium||
-|0399|Evaluate Division|[Go](https://www.swifttechco.com)|59.5%|Medium||
-|0400|Nth Digit|[Go](https://www.swifttechco.com)|34.0%|Medium||
-|0401|Binary Watch|[Go](https://www.swifttechco.com)|51.4%|Easy||
-|0402|Remove K Digits|[Go](https://www.swifttechco.com)|30.5%|Medium||
+|0399|Evaluate Division|Go|59.5%|Medium||
+|0400|Nth Digit|Go|34.0%|Medium||
+|0401|Binary Watch|Go|51.4%|Easy||
+|0402|Remove K Digits|Go|30.5%|Medium||
 |0403|Frog Jump||43.1%|Hard||
-|0404|Sum of Left Leaves|[Go](https://www.swifttechco.com)|56.2%|Easy||
-|0405|Convert a Number to Hexadecimal|[Go](https://www.swifttechco.com)|46.1%|Easy||
+|0404|Sum of Left Leaves|Go|56.2%|Easy||
+|0405|Convert a Number to Hexadecimal|Go|46.1%|Easy||
 |0406|Queue Reconstruction by Height||72.8%|Medium||
 |0407|Trapping Rain Water II||47.4%|Hard||
 |0408|Valid Word Abbreviation||34.8%|Easy||
-|0409|Longest Palindrome|[Go](https://www.swifttechco.com)|54.6%|Easy||
-|0410|Split Array Largest Sum|[Go](https://www.swifttechco.com)|53.2%|Hard||
+|0409|Longest Palindrome|Go|54.6%|Easy||
+|0410|Split Array Largest Sum|Go|53.2%|Hard||
 |0411|Minimum Unique Word Abbreviation||39.2%|Hard||
-|0412|Fizz Buzz|[Go](https://www.swifttechco.com)|68.6%|Easy||
-|0413|Arithmetic Slices|[Go](https://www.swifttechco.com)|65.0%|Medium||
-|0414|Third Maximum Number|[Go](https://www.swifttechco.com)|32.5%|Easy||
+|0412|Fizz Buzz|Go|68.6%|Easy||
+|0413|Arithmetic Slices|Go|65.0%|Medium||
+|0414|Third Maximum Number|Go|32.5%|Easy||
 |0415|Add Strings||52.6%|Easy||
-|0416|Partition Equal Subset Sum|[Go](https://www.swifttechco.com)|46.7%|Medium||
-|0417|Pacific Atlantic Water Flow|[Go](https://www.swifttechco.com)|53.9%|Medium||
+|0416|Partition Equal Subset Sum|Go|46.7%|Medium||
+|0417|Pacific Atlantic Water Flow|Go|53.9%|Medium||
 |0418|Sentence Screen Fitting||35.6%|Medium||
-|0419|Battleships in a Board|[Go](https://www.swifttechco.com)|74.6%|Medium||
+|0419|Battleships in a Board|Go|74.6%|Medium||
 |0420|Strong Password Checker||14.3%|Hard||
-|0421|Maximum XOR of Two Numbers in an Array|[Go](https://www.swifttechco.com)|54.6%|Medium||
+|0421|Maximum XOR of Two Numbers in an Array|Go|54.6%|Medium||
 |0422|Valid Word Square||38.8%|Easy||
-|0423|Reconstruct Original Digits from English|[Go](https://www.swifttechco.com)|51.3%|Medium||
-|0424|Longest Repeating Character Replacement|[Go](https://www.swifttechco.com)|51.4%|Medium||
+|0423|Reconstruct Original Digits from English|Go|51.3%|Medium||
+|0424|Longest Repeating Character Replacement|Go|51.4%|Medium||
 |0425|Word Squares||52.6%|Hard||
 |0426|Convert Binary Search Tree to Sorted Doubly Linked List||64.6%|Medium||
 |0427|Construct Quad Tree||66.3%|Medium||
 |0428|Serialize and Deserialize N-ary Tree||65.3%|Hard||
-|0429|N-ary Tree Level Order Traversal|[Go](https://www.swifttechco.com)|70.6%|Medium||
+|0429|N-ary Tree Level Order Traversal|Go|70.6%|Medium||
 |0430|Flatten a Multilevel Doubly Linked List||59.4%|Medium||
 |0431|Encode N-ary Tree to Binary Tree||78.6%|Hard||
 |0432|All O`one Data Structure||36.6%|Hard||
-|0433|Minimum Genetic Mutation|[Go](https://www.swifttechco.com)|48.1%|Medium||
-|0434|Number of Segments in a String|[Go](https://www.swifttechco.com)|37.7%|Easy||
-|0435|Non-overlapping Intervals|[Go](https://www.swifttechco.com)|49.8%|Medium||
-|0436|Find Right Interval|[Go](https://www.swifttechco.com)|50.3%|Medium||
-|0437|Path Sum III|[Go](https://www.swifttechco.com)|48.8%|Medium||
-|0438|Find All Anagrams in a String|[Go](https://www.swifttechco.com)|48.9%|Medium||
+|0433|Minimum Genetic Mutation|Go|48.1%|Medium||
+|0434|Number of Segments in a String|Go|37.7%|Easy||
+|0435|Non-overlapping Intervals|Go|49.8%|Medium||
+|0436|Find Right Interval|Go|50.3%|Medium||
+|0437|Path Sum III|Go|48.8%|Medium||
+|0438|Find All Anagrams in a String|Go|48.9%|Medium||
 |0439|Ternary Expression Parser||58.2%|Medium||
 |0440|K-th Smallest in Lexicographical Order||30.7%|Hard||
-|0441|Arranging Coins|[Go](https://www.swifttechco.com)|46.0%|Easy||
+|0441|Arranging Coins|Go|46.0%|Easy||
 |0442|Find All Duplicates in an Array||73.3%|Medium||
 |0443|String Compression||48.7%|Medium||
 |0444|Sequence Reconstruction||26.3%|Medium||
-|0445|Add Two Numbers II|[Go](https://www.swifttechco.com)|59.4%|Medium||
+|0445|Add Two Numbers II|Go|59.4%|Medium||
 |0446|Arithmetic Slices II - Subsequence||39.8%|Hard||
-|0447|Number of Boomerangs|[Go](https://www.swifttechco.com)|54.6%|Medium||
-|0448|Find All Numbers Disappeared in an Array|[Go](https://www.swifttechco.com)|59.6%|Easy||
+|0447|Number of Boomerangs|Go|54.6%|Medium||
+|0448|Find All Numbers Disappeared in an Array|Go|59.6%|Easy||
 |0449|Serialize and Deserialize BST||56.7%|Medium||
 |0450|Delete Node in a BST||49.9%|Medium||
-|0451|Sort Characters By Frequency|[Go](https://www.swifttechco.com)|68.5%|Medium||
+|0451|Sort Characters By Frequency|Go|68.5%|Medium||
 |0452|Minimum Number of Arrows to Burst Balloons||53.2%|Medium||
-|0453|Minimum Moves to Equal Array Elements|[Go](https://www.swifttechco.com)|55.6%|Medium||
-|0454|4Sum II|[Go](https://www.swifttechco.com)|57.3%|Medium||
-|0455|Assign Cookies|[Go](https://www.swifttechco.com)|50.6%|Easy||
-|0456|132 Pattern|[Go](https://www.swifttechco.com)|32.4%|Medium||
-|0457|Circular Array Loop|[Go](https://www.swifttechco.com)|32.1%|Medium||
-|0458|Poor Pigs|[Go](https://www.swifttechco.com)|65.0%|Hard||
+|0453|Minimum Moves to Equal Array Elements|Go|55.6%|Medium||
+|0454|4Sum II|Go|57.3%|Medium||
+|0455|Assign Cookies|Go|50.6%|Easy||
+|0456|132 Pattern|Go|32.4%|Medium||
+|0457|Circular Array Loop|Go|32.1%|Medium||
+|0458|Poor Pigs|Go|65.0%|Hard||
 |0459|Repeated Substring Pattern||43.7%|Easy||
-|0460|LFU Cache|[Go](https://www.swifttechco.com)|40.3%|Hard||
-|0461|Hamming Distance|[Go](https://www.swifttechco.com)|74.8%|Easy||
-|0462|Minimum Moves to Equal Array Elements II|[Go](https://www.swifttechco.com)|60.1%|Medium||
-|0463|Island Perimeter|[Go](https://www.swifttechco.com)|69.4%|Easy||
+|0460|LFU Cache|Go|40.3%|Hard||
+|0461|Hamming Distance|Go|74.8%|Easy||
+|0462|Minimum Moves to Equal Array Elements II|Go|60.1%|Medium||
+|0463|Island Perimeter|Go|69.4%|Easy||
 |0464|Can I Win||29.8%|Medium||
 |0465|Optimal Account Balancing||49.3%|Hard||
 |0466|Count The Repetitions||29.2%|Hard||
 |0467|Unique Substrings in Wraparound String||38.2%|Medium||
 |0468|Validate IP Address||26.5%|Medium||
 |0469|Convex Polygon||38.5%|Medium||
-|0470|Implement Rand10() Using Rand7()|[Go](https://www.swifttechco.com)|46.7%|Medium||
+|0470|Implement Rand10() Using Rand7()|Go|46.7%|Medium||
 |0471|Encode String with Shortest Length||50.7%|Hard||
 |0472|Concatenated Words||45.5%|Hard||
-|0473|Matchsticks to Square|[Go](https://www.swifttechco.com)|40.5%|Medium||
-|0474|Ones and Zeroes|[Go](https://www.swifttechco.com)|46.7%|Medium||
-|0475|Heaters|[Go](https://www.swifttechco.com)|36.0%|Medium||
-|0476|Number Complement|[Go](https://www.swifttechco.com)|67.1%|Easy||
-|0477|Total Hamming Distance|[Go](https://www.swifttechco.com)|52.2%|Medium||
-|0478|Generate Random Point in a Circle|[Go](https://www.swifttechco.com)|39.6%|Medium||
+|0473|Matchsticks to Square|Go|40.5%|Medium||
+|0474|Ones and Zeroes|Go|46.7%|Medium||
+|0475|Heaters|Go|36.0%|Medium||
+|0476|Number Complement|Go|67.1%|Easy||
+|0477|Total Hamming Distance|Go|52.2%|Medium||
+|0478|Generate Random Point in a Circle|Go|39.6%|Medium||
 |0479|Largest Palindrome Product||31.6%|Hard||
-|0480|Sliding Window Median|[Go](https://www.swifttechco.com)|41.4%|Hard||
+|0480|Sliding Window Median|Go|41.4%|Hard||
 |0481|Magical String||50.4%|Medium||
 |0482|License Key Formatting||43.2%|Easy||
-|0483|Smallest Good Base|[Go](https://www.swifttechco.com)|38.4%|Hard||
+|0483|Smallest Good Base|Go|38.4%|Hard||
 |0484|Find Permutation||67.0%|Medium||
-|0485|Max Consecutive Ones|[Go](https://www.swifttechco.com)|56.0%|Easy||
+|0485|Max Consecutive Ones|Go|56.0%|Easy||
 |0486|Predict the Winner||50.8%|Medium||
 |0487|Max Consecutive Ones II||49.2%|Medium||
-|0488|Zuma Game|[Go](https://www.swifttechco.com)|34.9%|Hard||
+|0488|Zuma Game|Go|34.9%|Hard||
 |0489|Robot Room Cleaner||76.5%|Hard||
 |0490|The Maze||55.4%|Medium||
-|0491|Increasing Subsequences|[Go](https://www.swifttechco.com)|52.0%|Medium||
-|0492|Construct the Rectangle|[Go](https://www.swifttechco.com)|53.6%|Easy||
-|0493|Reverse Pairs|[Go](https://www.swifttechco.com)|30.8%|Hard||
-|0494|Target Sum|[Go](https://www.swifttechco.com)|45.6%|Medium||
-|0495|Teemo Attacking|[Go](https://www.swifttechco.com)|57.0%|Easy||
-|0496|Next Greater Element I|[Go](https://www.swifttechco.com)|71.3%|Easy||
-|0497|Random Point in Non-overlapping Rectangles|[Go](https://www.swifttechco.com)|39.3%|Medium||
-|0498|Diagonal Traverse|[Go](https://www.swifttechco.com)|58.0%|Medium||
+|0491|Increasing Subsequences|Go|52.0%|Medium||
+|0492|Construct the Rectangle|Go|53.6%|Easy||
+|0493|Reverse Pairs|Go|30.8%|Hard||
+|0494|Target Sum|Go|45.6%|Medium||
+|0495|Teemo Attacking|Go|57.0%|Easy||
+|0496|Next Greater Element I|Go|71.3%|Easy||
+|0497|Random Point in Non-overlapping Rectangles|Go|39.3%|Medium||
+|0498|Diagonal Traverse|Go|58.0%|Medium||
 |0499|The Maze III||46.9%|Hard||
-|0500|Keyboard Row|[Go](https://www.swifttechco.com)|69.0%|Easy||
+|0500|Keyboard Row|Go|69.0%|Easy||
 |0501|Find Mode in Binary Search Tree||48.5%|Easy||
 |0502|IPO||44.9%|Hard||
-|0503|Next Greater Element II|[Go](https://www.swifttechco.com)|63.0%|Medium||
-|0504|Base 7|[Go](https://www.swifttechco.com)|47.9%|Easy||
+|0503|Next Greater Element II|Go|63.0%|Medium||
+|0504|Base 7|Go|47.9%|Easy||
 |0505|The Maze II||52.4%|Medium||
-|0506|Relative Ranks|[Go](https://www.swifttechco.com)|58.8%|Easy||
-|0507|Perfect Number|[Go](https://www.swifttechco.com)|37.7%|Easy||
-|0508|Most Frequent Subtree Sum|[Go](https://www.swifttechco.com)|64.2%|Medium||
-|0509|Fibonacci Number|[Go](https://www.swifttechco.com)|69.2%|Easy||
+|0506|Relative Ranks|Go|58.8%|Easy||
+|0507|Perfect Number|Go|37.7%|Easy||
+|0508|Most Frequent Subtree Sum|Go|64.2%|Medium||
+|0509|Fibonacci Number|Go|69.2%|Easy||
 |0510|Inorder Successor in BST II||61.1%|Medium||
 |0511|Game Play Analysis I||78.8%|Easy||
 |0512|Game Play Analysis II||54.1%|Easy||
-|0513|Find Bottom Left Tree Value|[Go](https://www.swifttechco.com)|66.3%|Medium||
+|0513|Find Bottom Left Tree Value|Go|66.3%|Medium||
 |0514|Freedom Trail||46.8%|Hard||
-|0515|Find Largest Value in Each Tree Row|[Go](https://www.swifttechco.com)|64.6%|Medium||
+|0515|Find Largest Value in Each Tree Row|Go|64.6%|Medium||
 |0516|Longest Palindromic Subsequence||60.6%|Medium||
 |0517|Super Washing Machines||39.7%|Hard||
-|0518|Coin Change II|[Go](https://www.swifttechco.com)|59.7%|Medium||
-|0519|Random Flip Matrix|[Go](https://www.swifttechco.com)|39.6%|Medium||
-|0520|Detect Capital|[Go](https://www.swifttechco.com)|55.6%|Easy||
+|0518|Coin Change II|Go|59.7%|Medium||
+|0519|Random Flip Matrix|Go|39.6%|Medium||
+|0520|Detect Capital|Go|55.6%|Easy||
 |0521|Longest Uncommon Subsequence I||60.3%|Easy||
 |0522|Longest Uncommon Subsequence II||40.4%|Medium||
-|0523|Continuous Subarray Sum|[Go](https://www.swifttechco.com)|27.7%|Medium||
-|0524|Longest Word in Dictionary through Deleting|[Go](https://www.swifttechco.com)|51.2%|Medium||
-|0525|Contiguous Array|[Go](https://www.swifttechco.com)|46.8%|Medium||
-|0526|Beautiful Arrangement|[Go](https://www.swifttechco.com)|64.6%|Medium||
+|0523|Continuous Subarray Sum|Go|27.7%|Medium||
+|0524|Longest Word in Dictionary through Deleting|Go|51.2%|Medium||
+|0525|Contiguous Array|Go|46.8%|Medium||
+|0526|Beautiful Arrangement|Go|64.6%|Medium||
 |0527|Word Abbreviation||60.3%|Hard||
-|0528|Random Pick with Weight|[Go](https://www.swifttechco.com)|46.1%|Medium||
-|0529|Minesweeper|[Go](https://www.swifttechco.com)|65.5%|Medium||
-|0530|Minimum Absolute Difference in BST|[Go](https://www.swifttechco.com)|56.7%|Easy||
+|0528|Random Pick with Weight|Go|46.1%|Medium||
+|0529|Minesweeper|Go|65.5%|Medium||
+|0530|Minimum Absolute Difference in BST|Go|56.7%|Easy||
 |0531|Lonely Pixel I||62.0%|Medium||
-|0532|K-diff Pairs in an Array|[Go](https://www.swifttechco.com)|40.7%|Medium||
+|0532|K-diff Pairs in an Array|Go|40.7%|Medium||
 |0533|Lonely Pixel II||48.4%|Medium||
 |0534|Game Play Analysis III||82.5%|Medium||
-|0535|Encode and Decode TinyURL|[Go](https://www.swifttechco.com)|85.7%|Medium||
+|0535|Encode and Decode TinyURL|Go|85.7%|Medium||
 |0536|Construct Binary Tree from String||56.1%|Medium||
-|0537|Complex Number Multiplication|[Go](https://www.swifttechco.com)|71.3%|Medium||
-|0538|Convert BST to Greater Tree|[Go](https://www.swifttechco.com)|67.3%|Medium||
+|0537|Complex Number Multiplication|Go|71.3%|Medium||
+|0538|Convert BST to Greater Tree|Go|67.3%|Medium||
 |0539|Minimum Time Difference||56.3%|Medium||
-|0540|Single Element in a Sorted Array|[Go](https://www.swifttechco.com)|58.5%|Medium||
-|0541|Reverse String II|[Go](https://www.swifttechco.com)|50.5%|Easy||
-|0542|01 Matrix|[Go](https://www.swifttechco.com)|44.1%|Medium||
-|0543|Diameter of Binary Tree|[Go](https://www.swifttechco.com)|55.9%|Easy||
+|0540|Single Element in a Sorted Array|Go|58.5%|Medium||
+|0541|Reverse String II|Go|50.5%|Easy||
+|0542|01 Matrix|Go|44.1%|Medium||
+|0543|Diameter of Binary Tree|Go|55.9%|Easy||
 |0544|Output Contest Matches||76.7%|Medium||
 |0545|Boundary of Binary Tree||44.2%|Medium||
 |0546|Remove Boxes||47.6%|Hard||
-|0547|Number of Provinces|[Go](https://www.swifttechco.com)|63.2%|Medium||
+|0547|Number of Provinces|Go|63.2%|Medium||
 |0548|Split Array with Equal Sum||50.1%|Hard||
 |0549|Binary Tree Longest Consecutive Sequence II||49.5%|Medium||
 |0550|Game Play Analysis IV||44.1%|Medium||
-|0551|Student Attendance Record I|[Go](https://www.swifttechco.com)|48.0%|Easy||
+|0551|Student Attendance Record I|Go|48.0%|Easy||
 |0552|Student Attendance Record II||41.1%|Hard||
 |0553|Optimal Division||59.7%|Medium||
-|0554|Brick Wall|[Go](https://www.swifttechco.com)|53.1%|Medium||
+|0554|Brick Wall|Go|53.1%|Medium||
 |0555|Split Concatenated Strings||43.5%|Medium||
 |0556|Next Greater Element III||34.1%|Medium||
-|0557|Reverse Words in a String III|[Go](https://www.swifttechco.com)|81.5%|Easy||
+|0557|Reverse Words in a String III|Go|81.5%|Easy||
 |0558|Logical OR of Two Binary Grids Represented as Quad-Trees||48.2%|Medium||
-|0559|Maximum Depth of N-ary Tree|[Go](https://www.swifttechco.com)|71.6%|Easy||
-|0560|Subarray Sum Equals K|[Go](https://www.swifttechco.com)|44.0%|Medium||
-|0561|Array Partition|[Go](https://www.swifttechco.com)|76.5%|Easy||
+|0559|Maximum Depth of N-ary Tree|Go|71.6%|Easy||
+|0560|Subarray Sum Equals K|Go|44.0%|Medium||
+|0561|Array Partition|Go|76.5%|Easy||
 |0562|Longest Line of Consecutive One in Matrix||50.0%|Medium||
-|0563|Binary Tree Tilt|[Go](https://www.swifttechco.com)|59.3%|Easy||
+|0563|Binary Tree Tilt|Go|59.3%|Easy||
 |0564|Find the Closest Palindrome||21.9%|Hard||
 |0565|Array Nesting||56.5%|Medium||
-|0566|Reshape the Matrix|[Go](https://www.swifttechco.com)|62.7%|Easy||
-|0567|Permutation in String|[Go](https://www.swifttechco.com)|43.8%|Medium||
+|0566|Reshape the Matrix|Go|62.7%|Easy||
+|0567|Permutation in String|Go|43.8%|Medium||
 |0568|Maximum Vacation Days||44.8%|Hard||
 |0569|Median Employee Salary||68.3%|Hard||
 |0570|Managers with at Least 5 Direct Reports||67.1%|Medium||
 |0571|Find Median Given Frequency of Numbers||44.7%|Hard||
-|0572|Subtree of Another Tree|[Go](https://www.swifttechco.com)|45.9%|Easy||
+|0572|Subtree of Another Tree|Go|45.9%|Easy||
 |0573|Squirrel Simulation||55.0%|Medium||
 |0574|Winning Candidate||59.7%|Medium||
-|0575|Distribute Candies|[Go](https://www.swifttechco.com)|66.1%|Easy||
-|0576|Out of Boundary Paths|[Go](https://www.swifttechco.com)|44.3%|Medium||
+|0575|Distribute Candies|Go|66.1%|Easy||
+|0576|Out of Boundary Paths|Go|44.3%|Medium||
 |0577|Employee Bonus||75.3%|Easy||
 |0578|Get Highest Answer Rate Question||41.7%|Medium||
 |0579|Find Cumulative Salary of an Employee||45.0%|Hard||
 |0580|Count Student Number in Departments||58.2%|Medium||
-|0581|Shortest Unsorted Continuous Subarray|[Go](https://www.swifttechco.com)|36.2%|Medium||
+|0581|Shortest Unsorted Continuous Subarray|Go|36.2%|Medium||
 |0582|Kill Process||68.4%|Medium||
-|0583|Delete Operation for Two Strings|[Go](https://www.swifttechco.com)|59.2%|Medium||
+|0583|Delete Operation for Two Strings|Go|59.2%|Medium||
 |0584|Find Customer Referee||76.0%|Easy||
 |0585|Investments in 2016||53.5%|Medium||
 |0586|Customer Placing the Largest Number of Orders||72.5%|Easy||
 |0587|Erect the Fence||43.2%|Hard||
 |0588|Design In-Memory File System||48.8%|Hard||
-|0589|N-ary Tree Preorder Traversal|[Go](https://www.swifttechco.com)|76.3%|Easy||
+|0589|N-ary Tree Preorder Traversal|Go|76.3%|Easy||
 |0590|N-ary Tree Postorder Traversal||77.1%|Easy||
 |0591|Tag Validator||37.0%|Hard||
 |0592|Fraction Addition and Subtraction||52.1%|Medium||
 |0593|Valid Square||44.1%|Medium||
-|0594|Longest Harmonious Subsequence|[Go](https://www.swifttechco.com)|53.1%|Easy||
+|0594|Longest Harmonious Subsequence|Go|53.1%|Easy||
 |0595|Big Countries||73.8%|Easy||
 |0596|Classes More Than 5 Students||46.5%|Easy||
 |0597|Friend Requests I: Overall Acceptance Rate||42.9%|Easy||
-|0598|Range Addition II|[Go](https://www.swifttechco.com)|55.0%|Easy||
-|0599|Minimum Index Sum of Two Lists|[Go](https://www.swifttechco.com)|52.7%|Easy||
+|0598|Range Addition II|Go|55.0%|Easy||
+|0599|Minimum Index Sum of Two Lists|Go|52.7%|Easy||
 |0600|Non-negative Integers without Consecutive Ones||39.0%|Hard||
 |0601|Human Traffic of Stadium||50.6%|Hard||
 |0602|Friend Requests II: Who Has the Most Friends||61.3%|Medium||
 |0603|Consecutive Available Seats||68.2%|Easy||
 |0604|Design Compressed String Iterator||39.4%|Easy||
-|0605|Can Place Flowers|[Go](https://www.swifttechco.com)|33.0%|Easy||
+|0605|Can Place Flowers|Go|33.0%|Easy||
 |0606|Construct String from Binary Tree||63.5%|Easy||
 |0607|Sales Person||72.1%|Easy||
 |0608|Tree Node||74.9%|Medium||
-|0609|Find Duplicate File in System|[Go](https://www.swifttechco.com)|67.8%|Medium||
+|0609|Find Duplicate File in System|Go|67.8%|Medium||
 |0610|Triangle Judgement||71.1%|Easy||
-|0611|Valid Triangle Number|[Go](https://www.swifttechco.com)|50.3%|Medium||
+|0611|Valid Triangle Number|Go|50.3%|Medium||
 |0612|Shortest Distance in a Plane||63.5%|Medium||
 |0613|Shortest Distance in a Line||81.5%|Easy||
 |0614|Second Degree Follower||36.9%|Medium||
 |0615|Average Salary: Departments VS Company||57.3%|Hard||
 |0616|Add Bold Tag in String||48.6%|Medium||
-|0617|Merge Two Binary Trees|[Go](https://www.swifttechco.com)|78.5%|Easy||
+|0617|Merge Two Binary Trees|Go|78.5%|Easy||
 |0618|Students Report By Geography||64.2%|Hard||
 |0619|Biggest Single Number||48.7%|Easy||
 |0620|Not Boring Movies||73.3%|Easy||
 |0621|Task Scheduler||55.6%|Medium||
-|0622|Design Circular Queue|[Go](https://www.swifttechco.com)|51.8%|Medium||
-|0623|Add One Row to Tree|[Go](https://www.swifttechco.com)|59.4%|Medium||
+|0622|Design Circular Queue|Go|51.8%|Medium||
+|0623|Add One Row to Tree|Go|59.4%|Medium||
 |0624|Maximum Distance in Arrays||41.7%|Medium||
 |0625|Minimum Factorization||33.4%|Medium||
 |0626|Exchange Seats||70.6%|Medium||
 |0627|Swap Salary||82.8%|Easy||
-|0628|Maximum Product of Three Numbers|[Go](https://www.swifttechco.com)|46.4%|Easy||
+|0628|Maximum Product of Three Numbers|Go|46.4%|Easy||
 |0629|K Inverse Pairs Array||43.0%|Hard||
-|0630|Course Schedule III|[Go](https://www.swifttechco.com)|40.2%|Hard||
+|0630|Course Schedule III|Go|40.2%|Hard||
 |0631|Design Excel Sum Formula||43.3%|Hard||
-|0632|Smallest Range Covering Elements from K Lists|[Go](https://www.swifttechco.com)|60.4%|Hard||
-|0633|Sum of Square Numbers|[Go](https://www.swifttechco.com)|34.7%|Medium||
+|0632|Smallest Range Covering Elements from K Lists|Go|60.4%|Hard||
+|0633|Sum of Square Numbers|Go|34.7%|Medium||
 |0634|Find the Derangement of An Array||41.8%|Medium||
 |0635|Design Log Storage System||62.7%|Medium||
-|0636|Exclusive Time of Functions|[Go](https://www.swifttechco.com)|61.0%|Medium||
-|0637|Average of Levels in Binary Tree|[Go](https://www.swifttechco.com)|71.6%|Easy||
-|0638|Shopping Offers|[Go](https://www.swifttechco.com)|54.3%|Medium||
+|0636|Exclusive Time of Functions|Go|61.0%|Medium||
+|0637|Average of Levels in Binary Tree|Go|71.6%|Easy||
+|0638|Shopping Offers|Go|54.3%|Medium||
 |0639|Decode Ways II||30.4%|Hard||
 |0640|Solve the Equation||43.3%|Medium||
 |0641|Design Circular Deque||57.6%|Medium||
 |0642|Design Search Autocomplete System||48.7%|Hard||
-|0643|Maximum Average Subarray I|[Go](https://www.swifttechco.com)|43.8%|Easy||
+|0643|Maximum Average Subarray I|Go|43.8%|Easy||
 |0644|Maximum Average Subarray II||35.7%|Hard||
-|0645|Set Mismatch|[Go](https://www.swifttechco.com)|41.4%|Easy||
+|0645|Set Mismatch|Go|41.4%|Easy||
 |0646|Maximum Length of Pair Chain||56.4%|Medium||
-|0647|Palindromic Substrings|[Go](https://www.swifttechco.com)|66.3%|Medium||
-|0648|Replace Words|[Go](https://www.swifttechco.com)|62.7%|Medium||
+|0647|Palindromic Substrings|Go|66.3%|Medium||
+|0648|Replace Words|Go|62.7%|Medium||
 |0649|Dota2 Senate||40.4%|Medium||
 |0650|2 Keys Keyboard||53.1%|Medium||
 |0651|4 Keys Keyboard||54.5%|Medium||
 |0652|Find Duplicate Subtrees||56.5%|Medium||
-|0653|Two Sum IV - Input is a BST|[Go](https://www.swifttechco.com)|60.9%|Easy||
+|0653|Two Sum IV - Input is a BST|Go|60.9%|Easy||
 |0654|Maximum Binary Tree||84.4%|Medium||
 |0655|Print Binary Tree||61.3%|Medium||
 |0656|Coin Path||31.6%|Hard||
 |0657|Robot Return to Origin||75.3%|Easy||
-|0658|Find K Closest Elements|[Go](https://www.swifttechco.com)|46.7%|Medium||
+|0658|Find K Closest Elements|Go|46.7%|Medium||
 |0659|Split Array into Consecutive Subsequences||50.6%|Medium||
 |0660|Remove 9||56.8%|Hard||
-|0661|Image Smoother|[Go](https://www.swifttechco.com)|55.0%|Easy||
-|0662|Maximum Width of Binary Tree|[Go](https://www.swifttechco.com)|40.6%|Medium||
+|0661|Image Smoother|Go|55.0%|Easy||
+|0662|Maximum Width of Binary Tree|Go|40.6%|Medium||
 |0663|Equal Tree Partition||41.4%|Medium||
 |0664|Strange Printer||46.8%|Hard||
-|0665|Non-decreasing Array|[Go](https://www.swifttechco.com)|24.1%|Medium||
+|0665|Non-decreasing Array|Go|24.1%|Medium||
 |0666|Path Sum IV||59.1%|Medium||
-|0667|Beautiful Arrangement II|[Go](https://www.swifttechco.com)|59.7%|Medium||
-|0668|Kth Smallest Number in Multiplication Table|[Go](https://www.swifttechco.com)|51.5%|Hard||
-|0669|Trim a Binary Search Tree|[Go](https://www.swifttechco.com)|66.3%|Medium||
+|0667|Beautiful Arrangement II|Go|59.7%|Medium||
+|0668|Kth Smallest Number in Multiplication Table|Go|51.5%|Hard||
+|0669|Trim a Binary Search Tree|Go|66.3%|Medium||
 |0670|Maximum Swap||47.8%|Medium||
 |0671|Second Minimum Node In a Binary Tree||44.0%|Easy||
 |0672|Bulb Switcher II||50.9%|Medium||
 |0673|Number of Longest Increasing Subsequence||42.1%|Medium||
-|0674|Longest Continuous Increasing Subsequence|[Go](https://www.swifttechco.com)|49.0%|Easy||
+|0674|Longest Continuous Increasing Subsequence|Go|49.0%|Easy||
 |0675|Cut Off Trees for Golf Event||34.3%|Hard||
-|0676|Implement Magic Dictionary|[Go](https://www.swifttechco.com)|56.9%|Medium||
-|0677|Map Sum Pairs|[Go](https://www.swifttechco.com)|57.0%|Medium||
+|0676|Implement Magic Dictionary|Go|56.9%|Medium||
+|0677|Map Sum Pairs|Go|57.0%|Medium||
 |0678|Valid Parenthesis String||33.9%|Medium||
 |0679|24 Game||49.1%|Hard||
 |0680|Valid Palindrome II||39.3%|Easy||
 |0681|Next Closest Time||46.4%|Medium||
-|0682|Baseball Game|[Go](https://www.swifttechco.com)|73.6%|Easy||
+|0682|Baseball Game|Go|73.6%|Easy||
 |0683|K Empty Slots||36.9%|Hard||
-|0684|Redundant Connection|[Go](https://www.swifttechco.com)|62.0%|Medium||
-|0685|Redundant Connection II|[Go](https://www.swifttechco.com)|34.1%|Hard||
+|0684|Redundant Connection|Go|62.0%|Medium||
+|0685|Redundant Connection II|Go|34.1%|Hard||
 |0686|Repeated String Match||34.0%|Medium||
 |0687|Longest Univalue Path||40.1%|Medium||
 |0688|Knight Probability in Chessboard||52.0%|Medium||
 |0689|Maximum Sum of 3 Non-Overlapping Subarrays||48.8%|Hard||
-|0690|Employee Importance|[Go](https://www.swifttechco.com)|65.1%|Medium||
+|0690|Employee Importance|Go|65.1%|Medium||
 |0691|Stickers to Spell Word||46.3%|Hard||
-|0692|Top K Frequent Words|[Go](https://www.swifttechco.com)|55.2%|Medium||
-|0693|Binary Number with Alternating Bits|[Go](https://www.swifttechco.com)|61.2%|Easy||
+|0692|Top K Frequent Words|Go|55.2%|Medium||
+|0693|Binary Number with Alternating Bits|Go|61.2%|Easy||
 |0694|Number of Distinct Islands||60.6%|Medium||
-|0695|Max Area of Island|[Go](https://www.swifttechco.com)|71.6%|Medium||
-|0696|Count Binary Substrings|[Go](https://www.swifttechco.com)|65.5%|Easy||
-|0697|Degree of an Array|[Go](https://www.swifttechco.com)|55.8%|Easy||
+|0695|Max Area of Island|Go|71.6%|Medium||
+|0696|Count Binary Substrings|Go|65.5%|Easy||
+|0697|Degree of an Array|Go|55.8%|Easy||
 |0698|Partition to K Equal Sum Subsets||41.1%|Medium||
-|0699|Falling Squares|[Go](https://www.swifttechco.com)|44.4%|Hard||
-|0700|Search in a Binary Search Tree|[Go](https://www.swifttechco.com)|77.1%|Easy||
-|0701|Insert into a Binary Search Tree|[Go](https://www.swifttechco.com)|74.6%|Medium||
+|0699|Falling Squares|Go|44.4%|Hard||
+|0700|Search in a Binary Search Tree|Go|77.1%|Easy||
+|0701|Insert into a Binary Search Tree|Go|74.6%|Medium||
 |0702|Search in a Sorted Array of Unknown Size||71.4%|Medium||
-|0703|Kth Largest Element in a Stream|[Go](https://www.swifttechco.com)|55.5%|Easy||
-|0704|Binary Search|[Go](https://www.swifttechco.com)|55.1%|Easy||
-|0705|Design HashSet|[Go](https://www.swifttechco.com)|66.0%|Easy||
-|0706|Design HashMap|[Go](https://www.swifttechco.com)|65.1%|Easy||
-|0707|Design Linked List|[Go](https://www.swifttechco.com)|27.5%|Medium||
+|0703|Kth Largest Element in a Stream|Go|55.5%|Easy||
+|0704|Binary Search|Go|55.1%|Easy||
+|0705|Design HashSet|Go|66.0%|Easy||
+|0706|Design HashMap|Go|65.1%|Easy||
+|0707|Design Linked List|Go|27.5%|Medium||
 |0708|Insert into a Sorted Circular Linked List||34.5%|Medium||
-|0709|To Lower Case|[Go](https://www.swifttechco.com)|81.9%|Easy||
-|0710|Random Pick with Blacklist|[Go](https://www.swifttechco.com)|33.6%|Hard||
+|0709|To Lower Case|Go|81.9%|Easy||
+|0710|Random Pick with Blacklist|Go|33.6%|Hard||
 |0711|Number of Distinct Islands II||51.8%|Hard||
 |0712|Minimum ASCII Delete Sum for Two Strings||62.2%|Medium||
-|0713|Subarray Product Less Than K|[Go](https://www.swifttechco.com)|45.0%|Medium||
-|0714|Best Time to Buy and Sell Stock with Transaction Fee|[Go](https://www.swifttechco.com)|64.2%|Medium||
-|0715|Range Module|[Go](https://www.swifttechco.com)|44.6%|Hard||
+|0713|Subarray Product Less Than K|Go|45.0%|Medium||
+|0714|Best Time to Buy and Sell Stock with Transaction Fee|Go|64.2%|Medium||
+|0715|Range Module|Go|44.6%|Hard||
 |0716|Max Stack||45.3%|Hard||
-|0717|1-bit and 2-bit Characters|[Go](https://www.swifttechco.com)|46.0%|Easy||
-|0718|Maximum Length of Repeated Subarray|[Go](https://www.swifttechco.com)|51.6%|Medium||
-|0719|Find K-th Smallest Pair Distance|[Go](https://www.swifttechco.com)|36.3%|Hard||
-|0720|Longest Word in Dictionary|[Go](https://www.swifttechco.com)|51.8%|Medium||
-|0721|Accounts Merge|[Go](https://www.swifttechco.com)|56.3%|Medium||
+|0717|1-bit and 2-bit Characters|Go|46.0%|Easy||
+|0718|Maximum Length of Repeated Subarray|Go|51.6%|Medium||
+|0719|Find K-th Smallest Pair Distance|Go|36.3%|Hard||
+|0720|Longest Word in Dictionary|Go|51.8%|Medium||
+|0721|Accounts Merge|Go|56.3%|Medium||
 |0722|Remove Comments||38.0%|Medium||
 |0723|Candy Crush||76.3%|Medium||
-|0724|Find Pivot Index|[Go](https://www.swifttechco.com)|53.3%|Easy||
-|0725|Split Linked List in Parts|[Go](https://www.swifttechco.com)|57.2%|Medium||
-|0726|Number of Atoms|[Go](https://www.swifttechco.com)|52.2%|Hard||
+|0724|Find Pivot Index|Go|53.3%|Easy||
+|0725|Split Linked List in Parts|Go|57.2%|Medium||
+|0726|Number of Atoms|Go|52.2%|Hard||
 |0727|Minimum Window Subsequence||42.8%|Hard||
-|0728|Self Dividing Numbers|[Go](https://www.swifttechco.com)|77.5%|Easy||
-|0729|My Calendar I|[Go](https://www.swifttechco.com)|57.2%|Medium||
+|0728|Self Dividing Numbers|Go|77.5%|Easy||
+|0729|My Calendar I|Go|57.2%|Medium||
 |0730|Count Different Palindromic Subsequences||44.4%|Hard||
 |0731|My Calendar II||54.7%|Medium||
-|0732|My Calendar III|[Go](https://www.swifttechco.com)|71.6%|Hard||
-|0733|Flood Fill|[Go](https://www.swifttechco.com)|60.3%|Easy||
+|0732|My Calendar III|Go|71.6%|Hard||
+|0733|Flood Fill|Go|60.3%|Easy||
 |0734|Sentence Similarity||43.1%|Easy||
-|0735|Asteroid Collision|[Go](https://www.swifttechco.com)|44.4%|Medium||
+|0735|Asteroid Collision|Go|44.4%|Medium||
 |0736|Parse Lisp Expression||51.6%|Hard||
 |0737|Sentence Similarity II||48.7%|Medium||
 |0738|Monotone Increasing Digits||47.0%|Medium||
-|0739|Daily Temperatures|[Go](https://www.swifttechco.com)|66.5%|Medium||
+|0739|Daily Temperatures|Go|66.5%|Medium||
 |0740|Delete and Earn||57.4%|Medium||
 |0741|Cherry Pickup||36.3%|Hard||
 |0742|Closest Leaf in a Binary Tree||45.8%|Medium||
 |0743|Network Delay Time||51.4%|Medium||
-|0744|Find Smallest Letter Greater Than Target|[Go](https://www.swifttechco.com)|44.6%|Easy||
-|0745|Prefix and Suffix Search|[Go](https://www.swifttechco.com)|41.3%|Hard||
-|0746|Min Cost Climbing Stairs|[Go](https://www.swifttechco.com)|62.3%|Easy||
-|0747|Largest Number At Least Twice of Others|[Go](https://www.swifttechco.com)|46.3%|Easy||
-|0748|Shortest Completing Word|[Go](https://www.swifttechco.com)|59.1%|Easy||
+|0744|Find Smallest Letter Greater Than Target|Go|44.6%|Easy||
+|0745|Prefix and Suffix Search|Go|41.3%|Hard||
+|0746|Min Cost Climbing Stairs|Go|62.3%|Easy||
+|0747|Largest Number At Least Twice of Others|Go|46.3%|Easy||
+|0748|Shortest Completing Word|Go|59.1%|Easy||
 |0749|Contain Virus||50.8%|Hard||
 |0750|Number Of Corner Rectangles||67.5%|Medium||
 |0751|IP to CIDR||54.7%|Medium||
-|0752|Open the Lock|[Go](https://www.swifttechco.com)|55.5%|Medium||
-|0753|Cracking the Safe|[Go](https://www.swifttechco.com)|55.4%|Hard||
+|0752|Open the Lock|Go|55.5%|Medium||
+|0753|Cracking the Safe|Go|55.4%|Hard||
 |0754|Reach a Number||42.5%|Medium||
 |0755|Pour Water||46.1%|Medium||
-|0756|Pyramid Transition Matrix|[Go](https://www.swifttechco.com)|53.3%|Medium||
+|0756|Pyramid Transition Matrix|Go|53.3%|Medium||
 |0757|Set Intersection Size At Least Two||43.8%|Hard||
 |0758|Bold Words in String||50.6%|Medium||
 |0759|Employee Free Time||71.7%|Hard||
 |0760|Find Anagram Mappings||82.8%|Easy||
 |0761|Special Binary String||60.3%|Hard||
-|0762|Prime Number of Set Bits in Binary Representation|[Go](https://www.swifttechco.com)|67.6%|Easy||
-|0763|Partition Labels|[Go](https://www.swifttechco.com)|79.8%|Medium||
+|0762|Prime Number of Set Bits in Binary Representation|Go|67.6%|Easy||
+|0763|Partition Labels|Go|79.8%|Medium||
 |0764|Largest Plus Sign||48.4%|Medium||
-|0765|Couples Holding Hands|[Go](https://www.swifttechco.com)|56.9%|Hard||
-|0766|Toeplitz Matrix|[Go](https://www.swifttechco.com)|68.1%|Easy||
-|0767|Reorganize String|[Go](https://www.swifttechco.com)|52.7%|Medium||
+|0765|Couples Holding Hands|Go|56.9%|Hard||
+|0766|Toeplitz Matrix|Go|68.1%|Easy||
+|0767|Reorganize String|Go|52.7%|Medium||
 |0768|Max Chunks To Make Sorted II||52.7%|Hard||
 |0769|Max Chunks To Make Sorted||58.2%|Medium||
 |0770|Basic Calculator IV||56.0%|Hard||
-|0771|Jewels and Stones|[Go](https://www.swifttechco.com)|88.0%|Easy||
+|0771|Jewels and Stones|Go|88.0%|Easy||
 |0772|Basic Calculator III||48.4%|Hard||
 |0773|Sliding Puzzle||63.7%|Hard||
 |0774|Minimize Max Distance to Gas Station||51.4%|Hard||
-|0775|Global and Local Inversions|[Go](https://www.swifttechco.com)|43.8%|Medium||
+|0775|Global and Local Inversions|Go|43.8%|Medium||
 |0776|Split BST||58.7%|Medium||
 |0777|Swap Adjacent in LR String||37.1%|Medium||
-|0778|Swim in Rising Water|[Go](https://www.swifttechco.com)|59.6%|Hard||
+|0778|Swim in Rising Water|Go|59.6%|Hard||
 |0779|K-th Symbol in Grammar||40.7%|Medium||
 |0780|Reaching Points||32.3%|Hard||
-|0781|Rabbits in Forest|[Go](https://www.swifttechco.com)|55.3%|Medium||
+|0781|Rabbits in Forest|Go|55.3%|Medium||
 |0782|Transform to Chessboard||51.9%|Hard||
-|0783|Minimum Distance Between BST Nodes|[Go](https://www.swifttechco.com)|56.8%|Easy||
-|0784|Letter Case Permutation|[Go](https://www.swifttechco.com)|73.4%|Medium||
-|0785|Is Graph Bipartite?|[Go](https://www.swifttechco.com)|52.6%|Medium||
-|0786|K-th Smallest Prime Fraction|[Go](https://www.swifttechco.com)|50.6%|Medium||
+|0783|Minimum Distance Between BST Nodes|Go|56.8%|Easy||
+|0784|Letter Case Permutation|Go|73.4%|Medium||
+|0785|Is Graph Bipartite?|Go|52.6%|Medium||
+|0786|K-th Smallest Prime Fraction|Go|50.6%|Medium||
 |0787|Cheapest Flights Within K Stops||35.9%|Medium||
 |0788|Rotated Digits||56.9%|Medium||
 |0789|Escape The Ghosts||60.6%|Medium||
 |0790|Domino and Tromino Tiling||48.4%|Medium||
-|0791|Custom Sort String|[Go](https://www.swifttechco.com)|69.4%|Medium||
-|0792|Number of Matching Subsequences|[Go](https://www.swifttechco.com)|51.9%|Medium||
-|0793|Preimage Size of Factorial Zeroes Function|[Go](https://www.swifttechco.com)|42.7%|Hard||
-|0794|Valid Tic-Tac-Toe State|[Go](https://www.swifttechco.com)|35.2%|Medium||
-|0795|Number of Subarrays with Bounded Maximum|[Go](https://www.swifttechco.com)|52.7%|Medium||
+|0791|Custom Sort String|Go|69.4%|Medium||
+|0792|Number of Matching Subsequences|Go|51.9%|Medium||
+|0793|Preimage Size of Factorial Zeroes Function|Go|42.7%|Hard||
+|0794|Valid Tic-Tac-Toe State|Go|35.2%|Medium||
+|0795|Number of Subarrays with Bounded Maximum|Go|52.7%|Medium||
 |0796|Rotate String||54.0%|Easy||
 |0797|All Paths From Source to Target||81.4%|Medium||
 |0798|Smallest Rotation with Highest Score||49.6%|Hard||
 |0799|Champagne Tower||51.2%|Medium||
 |0800|Similar RGB Color||66.4%|Easy||
 |0801|Minimum Swaps To Make Sequences Increasing||39.2%|Hard||
-|0802|Find Eventual Safe States|[Go](https://www.swifttechco.com)|54.9%|Medium||
-|0803|Bricks Falling When Hit|[Go](https://www.swifttechco.com)|34.3%|Hard||
+|0802|Find Eventual Safe States|Go|54.9%|Medium||
+|0803|Bricks Falling When Hit|Go|34.3%|Hard||
 |0804|Unique Morse Code Words||82.6%|Easy||
 |0805|Split Array With Same Average||25.9%|Hard||
 |0806|Number of Lines To Write String||66.1%|Easy||
-|0807|Max Increase to Keep City Skyline|[Go](https://www.swifttechco.com)|85.9%|Medium||
+|0807|Max Increase to Keep City Skyline|Go|85.9%|Medium||
 |0808|Soup Servings||43.1%|Medium||
 |0809|Expressive Words||46.3%|Medium||
-|0810|Chalkboard XOR Game|[Go](https://www.swifttechco.com)|55.1%|Hard||
-|0811|Subdomain Visit Count|[Go](https://www.swifttechco.com)|75.1%|Medium||
-|0812|Largest Triangle Area|[Go](https://www.swifttechco.com)|60.1%|Easy||
+|0810|Chalkboard XOR Game|Go|55.1%|Hard||
+|0811|Subdomain Visit Count|Go|75.1%|Medium||
+|0812|Largest Triangle Area|Go|60.1%|Easy||
 |0813|Largest Sum of Averages||52.9%|Medium||
 |0814|Binary Tree Pruning||72.6%|Medium||
-|0815|Bus Routes|[Go](https://www.swifttechco.com)|45.7%|Hard||
-|0816|Ambiguous Coordinates|[Go](https://www.swifttechco.com)|56.0%|Medium||
-|0817|Linked List Components|[Go](https://www.swifttechco.com)|58.1%|Medium||
+|0815|Bus Routes|Go|45.7%|Hard||
+|0816|Ambiguous Coordinates|Go|56.0%|Medium||
+|0817|Linked List Components|Go|58.1%|Medium||
 |0818|Race Car||43.6%|Hard||
-|0819|Most Common Word|[Go](https://www.swifttechco.com)|45.0%|Easy||
-|0820|Short Encoding of Words|[Go](https://www.swifttechco.com)|60.7%|Medium||
-|0821|Shortest Distance to a Character|[Go](https://www.swifttechco.com)|71.3%|Easy||
+|0819|Most Common Word|Go|45.0%|Easy||
+|0820|Short Encoding of Words|Go|60.7%|Medium||
+|0821|Shortest Distance to a Character|Go|71.3%|Easy||
 |0822|Card Flipping Game||45.4%|Medium||
-|0823|Binary Trees With Factors|[Go](https://www.swifttechco.com)|50.0%|Medium||
+|0823|Binary Trees With Factors|Go|50.0%|Medium||
 |0824|Goat Latin||67.8%|Easy||
-|0825|Friends Of Appropriate Ages|[Go](https://www.swifttechco.com)|46.3%|Medium||
-|0826|Most Profit Assigning Work|[Go](https://www.swifttechco.com)|44.3%|Medium||
+|0825|Friends Of Appropriate Ages|Go|46.3%|Medium||
+|0826|Most Profit Assigning Work|Go|44.3%|Medium||
 |0827|Making A Large Island||44.7%|Hard||
-|0828|Count Unique Characters of All Substrings of a Given String|[Go](https://www.swifttechco.com)|51.5%|Hard||
+|0828|Count Unique Characters of All Substrings of a Given String|Go|51.5%|Hard||
 |0829|Consecutive Numbers Sum||41.5%|Hard||
-|0830|Positions of Large Groups|[Go](https://www.swifttechco.com)|51.7%|Easy||
+|0830|Positions of Large Groups|Go|51.7%|Easy||
 |0831|Masking Personal Information||46.8%|Medium||
-|0832|Flipping an Image|[Go](https://www.swifttechco.com)|80.3%|Easy||
+|0832|Flipping an Image|Go|80.3%|Easy||
 |0833|Find And Replace in String||54.1%|Medium||
-|0834|Sum of Distances in Tree|[Go](https://www.swifttechco.com)|54.1%|Hard||
+|0834|Sum of Distances in Tree|Go|54.1%|Hard||
 |0835|Image Overlap||61.0%|Medium||
-|0836|Rectangle Overlap|[Go](https://www.swifttechco.com)|43.3%|Easy||
+|0836|Rectangle Overlap|Go|43.3%|Easy||
 |0837|New 21 Game||36.2%|Medium||
-|0838|Push Dominoes|[Go](https://www.swifttechco.com)|57.0%|Medium||
-|0839|Similar String Groups|[Go](https://www.swifttechco.com)|47.5%|Hard||
+|0838|Push Dominoes|Go|57.0%|Medium||
+|0839|Similar String Groups|Go|47.5%|Hard||
 |0840|Magic Squares In Grid||38.5%|Medium||
-|0841|Keys and Rooms|[Go](https://www.swifttechco.com)|70.1%|Medium||
-|0842|Split Array into Fibonacci Sequence|[Go](https://www.swifttechco.com)|38.2%|Medium||
+|0841|Keys and Rooms|Go|70.1%|Medium||
+|0842|Split Array into Fibonacci Sequence|Go|38.2%|Medium||
 |0843|Guess the Word||42.0%|Hard||
-|0844|Backspace String Compare|[Go](https://www.swifttechco.com)|48.0%|Easy||
-|0845|Longest Mountain in Array|[Go](https://www.swifttechco.com)|40.1%|Medium||
-|0846|Hand of Straights|[Go](https://www.swifttechco.com)|56.5%|Medium||
+|0844|Backspace String Compare|Go|48.0%|Easy||
+|0845|Longest Mountain in Array|Go|40.1%|Medium||
+|0846|Hand of Straights|Go|56.5%|Medium||
 |0847|Shortest Path Visiting All Nodes||61.3%|Hard||
 |0848|Shifting Letters||45.4%|Medium||
 |0849|Maximize Distance to Closest Person||47.6%|Medium||
-|0850|Rectangle Area II|[Go](https://www.swifttechco.com)|53.7%|Hard||
-|0851|Loud and Rich|[Go](https://www.swifttechco.com)|58.1%|Medium||
-|0852|Peak Index in a Mountain Array|[Go](https://www.swifttechco.com)|69.5%|Medium||
-|0853|Car Fleet|[Go](https://www.swifttechco.com)|50.0%|Medium||
+|0850|Rectangle Area II|Go|53.7%|Hard||
+|0851|Loud and Rich|Go|58.1%|Medium||
+|0852|Peak Index in a Mountain Array|Go|69.5%|Medium||
+|0853|Car Fleet|Go|50.0%|Medium||
 |0854|K-Similar Strings||40.0%|Hard||
 |0855|Exam Room||43.5%|Medium||
-|0856|Score of Parentheses|[Go](https://www.swifttechco.com)|65.1%|Medium||
+|0856|Score of Parentheses|Go|65.1%|Medium||
 |0857|Minimum Cost to Hire K Workers||52.0%|Hard||
 |0858|Mirror Reflection||63.3%|Medium||
-|0859|Buddy Strings|[Go](https://www.swifttechco.com)|29.0%|Easy||
+|0859|Buddy Strings|Go|29.0%|Easy||
 |0860|Lemonade Change||52.8%|Easy||
 |0861|Score After Flipping Matrix||75.1%|Medium||
-|0862|Shortest Subarray with Sum at Least K|[Go](https://www.swifttechco.com)|26.1%|Hard||
-|0863|All Nodes Distance K in Binary Tree|[Go](https://www.swifttechco.com)|62.1%|Medium||
-|0864|Shortest Path to Get All Keys|[Go](https://www.swifttechco.com)|45.3%|Hard||
+|0862|Shortest Subarray with Sum at Least K|Go|26.1%|Hard||
+|0863|All Nodes Distance K in Binary Tree|Go|62.1%|Medium||
+|0864|Shortest Path to Get All Keys|Go|45.3%|Hard||
 |0865|Smallest Subtree with all the Deepest Nodes||68.5%|Medium||
 |0866|Prime Palindrome||25.8%|Medium||
-|0867|Transpose Matrix|[Go](https://www.swifttechco.com)|63.4%|Easy||
+|0867|Transpose Matrix|Go|63.4%|Easy||
 |0868|Binary Gap||61.9%|Easy||
-|0869|Reordered Power of 2|[Go](https://www.swifttechco.com)|64.1%|Medium||
-|0870|Advantage Shuffle|[Go](https://www.swifttechco.com)|51.6%|Medium||
+|0869|Reordered Power of 2|Go|64.1%|Medium||
+|0870|Advantage Shuffle|Go|51.6%|Medium||
 |0871|Minimum Number of Refueling Stops||39.9%|Hard||
-|0872|Leaf-Similar Trees|[Go](https://www.swifttechco.com)|65.2%|Easy||
+|0872|Leaf-Similar Trees|Go|65.2%|Easy||
 |0873|Length of Longest Fibonacci Subsequence||48.6%|Medium||
-|0874|Walking Robot Simulation|[Go](https://www.swifttechco.com)|38.3%|Medium||
-|0875|Koko Eating Bananas|[Go](https://www.swifttechco.com)|52.4%|Medium||
-|0876|Middle of the Linked List|[Go](https://www.swifttechco.com)|73.7%|Easy||
-|0877|Stone Game|[Go](https://www.swifttechco.com)|69.7%|Medium||
-|0878|Nth Magical Number|[Go](https://www.swifttechco.com)|35.7%|Hard||
+|0874|Walking Robot Simulation|Go|38.3%|Medium||
+|0875|Koko Eating Bananas|Go|52.4%|Medium||
+|0876|Middle of the Linked List|Go|73.7%|Easy||
+|0877|Stone Game|Go|69.7%|Medium||
+|0878|Nth Magical Number|Go|35.7%|Hard||
 |0879|Profitable Schemes||40.5%|Hard||
-|0880|Decoded String at Index|[Go](https://www.swifttechco.com)|28.3%|Medium||
-|0881|Boats to Save People|[Go](https://www.swifttechco.com)|52.7%|Medium||
+|0880|Decoded String at Index|Go|28.3%|Medium||
+|0881|Boats to Save People|Go|52.7%|Medium||
 |0882|Reachable Nodes In Subdivided Graph||50.3%|Hard||
 |0883|Projection Area of 3D Shapes||70.7%|Easy||
-|0884|Uncommon Words from Two Sentences|[Go](https://www.swifttechco.com)|65.9%|Easy||
-|0885|Spiral Matrix III|[Go](https://www.swifttechco.com)|73.0%|Medium||
+|0884|Uncommon Words from Two Sentences|Go|65.9%|Easy||
+|0885|Spiral Matrix III|Go|73.0%|Medium||
 |0886|Possible Bipartition||48.4%|Medium||
-|0887|Super Egg Drop|[Go](https://www.swifttechco.com)|27.2%|Hard||
-|0888|Fair Candy Swap|[Go](https://www.swifttechco.com)|60.5%|Easy||
+|0887|Super Egg Drop|Go|27.2%|Hard||
+|0888|Fair Candy Swap|Go|60.5%|Easy||
 |0889|Construct Binary Tree from Preorder and Postorder Traversal||70.8%|Medium||
-|0890|Find and Replace Pattern|[Go](https://www.swifttechco.com)|77.9%|Medium||
-|0891|Sum of Subsequence Widths|[Go](https://www.swifttechco.com)|36.4%|Hard||
-|0892|Surface Area of 3D Shapes|[Go](https://www.swifttechco.com)|63.0%|Easy||
+|0890|Find and Replace Pattern|Go|77.9%|Medium||
+|0891|Sum of Subsequence Widths|Go|36.4%|Hard||
+|0892|Surface Area of 3D Shapes|Go|63.0%|Easy||
 |0893|Groups of Special-Equivalent Strings||70.8%|Medium||
 |0894|All Possible Full Binary Trees||80.0%|Medium||
-|0895|Maximum Frequency Stack|[Go](https://www.swifttechco.com)|66.8%|Hard||
-|0896|Monotonic Array|[Go](https://www.swifttechco.com)|58.2%|Easy||
-|0897|Increasing Order Search Tree|[Go](https://www.swifttechco.com)|78.4%|Easy||
-|0898|Bitwise ORs of Subarrays|[Go](https://www.swifttechco.com)|36.8%|Medium||
+|0895|Maximum Frequency Stack|Go|66.8%|Hard||
+|0896|Monotonic Array|Go|58.2%|Easy||
+|0897|Increasing Order Search Tree|Go|78.4%|Easy||
+|0898|Bitwise ORs of Subarrays|Go|36.8%|Medium||
 |0899|Orderly Queue||59.0%|Hard||
 |0900|RLE Iterator||59.5%|Medium||
-|0901|Online Stock Span|[Go](https://www.swifttechco.com)|63.9%|Medium||
+|0901|Online Stock Span|Go|63.9%|Medium||
 |0902|Numbers At Most N Given Digit Set||41.4%|Hard||
 |0903|Valid Permutations for DI Sequence||57.7%|Hard||
-|0904|Fruit Into Baskets|[Go](https://www.swifttechco.com)|42.6%|Medium||
+|0904|Fruit Into Baskets|Go|42.6%|Medium||
 |0905|Sort Array By Parity||75.7%|Easy||
 |0906|Super Palindromes||39.2%|Hard||
-|0907|Sum of Subarray Minimums|[Go](https://www.swifttechco.com)|34.3%|Medium||
+|0907|Sum of Subarray Minimums|Go|34.3%|Medium||
 |0908|Smallest Range I||67.6%|Easy||
-|0909|Snakes and Ladders|[Go](https://www.swifttechco.com)|40.8%|Medium||
-|0910|Smallest Range II|[Go](https://www.swifttechco.com)|34.4%|Medium||
-|0911|Online Election|[Go](https://www.swifttechco.com)|52.1%|Medium||
+|0909|Snakes and Ladders|Go|40.8%|Medium||
+|0910|Smallest Range II|Go|34.4%|Medium||
+|0911|Online Election|Go|52.1%|Medium||
 |0912|Sort an Array||60.0%|Medium||
 |0913|Cat and Mouse||35.3%|Hard||
-|0914|X of a Kind in a Deck of Cards|[Go](https://www.swifttechco.com)|32.2%|Easy||
+|0914|X of a Kind in a Deck of Cards|Go|32.2%|Easy||
 |0915|Partition Array into Disjoint Intervals||48.6%|Medium||
-|0916|Word Subsets|[Go](https://www.swifttechco.com)|54.1%|Medium||
+|0916|Word Subsets|Go|54.1%|Medium||
 |0917|Reverse Only Letters||61.4%|Easy||
-|0918|Maximum Sum Circular Subarray|[Go](https://www.swifttechco.com)|38.1%|Medium||
+|0918|Maximum Sum Circular Subarray|Go|38.1%|Medium||
 |0919|Complete Binary Tree Inserter||64.9%|Medium||
-|0920|Number of Music Playlists|[Go](https://www.swifttechco.com)|50.6%|Hard||
-|0921|Minimum Add to Make Parentheses Valid|[Go](https://www.swifttechco.com)|76.4%|Medium||
-|0922|Sort Array By Parity II|[Go](https://www.swifttechco.com)|70.7%|Easy||
-|0923|3Sum With Multiplicity|[Go](https://www.swifttechco.com)|45.4%|Medium||
-|0924|Minimize Malware Spread|[Go](https://www.swifttechco.com)|42.1%|Hard||
-|0925|Long Pressed Name|[Go](https://www.swifttechco.com)|33.8%|Easy||
+|0920|Number of Music Playlists|Go|50.6%|Hard||
+|0921|Minimum Add to Make Parentheses Valid|Go|76.4%|Medium||
+|0922|Sort Array By Parity II|Go|70.7%|Easy||
+|0923|3Sum With Multiplicity|Go|45.4%|Medium||
+|0924|Minimize Malware Spread|Go|42.1%|Hard||
+|0925|Long Pressed Name|Go|33.8%|Easy||
 |0926|Flip String to Monotone Increasing||59.6%|Medium||
-|0927|Three Equal Parts|[Go](https://www.swifttechco.com)|39.6%|Hard||
-|0928|Minimize Malware Spread II|[Go](https://www.swifttechco.com)|42.6%|Hard||
+|0927|Three Equal Parts|Go|39.6%|Hard||
+|0928|Minimize Malware Spread II|Go|42.6%|Hard||
 |0929|Unique Email Addresses||67.2%|Easy||
-|0930|Binary Subarrays With Sum|[Go](https://www.swifttechco.com)|50.9%|Medium||
+|0930|Binary Subarrays With Sum|Go|50.9%|Medium||
 |0931|Minimum Falling Path Sum||68.4%|Medium||
 |0932|Beautiful Array||65.1%|Medium||
-|0933|Number of Recent Calls|[Go](https://www.swifttechco.com)|73.2%|Easy||
+|0933|Number of Recent Calls|Go|73.2%|Easy||
 |0934|Shortest Bridge||53.9%|Medium||
 |0935|Knight Dialer||49.9%|Medium||
 |0936|Stamping The Sequence||63.3%|Hard||
 |0937|Reorder Data in Log Files||56.4%|Medium||
-|0938|Range Sum of BST|[Go](https://www.swifttechco.com)|85.3%|Easy||
+|0938|Range Sum of BST|Go|85.3%|Easy||
 |0939|Minimum Area Rectangle||53.2%|Medium||
 |0940|Distinct Subsequences II||44.4%|Hard||
 |0941|Valid Mountain Array||33.5%|Easy||
-|0942|DI String Match|[Go](https://www.swifttechco.com)|76.6%|Easy||
+|0942|DI String Match|Go|76.6%|Easy||
 |0943|Find the Shortest Superstring||45.0%|Hard||
 |0944|Delete Columns to Make Sorted||69.7%|Easy||
 |0945|Minimum Increment to Make Array Unique||49.8%|Medium||
-|0946|Validate Stack Sequences|[Go](https://www.swifttechco.com)|67.6%|Medium||
-|0947|Most Stones Removed with Same Row or Column|[Go](https://www.swifttechco.com)|57.0%|Medium||
+|0946|Validate Stack Sequences|Go|67.6%|Medium||
+|0947|Most Stones Removed with Same Row or Column|Go|57.0%|Medium||
 |0948|Bag of Tokens||52.0%|Medium||
-|0949|Largest Time for Given Digits|[Go](https://www.swifttechco.com)|35.2%|Medium||
+|0949|Largest Time for Given Digits|Go|35.2%|Medium||
 |0950|Reveal Cards In Increasing Order||77.6%|Medium||
 |0951|Flip Equivalent Binary Trees||66.8%|Medium||
-|0952|Largest Component Size by Common Factor|[Go](https://www.swifttechco.com)|40.3%|Hard||
-|0953|Verifying an Alien Dictionary|[Go](https://www.swifttechco.com)|52.7%|Easy||
+|0952|Largest Component Size by Common Factor|Go|40.3%|Hard||
+|0953|Verifying an Alien Dictionary|Go|52.7%|Easy||
 |0954|Array of Doubled Pairs||39.1%|Medium||
 |0955|Delete Columns to Make Sorted II||34.6%|Medium||
 |0956|Tallest Billboard||40.0%|Hard||
 |0957|Prison Cells After N Days||39.2%|Medium||
-|0958|Check Completeness of a Binary Tree|[Go](https://www.swifttechco.com)|53.8%|Medium||
-|0959|Regions Cut By Slashes|[Go](https://www.swifttechco.com)|69.1%|Medium||
+|0958|Check Completeness of a Binary Tree|Go|53.8%|Medium||
+|0959|Regions Cut By Slashes|Go|69.1%|Medium||
 |0960|Delete Columns to Make Sorted III||57.1%|Hard||
-|0961|N-Repeated Element in Size 2N Array|[Go](https://www.swifttechco.com)|75.8%|Easy||
+|0961|N-Repeated Element in Size 2N Array|Go|75.8%|Easy||
 |0962|Maximum Width Ramp||48.9%|Medium||
 |0963|Minimum Area Rectangle II||54.7%|Medium||
 |0964|Least Operators to Express Number||47.8%|Hard||
 |0965|Univalued Binary Tree||69.2%|Easy||
-|0966|Vowel Spellchecker|[Go](https://www.swifttechco.com)|51.5%|Medium||
+|0966|Vowel Spellchecker|Go|51.5%|Medium||
 |0967|Numbers With Same Consecutive Differences||57.0%|Medium||
-|0968|Binary Tree Cameras|[Go](https://www.swifttechco.com)|46.8%|Hard||
-|0969|Pancake Sorting|[Go](https://www.swifttechco.com)|70.0%|Medium||
-|0970|Powerful Integers|[Go](https://www.swifttechco.com)|43.6%|Medium||
-|0971|Flip Binary Tree To Match Preorder Traversal|[Go](https://www.swifttechco.com)|49.9%|Medium||
+|0968|Binary Tree Cameras|Go|46.8%|Hard||
+|0969|Pancake Sorting|Go|70.0%|Medium||
+|0970|Powerful Integers|Go|43.6%|Medium||
+|0971|Flip Binary Tree To Match Preorder Traversal|Go|49.9%|Medium||
 |0972|Equal Rational Numbers||43.0%|Hard||
-|0973|K Closest Points to Origin|[Go](https://www.swifttechco.com)|65.9%|Medium||
+|0973|K Closest Points to Origin|Go|65.9%|Medium||
 |0974|Subarray Sums Divisible by K||53.6%|Medium||
 |0975|Odd Even Jump||38.9%|Hard||
-|0976|Largest Perimeter Triangle|[Go](https://www.swifttechco.com)|54.8%|Easy||
-|0977|Squares of a Sorted Array|[Go](https://www.swifttechco.com)|71.9%|Easy||
-|0978|Longest Turbulent Subarray|[Go](https://www.swifttechco.com)|47.4%|Medium||
-|0979|Distribute Coins in Binary Tree|[Go](https://www.swifttechco.com)|72.0%|Medium||
-|0980|Unique Paths III|[Go](https://www.swifttechco.com)|79.6%|Hard||
-|0981|Time Based Key-Value Store|[Go](https://www.swifttechco.com)|53.6%|Medium||
+|0976|Largest Perimeter Triangle|Go|54.8%|Easy||
+|0977|Squares of a Sorted Array|Go|71.9%|Easy||
+|0978|Longest Turbulent Subarray|Go|47.4%|Medium||
+|0979|Distribute Coins in Binary Tree|Go|72.0%|Medium||
+|0980|Unique Paths III|Go|79.6%|Hard||
+|0981|Time Based Key-Value Store|Go|53.6%|Medium||
 |0982|Triples with Bitwise AND Equal To Zero||57.6%|Hard||
 |0983|Minimum Cost For Tickets||64.4%|Medium||
-|0984|String Without AAA or BBB|[Go](https://www.swifttechco.com)|42.9%|Medium||
-|0985|Sum of Even Numbers After Queries|[Go](https://www.swifttechco.com)|68.3%|Medium||
-|0986|Interval List Intersections|[Go](https://www.swifttechco.com)|71.4%|Medium||
-|0987|Vertical Order Traversal of a Binary Tree|[Go](https://www.swifttechco.com)|44.6%|Hard||
+|0984|String Without AAA or BBB|Go|42.9%|Medium||
+|0985|Sum of Even Numbers After Queries|Go|68.3%|Medium||
+|0986|Interval List Intersections|Go|71.4%|Medium||
+|0987|Vertical Order Traversal of a Binary Tree|Go|44.6%|Hard||
 |0988|Smallest String Starting From Leaf||49.6%|Medium||
-|0989|Add to Array-Form of Integer|[Go](https://www.swifttechco.com)|45.5%|Easy||
-|0990|Satisfiability of Equality Equations|[Go](https://www.swifttechco.com)|50.7%|Medium||
-|0991|Broken Calculator|[Go](https://www.swifttechco.com)|54.1%|Medium||
-|0992|Subarrays with K Different Integers|[Go](https://www.swifttechco.com)|54.3%|Hard||
-|0993|Cousins in Binary Tree|[Go](https://www.swifttechco.com)|54.1%|Easy||
+|0989|Add to Array-Form of Integer|Go|45.5%|Easy||
+|0990|Satisfiability of Equality Equations|Go|50.7%|Medium||
+|0991|Broken Calculator|Go|54.1%|Medium||
+|0992|Subarrays with K Different Integers|Go|54.3%|Hard||
+|0993|Cousins in Binary Tree|Go|54.1%|Easy||
 |0994|Rotting Oranges||52.4%|Medium||
-|0995|Minimum Number of K Consecutive Bit Flips|[Go](https://www.swifttechco.com)|51.1%|Hard||
-|0996|Number of Squareful Arrays|[Go](https://www.swifttechco.com)|49.2%|Hard||
-|0997|Find the Town Judge|[Go](https://www.swifttechco.com)|49.4%|Easy||
+|0995|Minimum Number of K Consecutive Bit Flips|Go|51.1%|Hard||
+|0996|Number of Squareful Arrays|Go|49.2%|Hard||
+|0997|Find the Town Judge|Go|49.4%|Easy||
 |0998|Maximum Binary Tree II||66.3%|Medium||
-|0999|Available Captures for Rook|[Go](https://www.swifttechco.com)|67.8%|Easy||
+|0999|Available Captures for Rook|Go|67.8%|Easy||
 |1000|Minimum Cost to Merge Stones||42.3%|Hard||
 |1001|Grid Illumination||36.2%|Hard||
-|1002|Find Common Characters|[Go](https://www.swifttechco.com)|68.3%|Easy||
-|1003|Check If Word Is Valid After Substitutions|[Go](https://www.swifttechco.com)|58.2%|Medium||
-|1004|Max Consecutive Ones III|[Go](https://www.swifttechco.com)|63.5%|Medium||
-|1005|Maximize Sum Of Array After K Negations|[Go](https://www.swifttechco.com)|51.1%|Easy||
-|1006|Clumsy Factorial|[Go](https://www.swifttechco.com)|54.7%|Medium||
+|1002|Find Common Characters|Go|68.3%|Easy||
+|1003|Check If Word Is Valid After Substitutions|Go|58.2%|Medium||
+|1004|Max Consecutive Ones III|Go|63.5%|Medium||
+|1005|Maximize Sum Of Array After K Negations|Go|51.1%|Easy||
+|1006|Clumsy Factorial|Go|54.7%|Medium||
 |1007|Minimum Domino Rotations For Equal Row||52.4%|Medium||
 |1008|Construct Binary Search Tree from Preorder Traversal||80.9%|Medium||
-|1009|Complement of Base 10 Integer|[Go](https://www.swifttechco.com)|62.0%|Easy||
-|1010|Pairs of Songs With Total Durations Divisible by 60|[Go](https://www.swifttechco.com)|53.0%|Medium||
-|1011|Capacity To Ship Packages Within D Days|[Go](https://www.swifttechco.com)|64.4%|Medium||
+|1009|Complement of Base 10 Integer|Go|62.0%|Easy||
+|1010|Pairs of Songs With Total Durations Divisible by 60|Go|53.0%|Medium||
+|1011|Capacity To Ship Packages Within D Days|Go|64.4%|Medium||
 |1012|Numbers With Repeated Digits||40.4%|Hard||
 |1013|Partition Array Into Three Parts With Equal Sum||43.5%|Easy||
 |1014|Best Sightseeing Pair||59.5%|Medium||
 |1015|Smallest Integer Divisible by K||47.1%|Medium||
 |1016|Binary String With Substrings Representing 1 To N||57.6%|Medium||
-|1017|Convert to Base -2|[Go](https://www.swifttechco.com)|60.9%|Medium||
-|1018|Binary Prefix Divisible By 5|[Go](https://www.swifttechco.com)|47.4%|Easy||
-|1019|Next Greater Node In Linked List|[Go](https://www.swifttechco.com)|59.8%|Medium||
-|1020|Number of Enclaves|[Go](https://www.swifttechco.com)|64.8%|Medium||
-|1021|Remove Outermost Parentheses|[Go](https://www.swifttechco.com)|80.1%|Easy||
-|1022|Sum of Root To Leaf Binary Numbers|[Go](https://www.swifttechco.com)|73.8%|Easy||
+|1017|Convert to Base -2|Go|60.9%|Medium||
+|1018|Binary Prefix Divisible By 5|Go|47.4%|Easy||
+|1019|Next Greater Node In Linked List|Go|59.8%|Medium||
+|1020|Number of Enclaves|Go|64.8%|Medium||
+|1021|Remove Outermost Parentheses|Go|80.1%|Easy||
+|1022|Sum of Root To Leaf Binary Numbers|Go|73.8%|Easy||
 |1023|Camelcase Matching||60.1%|Medium||
 |1024|Video Stitching||50.5%|Medium||
-|1025|Divisor Game|[Go](https://www.swifttechco.com)|67.1%|Easy||
-|1026|Maximum Difference Between Node and Ancestor|[Go](https://www.swifttechco.com)|73.4%|Medium||
+|1025|Divisor Game|Go|67.1%|Easy||
+|1026|Maximum Difference Between Node and Ancestor|Go|73.4%|Medium||
 |1027|Longest Arithmetic Subsequence||47.2%|Medium||
-|1028|Recover a Tree From Preorder Traversal|[Go](https://www.swifttechco.com)|72.8%|Hard||
+|1028|Recover a Tree From Preorder Traversal|Go|72.8%|Hard||
 |1029|Two City Scheduling||64.5%|Medium||
-|1030|Matrix Cells in Distance Order|[Go](https://www.swifttechco.com)|69.3%|Easy||
+|1030|Matrix Cells in Distance Order|Go|69.3%|Easy||
 |1031|Maximum Sum of Two Non-Overlapping Subarrays||59.4%|Medium||
 |1032|Stream of Characters||51.5%|Hard||
 |1033|Moving Stones Until Consecutive||45.6%|Medium||
-|1034|Coloring A Border|[Go](https://www.swifttechco.com)|48.9%|Medium||
+|1034|Coloring A Border|Go|48.9%|Medium||
 |1035|Uncrossed Lines||58.7%|Medium||
 |1036|Escape a Large Maze||34.2%|Hard||
-|1037|Valid Boomerang|[Go](https://www.swifttechco.com)|37.5%|Easy||
-|1038|Binary Search Tree to Greater Sum Tree|[Go](https://www.swifttechco.com)|85.3%|Medium||
+|1037|Valid Boomerang|Go|37.5%|Easy||
+|1038|Binary Search Tree to Greater Sum Tree|Go|85.3%|Medium||
 |1039|Minimum Score Triangulation of Polygon||54.5%|Medium||
-|1040|Moving Stones Until Consecutive II|[Go](https://www.swifttechco.com)|55.6%|Medium||
+|1040|Moving Stones Until Consecutive II|Go|55.6%|Medium||
 |1041|Robot Bounded In Circle||55.3%|Medium||
 |1042|Flower Planting With No Adjacent||50.4%|Medium||
 |1043|Partition Array for Maximum Sum||71.2%|Medium||
 |1044|Longest Duplicate Substring||30.7%|Hard||
 |1045|Customers Who Bought All Products||67.6%|Medium||
 |1046|Last Stone Weight||64.7%|Easy||
-|1047|Remove All Adjacent Duplicates In String|[Go](https://www.swifttechco.com)|70.5%|Easy||
-|1048|Longest String Chain|[Go](https://www.swifttechco.com)|59.2%|Medium||
-|1049|Last Stone Weight II|[Go](https://www.swifttechco.com)|52.4%|Medium||
+|1047|Remove All Adjacent Duplicates In String|Go|70.5%|Easy||
+|1048|Longest String Chain|Go|59.2%|Medium||
+|1049|Last Stone Weight II|Go|52.4%|Medium||
 |1050|Actors and Directors Who Cooperated At Least Three Times||72.4%|Easy||
-|1051|Height Checker|[Go](https://www.swifttechco.com)|75.0%|Easy||
-|1052|Grumpy Bookstore Owner|[Go](https://www.swifttechco.com)|57.0%|Medium||
+|1051|Height Checker|Go|75.0%|Easy||
+|1052|Grumpy Bookstore Owner|Go|57.0%|Medium||
 |1053|Previous Permutation With One Swap||50.8%|Medium||
-|1054|Distant Barcodes|[Go](https://www.swifttechco.com)|45.7%|Medium||
+|1054|Distant Barcodes|Go|45.7%|Medium||
 |1055|Shortest Way to Form String||59.1%|Medium||
 |1056|Confusing Number||46.1%|Easy||
 |1057|Campus Bikes||57.7%|Medium||
@@ -1214,13 +1158,13 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1070|Product Sales Analysis III||49.2%|Medium||
 |1071|Greatest Common Divisor of Strings||51.0%|Easy||
 |1072|Flip Columns For Maximum Number of Equal Rows||63.1%|Medium||
-|1073|Adding Two Negabinary Numbers|[Go](https://www.swifttechco.com)|36.4%|Medium||
-|1074|Number of Submatrices That Sum to Target|[Go](https://www.swifttechco.com)|69.8%|Hard||
+|1073|Adding Two Negabinary Numbers|Go|36.4%|Medium||
+|1074|Number of Submatrices That Sum to Target|Go|69.8%|Hard||
 |1075|Project Employees I||67.2%|Easy||
 |1076|Project Employees II||51.0%|Easy||
 |1077|Project Employees III||78.7%|Medium||
-|1078|Occurrences After Bigram|[Go](https://www.swifttechco.com)|63.9%|Easy||
-|1079|Letter Tile Possibilities|[Go](https://www.swifttechco.com)|76.1%|Medium||
+|1078|Occurrences After Bigram|Go|63.9%|Easy||
+|1079|Letter Tile Possibilities|Go|76.1%|Medium||
 |1080|Insufficient Nodes in Root to Leaf Paths||52.8%|Medium||
 |1081|Smallest Subsequence of Distinct Characters||57.6%|Medium||
 |1082|Sales Analysis I||75.4%|Easy||
@@ -1230,11 +1174,11 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1086|High Five||75.2%|Easy||
 |1087|Brace Expansion||66.1%|Medium||
 |1088|Confusing Number II||46.5%|Hard||
-|1089|Duplicate Zeros|[Go](https://www.swifttechco.com)|51.5%|Easy||
+|1089|Duplicate Zeros|Go|51.5%|Easy||
 |1090|Largest Values From Labels||60.9%|Medium||
-|1091|Shortest Path in Binary Matrix|[Go](https://www.swifttechco.com)|44.5%|Medium||
+|1091|Shortest Path in Binary Matrix|Go|44.5%|Medium||
 |1092|Shortest Common Supersequence||57.8%|Hard||
-|1093|Statistics from a Large Sample|[Go](https://www.swifttechco.com)|44.7%|Medium||
+|1093|Statistics from a Large Sample|Go|44.7%|Medium||
 |1094|Car Pooling||57.4%|Medium||
 |1095|Find in Mountain Array||35.8%|Hard||
 |1096|Brace Expansion II||63.5%|Hard||
@@ -1245,14 +1189,14 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1101|The Earliest Moment When Everyone Become Friends||65.0%|Medium||
 |1102|Path With Maximum Minimum Value||53.3%|Medium||
 |1103|Distribute Candies to People||63.9%|Easy||
-|1104|Path In Zigzag Labelled Binary Tree|[Go](https://www.swifttechco.com)|74.9%|Medium||
-|1105|Filling Bookcase Shelves|[Go](https://www.swifttechco.com)|58.9%|Medium||
+|1104|Path In Zigzag Labelled Binary Tree|Go|74.9%|Medium||
+|1105|Filling Bookcase Shelves|Go|58.9%|Medium||
 |1106|Parsing A Boolean Expression||58.5%|Hard||
 |1107|New Users Daily Count||45.9%|Medium||
-|1108|Defanging an IP Address|[Go](https://www.swifttechco.com)|89.3%|Easy||
+|1108|Defanging an IP Address|Go|89.3%|Easy||
 |1109|Corporate Flight Bookings||60.3%|Medium||
-|1110|Delete Nodes And Return Forest|[Go](https://www.swifttechco.com)|69.4%|Medium||
-|1111|Maximum Nesting Depth of Two Valid Parentheses Strings|[Go](https://www.swifttechco.com)|73.3%|Medium||
+|1110|Delete Nodes And Return Forest|Go|69.4%|Medium||
+|1111|Maximum Nesting Depth of Two Valid Parentheses Strings|Go|73.3%|Medium||
 |1112|Highest Grade For Each Student||73.8%|Medium||
 |1113|Reported Posts||66.1%|Easy||
 |1114|Print in Order||68.1%|Easy||
@@ -1263,13 +1207,13 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1119|Remove Vowels from a String||90.7%|Easy||
 |1120|Maximum Average Subtree||65.5%|Medium||
 |1121|Divide Array Into Increasing Sequences||60.0%|Hard||
-|1122|Relative Sort Array|[Go](https://www.swifttechco.com)|68.4%|Easy||
-|1123|Lowest Common Ancestor of Deepest Leaves|[Go](https://www.swifttechco.com)|70.6%|Medium||
+|1122|Relative Sort Array|Go|68.4%|Easy||
+|1123|Lowest Common Ancestor of Deepest Leaves|Go|70.6%|Medium||
 |1124|Longest Well-Performing Interval||34.6%|Medium||
 |1125|Smallest Sufficient Team||47.1%|Hard||
 |1126|Active Businesses||67.9%|Medium||
 |1127|User Purchase Platform||51.2%|Hard||
-|1128|Number of Equivalent Domino Pairs|[Go](https://www.swifttechco.com)|46.9%|Easy||
+|1128|Number of Equivalent Domino Pairs|Go|46.9%|Easy||
 |1129|Shortest Path with Alternating Colors||42.9%|Medium||
 |1130|Minimum Cost Tree From Leaf Values||68.5%|Medium||
 |1131|Maximum of Absolute Value Expression||49.5%|Medium||
@@ -1278,15 +1222,15 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1134|Armstrong Number||78.1%|Easy||
 |1135|Connecting Cities With Minimum Cost||61.1%|Medium||
 |1136|Parallel Courses||62.0%|Medium||
-|1137|N-th Tribonacci Number|[Go](https://www.swifttechco.com)|63.3%|Easy||
+|1137|N-th Tribonacci Number|Go|63.3%|Easy||
 |1138|Alphabet Board Path||52.3%|Medium||
 |1139|Largest 1-Bordered Square||50.0%|Medium||
 |1140|Stone Game II||64.9%|Medium||
 |1141|User Activity for the Past 30 Days I||50.2%|Easy||
 |1142|User Activity for the Past 30 Days II||36.0%|Easy||
-|1143|Longest Common Subsequence|[Go](https://www.swifttechco.com)|58.8%|Medium||
+|1143|Longest Common Subsequence|Go|58.8%|Medium||
 |1144|Decrease Elements To Make Array Zigzag||47.0%|Medium||
-|1145|Binary Tree Coloring Game|[Go](https://www.swifttechco.com)|51.4%|Medium||
+|1145|Binary Tree Coloring Game|Go|51.4%|Medium||
 |1146|Snapshot Array||37.3%|Medium||
 |1147|Longest Chunked Palindrome Decomposition||60.0%|Hard||
 |1148|Article Views I||77.0%|Easy||
@@ -1295,13 +1239,13 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1151|Minimum Swaps to Group All 1's Together||60.9%|Medium||
 |1152|Analyze User Website Visit Pattern||43.4%|Medium||
 |1153|String Transforms Into Another String||35.3%|Hard||
-|1154|Day of the Year|[Go](https://www.swifttechco.com)|50.3%|Easy||
+|1154|Day of the Year|Go|50.3%|Easy||
 |1155|Number of Dice Rolls With Target Sum||53.6%|Medium||
 |1156|Swap For Longest Repeated Character Substring||45.5%|Medium||
-|1157|Online Majority Element In Subarray|[Go](https://www.swifttechco.com)|42.0%|Hard||
+|1157|Online Majority Element In Subarray|Go|42.0%|Hard||
 |1158|Market Analysis I||63.9%|Medium||
 |1159|Market Analysis II||58.7%|Hard||
-|1160|Find Words That Can Be Formed by Characters|[Go](https://www.swifttechco.com)|67.8%|Easy||
+|1160|Find Words That Can Be Formed by Characters|Go|67.8%|Easy||
 |1161|Maximum Level Sum of a Binary Tree||66.2%|Medium||
 |1162|As Far from Land as Possible||48.5%|Medium||
 |1163|Last Substring in Lexicographical Order||35.1%|Hard||
@@ -1311,27 +1255,27 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1167|Minimum Cost to Connect Sticks||67.7%|Medium||
 |1168|Optimize Water Distribution in a Village||64.4%|Hard||
 |1169|Invalid Transactions||31.0%|Medium||
-|1170|Compare Strings by Frequency of the Smallest Character|[Go](https://www.swifttechco.com)|61.3%|Medium||
-|1171|Remove Zero Sum Consecutive Nodes from Linked List|[Go](https://www.swifttechco.com)|42.9%|Medium||
+|1170|Compare Strings by Frequency of the Smallest Character|Go|61.3%|Medium||
+|1171|Remove Zero Sum Consecutive Nodes from Linked List|Go|42.9%|Medium||
 |1172|Dinner Plate Stacks||33.7%|Hard||
 |1173|Immediate Food Delivery I||83.4%|Easy||
 |1174|Immediate Food Delivery II||63.9%|Medium||
-|1175|Prime Arrangements|[Go](https://www.swifttechco.com)|53.5%|Easy||
+|1175|Prime Arrangements|Go|53.5%|Easy||
 |1176|Diet Plan Performance||52.4%|Easy||
 |1177|Can Make Palindrome from Substring||37.8%|Medium||
-|1178|Number of Valid Words for Each Puzzle|[Go](https://www.swifttechco.com)|46.6%|Hard||
+|1178|Number of Valid Words for Each Puzzle|Go|46.6%|Hard||
 |1179|Reformat Department Table||82.7%|Easy||
 |1180|Count Substrings with Only One Distinct Letter||78.9%|Easy||
 |1181|Before and After Puzzle||45.1%|Medium||
 |1182|Shortest Distance to Target Color||55.5%|Medium||
 |1183|Maximum Number of Ones||60.9%|Hard||
-|1184|Distance Between Bus Stops|[Go](https://www.swifttechco.com)|54.1%|Easy||
-|1185|Day of the Week|[Go](https://www.swifttechco.com)|57.8%|Easy||
+|1184|Distance Between Bus Stops|Go|54.1%|Easy||
+|1185|Day of the Week|Go|57.8%|Easy||
 |1186|Maximum Subarray Sum with One Deletion||41.2%|Medium||
 |1187|Make Array Strictly Increasing||45.3%|Hard||
 |1188|Design Bounded Blocking Queue||72.9%|Medium||
-|1189|Maximum Number of Balloons|[Go](https://www.swifttechco.com)|62.2%|Easy||
-|1190|Reverse Substrings Between Each Pair of Parentheses|[Go](https://www.swifttechco.com)|65.9%|Medium||
+|1189|Maximum Number of Balloons|Go|62.2%|Easy||
+|1190|Reverse Substrings Between Each Pair of Parentheses|Go|65.9%|Medium||
 |1191|K-Concatenation Maximum Sum||24.0%|Medium||
 |1192|Critical Connections in a Network||54.5%|Hard||
 |1193|Monthly Transactions I||67.2%|Medium||
@@ -1341,16 +1285,16 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1197|Minimum Knight Moves||39.8%|Medium||
 |1198|Find Smallest Common Element in All Rows||76.0%|Medium||
 |1199|Minimum Time to Build Blocks||40.7%|Hard||
-|1200|Minimum Absolute Difference|[Go](https://www.swifttechco.com)|69.8%|Easy||
-|1201|Ugly Number III|[Go](https://www.swifttechco.com)|28.5%|Medium||
-|1202|Smallest String With Swaps|[Go](https://www.swifttechco.com)|57.5%|Medium||
-|1203|Sort Items by Groups Respecting Dependencies|[Go](https://www.swifttechco.com)|50.6%|Hard||
+|1200|Minimum Absolute Difference|Go|69.8%|Easy||
+|1201|Ugly Number III|Go|28.5%|Medium||
+|1202|Smallest String With Swaps|Go|57.5%|Medium||
+|1203|Sort Items by Groups Respecting Dependencies|Go|50.6%|Hard||
 |1204|Last Person to Fit in the Bus||74.1%|Medium||
 |1205|Monthly Transactions II||43.8%|Medium||
 |1206|Design Skiplist||60.5%|Hard||
-|1207|Unique Number of Occurrences|[Go](https://www.swifttechco.com)|70.9%|Easy||
-|1208|Get Equal Substrings Within Budget|[Go](https://www.swifttechco.com)|47.6%|Medium||
-|1209|Remove All Adjacent Duplicates in String II|[Go](https://www.swifttechco.com)|56.0%|Medium||
+|1207|Unique Number of Occurrences|Go|70.9%|Easy||
+|1208|Get Equal Substrings Within Budget|Go|47.6%|Medium||
+|1209|Remove All Adjacent Duplicates in String II|Go|56.0%|Medium||
 |1210|Minimum Moves to Reach Target with Rotations||48.9%|Hard||
 |1211|Queries Quality and Percentage||71.9%|Easy||
 |1212|Team Scores in Football Tournament||57.6%|Medium||
@@ -1358,11 +1302,11 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1214|Two Sum BSTs||66.2%|Medium||
 |1215|Stepping Numbers||45.8%|Medium||
 |1216|Valid Palindrome III||50.1%|Hard||
-|1217|Minimum Cost to Move Chips to The Same Position|[Go](https://www.swifttechco.com)|72.2%|Easy||
+|1217|Minimum Cost to Move Chips to The Same Position|Go|72.2%|Easy||
 |1218|Longest Arithmetic Subsequence of Given Difference||51.8%|Medium||
 |1219|Path with Maximum Gold||64.4%|Medium||
 |1220|Count Vowels Permutation||60.7%|Hard||
-|1221|Split a String in Balanced Strings|[Go](https://www.swifttechco.com)|84.7%|Easy||
+|1221|Split a String in Balanced Strings|Go|84.7%|Easy||
 |1222|Queens That Can Attack the King||71.7%|Medium||
 |1223|Dice Roll Simulation||48.4%|Hard||
 |1224|Maximum Equal Frequency||36.8%|Hard||
@@ -1373,14 +1317,14 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1229|Meeting Scheduler||55.4%|Medium||
 |1230|Toss Strange Coins||53.4%|Medium||
 |1231|Divide Chocolate||56.9%|Hard||
-|1232|Check If It Is a Straight Line|[Go](https://www.swifttechco.com)|41.2%|Easy||
+|1232|Check If It Is a Straight Line|Go|41.2%|Easy||
 |1233|Remove Sub-Folders from the Filesystem||65.4%|Medium||
-|1234|Replace the Substring for Balanced String|[Go](https://www.swifttechco.com)|36.8%|Medium||
-|1235|Maximum Profit in Job Scheduling|[Go](https://www.swifttechco.com)|51.1%|Hard||
+|1234|Replace the Substring for Balanced String|Go|36.8%|Medium||
+|1235|Maximum Profit in Job Scheduling|Go|51.1%|Hard||
 |1236|Web Crawler||66.3%|Medium||
 |1237|Find Positive Integer Solution for a Given Equation||69.3%|Medium||
 |1238|Circular Permutation in Binary Representation||68.8%|Medium||
-|1239|Maximum Length of a Concatenated String with Unique Characters|[Go](https://www.swifttechco.com)|50.6%|Medium||
+|1239|Maximum Length of a Concatenated String with Unique Characters|Go|50.6%|Medium||
 |1240|Tiling a Rectangle with the Fewest Squares||54.0%|Hard||
 |1241|Number of Comments per Post||68.0%|Easy||
 |1242|Web Crawler Multithreaded||49.0%|Medium||
@@ -1390,77 +1334,77 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1246|Palindrome Removal||45.9%|Hard||
 |1247|Minimum Swaps to Make Strings Equal||63.7%|Medium||
 |1248|Count Number of Nice Subarrays||59.5%|Medium||
-|1249|Minimum Remove to Make Valid Parentheses|[Go](https://www.swifttechco.com)|65.6%|Medium||
+|1249|Minimum Remove to Make Valid Parentheses|Go|65.6%|Medium||
 |1250|Check If It Is a Good Array||58.7%|Hard||
 |1251|Average Selling Price||83.2%|Easy||
-|1252|Cells with Odd Values in a Matrix|[Go](https://www.swifttechco.com)|78.6%|Easy||
+|1252|Cells with Odd Values in a Matrix|Go|78.6%|Easy||
 |1253|Reconstruct a 2-Row Binary Matrix||43.8%|Medium||
-|1254|Number of Closed Islands|[Go](https://www.swifttechco.com)|64.2%|Medium||
+|1254|Number of Closed Islands|Go|64.2%|Medium||
 |1255|Maximum Score Words Formed by Letters||72.8%|Hard||
 |1256|Encode Number||69.9%|Medium||
 |1257|Smallest Common Region||64.1%|Medium||
 |1258|Synonymous Sentences||56.4%|Medium||
 |1259|Handshakes That Don't Cross||56.2%|Hard||
-|1260|Shift 2D Grid|[Go](https://www.swifttechco.com)|68.0%|Easy||
+|1260|Shift 2D Grid|Go|68.0%|Easy||
 |1261|Find Elements in a Contaminated Binary Tree||76.1%|Medium||
 |1262|Greatest Sum Divisible by Three||50.9%|Medium||
 |1263|Minimum Moves to Move a Box to Their Target Location||49.0%|Hard||
 |1264|Page Recommendations||67.8%|Medium||
 |1265|Print Immutable Linked List in Reverse||94.3%|Medium||
-|1266|Minimum Time Visiting All Points|[Go](https://www.swifttechco.com)|79.1%|Easy||
+|1266|Minimum Time Visiting All Points|Go|79.1%|Easy||
 |1267|Count Servers that Communicate||59.1%|Medium||
-|1268|Search Suggestions System|[Go](https://www.swifttechco.com)|66.7%|Medium||
+|1268|Search Suggestions System|Go|66.7%|Medium||
 |1269|Number of Ways to Stay in the Same Place After Some Steps||43.6%|Hard||
 |1270|All People Report to the Given Manager||88.0%|Medium||
 |1271|Hexspeak||57.0%|Easy||
 |1272|Remove Interval||63.3%|Medium||
 |1273|Delete Tree Nodes||61.2%|Medium||
 |1274|Number of Ships in a Rectangle||69.3%|Hard||
-|1275|Find Winner on a Tic Tac Toe Game|[Go](https://www.swifttechco.com)|54.3%|Easy||
+|1275|Find Winner on a Tic Tac Toe Game|Go|54.3%|Easy||
 |1276|Number of Burgers with No Waste of Ingredients||50.6%|Medium||
 |1277|Count Square Submatrices with All Ones||74.4%|Medium||
 |1278|Palindrome Partitioning III||60.8%|Hard||
 |1279|Traffic Light Controlled Intersection||74.5%|Easy||
 |1280|Students and Examinations||74.5%|Easy||
-|1281|Subtract the Product and Sum of Digits of an Integer|[Go](https://www.swifttechco.com)|86.7%|Easy||
+|1281|Subtract the Product and Sum of Digits of an Integer|Go|86.7%|Easy||
 |1282|Group the People Given the Group Size They Belong To||85.7%|Medium||
-|1283|Find the Smallest Divisor Given a Threshold|[Go](https://www.swifttechco.com)|55.3%|Medium||
+|1283|Find the Smallest Divisor Given a Threshold|Go|55.3%|Medium||
 |1284|Minimum Number of Flips to Convert Binary Matrix to Zero Matrix||72.1%|Hard||
 |1285|Find the Start and End Number of Continuous Ranges||88.2%|Medium||
 |1286|Iterator for Combination||73.5%|Medium||
-|1287|Element Appearing More Than 25% In Sorted Array|[Go](https://www.swifttechco.com)|59.5%|Easy||
+|1287|Element Appearing More Than 25% In Sorted Array|Go|59.5%|Easy||
 |1288|Remove Covered Intervals||57.3%|Medium||
 |1289|Minimum Falling Path Sum II||59.6%|Hard||
-|1290|Convert Binary Number in a Linked List to Integer|[Go](https://www.swifttechco.com)|82.6%|Easy||
+|1290|Convert Binary Number in a Linked List to Integer|Go|82.6%|Easy||
 |1291|Sequential Digits||61.2%|Medium||
 |1292|Maximum Side Length of a Square with Sum Less than or Equal to Threshold||53.1%|Medium||
-|1293|Shortest Path in a Grid with Obstacles Elimination|[Go](https://www.swifttechco.com)|43.6%|Hard||
+|1293|Shortest Path in a Grid with Obstacles Elimination|Go|43.6%|Hard||
 |1294|Weather Type in Each Country||67.9%|Easy||
-|1295|Find Numbers with Even Number of Digits|[Go](https://www.swifttechco.com)|76.9%|Easy||
-|1296|Divide Array in Sets of K Consecutive Numbers|[Go](https://www.swifttechco.com)|56.6%|Medium||
+|1295|Find Numbers with Even Number of Digits|Go|76.9%|Easy||
+|1296|Divide Array in Sets of K Consecutive Numbers|Go|56.6%|Medium||
 |1297|Maximum Number of Occurrences of a Substring||52.1%|Medium||
 |1298|Maximum Candies You Can Get from Boxes||61.1%|Hard||
-|1299|Replace Elements with Greatest Element on Right Side|[Go](https://www.swifttechco.com)|74.7%|Easy||
-|1300|Sum of Mutated Array Closest to Target|[Go](https://www.swifttechco.com)|43.1%|Medium||
+|1299|Replace Elements with Greatest Element on Right Side|Go|74.7%|Easy||
+|1300|Sum of Mutated Array Closest to Target|Go|43.1%|Medium||
 |1301|Number of Paths with Max Score||38.7%|Hard||
-|1302|Deepest Leaves Sum|[Go](https://www.swifttechco.com)|87.0%|Medium||
+|1302|Deepest Leaves Sum|Go|87.0%|Medium||
 |1303|Find the Team Size||90.8%|Easy||
-|1304|Find N Unique Integers Sum up to Zero|[Go](https://www.swifttechco.com)|77.1%|Easy||
-|1305|All Elements in Two Binary Search Trees|[Go](https://www.swifttechco.com)|79.8%|Medium||
-|1306|Jump Game III|[Go](https://www.swifttechco.com)|63.0%|Medium||
+|1304|Find N Unique Integers Sum up to Zero|Go|77.1%|Easy||
+|1305|All Elements in Two Binary Search Trees|Go|79.8%|Medium||
+|1306|Jump Game III|Go|63.0%|Medium||
 |1307|Verbal Arithmetic Puzzle||34.5%|Hard||
 |1308|Running Total for Different Genders||88.3%|Medium||
 |1309|Decrypt String from Alphabet to Integer Mapping||79.4%|Easy||
-|1310|XOR Queries of a Subarray|[Go](https://www.swifttechco.com)|72.1%|Medium||
+|1310|XOR Queries of a Subarray|Go|72.1%|Medium||
 |1311|Get Watched Videos by Your Friends||45.9%|Medium||
 |1312|Minimum Insertion Steps to Make a String Palindrome||65.5%|Hard||
-|1313|Decompress Run-Length Encoded List|[Go](https://www.swifttechco.com)|85.9%|Easy||
+|1313|Decompress Run-Length Encoded List|Go|85.9%|Easy||
 |1314|Matrix Block Sum||75.4%|Medium||
 |1315|Sum of Nodes with Even-Valued Grandparent||85.6%|Medium||
 |1316|Distinct Echo Substrings||49.8%|Hard||
-|1317|Convert Integer to the Sum of Two No-Zero Integers|[Go](https://www.swifttechco.com)|56.2%|Easy||
+|1317|Convert Integer to the Sum of Two No-Zero Integers|Go|56.2%|Easy||
 |1318|Minimum Flips to Make a OR b Equal to c||66.0%|Medium||
-|1319|Number of Operations to Make Network Connected|[Go](https://www.swifttechco.com)|58.3%|Medium||
+|1319|Number of Operations to Make Network Connected|Go|58.3%|Medium||
 |1320|Minimum Distance to Type a Word Using Two Fingers||59.8%|Hard||
 |1321|Restaurant Growth||72.2%|Medium||
 |1322|Ads Performance||60.9%|Easy||
@@ -1470,15 +1414,15 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1326|Minimum Number of Taps to Open to Water a Garden||47.8%|Hard||
 |1327|List the Products Ordered in a Period||77.1%|Easy||
 |1328|Break a Palindrome||53.4%|Medium||
-|1329|Sort the Matrix Diagonally|[Go](https://www.swifttechco.com)|83.6%|Medium||
+|1329|Sort the Matrix Diagonally|Go|83.6%|Medium||
 |1330|Reverse Subarray To Maximize Array Value||39.9%|Hard||
 |1331|Rank Transform of an Array||59.0%|Easy||
-|1332|Remove Palindromic Subsequences|[Go](https://www.swifttechco.com)|76.1%|Easy||
+|1332|Remove Palindromic Subsequences|Go|76.1%|Easy||
 |1333|Filter Restaurants by Vegan-Friendly, Price and Distance||59.4%|Medium||
 |1334|Find the City With the Smallest Number of Neighbors at a Threshold Distance||52.9%|Medium||
 |1335|Minimum Difficulty of a Job Schedule||58.8%|Hard||
 |1336|Number of Transactions per Visit||51.4%|Hard||
-|1337|The K Weakest Rows in a Matrix|[Go](https://www.swifttechco.com)|73.1%|Easy||
+|1337|The K Weakest Rows in a Matrix|Go|73.1%|Easy||
 |1338|Reduce Array Size to The Half||69.8%|Medium||
 |1339|Maximum Product of Splitted Binary Tree||43.3%|Medium||
 |1340|Jump Game V||62.6%|Hard||
@@ -1494,7 +1438,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1350|Students With Invalid Departments||90.5%|Easy||
 |1351|Count Negative Numbers in a Sorted Matrix||75.3%|Easy||
 |1352|Product of the Last K Numbers||49.4%|Medium||
-|1353|Maximum Number of Events That Can Be Attended|[Go](https://www.swifttechco.com)|32.9%|Medium||
+|1353|Maximum Number of Events That Can Be Attended|Go|32.9%|Medium||
 |1354|Construct Target Array With Multiple Sums||36.3%|Hard||
 |1355|Activity Participants||74.4%|Medium||
 |1356|Sort Integers by The Number of 1 Bits||72.0%|Easy||
@@ -1521,23 +1465,23 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1377|Frog Position After T Seconds||36.1%|Hard||
 |1378|Replace Employee ID With The Unique Identifier||91.4%|Easy||
 |1379|Find a Corresponding Node of a Binary Tree in a Clone of That Tree||87.1%|Easy||
-|1380|Lucky Numbers in a Matrix|[Go](https://www.swifttechco.com)|70.5%|Easy||
+|1380|Lucky Numbers in a Matrix|Go|70.5%|Easy||
 |1381|Design a Stack With Increment Operation||77.4%|Medium||
 |1382|Balance a Binary Search Tree||80.7%|Medium||
-|1383|Maximum Performance of a Team|[Go](https://www.swifttechco.com)|49.0%|Hard||
+|1383|Maximum Performance of a Team|Go|49.0%|Hard||
 |1384|Total Sales Amount by Year||67.6%|Hard||
-|1385|Find the Distance Value Between Two Arrays|[Go](https://www.swifttechco.com)|65.3%|Easy||
+|1385|Find the Distance Value Between Two Arrays|Go|65.3%|Easy||
 |1386|Cinema Seat Allocation||40.9%|Medium||
 |1387|Sort Integers by The Power Value||69.9%|Medium||
 |1388|Pizza With 3n Slices||50.1%|Hard||
-|1389|Create Target Array in the Given Order|[Go](https://www.swifttechco.com)|85.8%|Easy||
+|1389|Create Target Array in the Given Order|Go|85.8%|Easy||
 |1390|Four Divisors||41.2%|Medium||
 |1391|Check if There is a Valid Path in a Grid||47.0%|Medium||
 |1392|Longest Happy Prefix||45.0%|Hard||
 |1393|Capital Gain/Loss||91.1%|Medium||
 |1394|Find Lucky Integer in an Array||63.5%|Easy||
 |1395|Count Number of Teams||68.3%|Medium||
-|1396|Design Underground System|[Go](https://www.swifttechco.com)|73.7%|Medium||
+|1396|Design Underground System|Go|73.7%|Medium||
 |1397|Find All Good Strings||42.1%|Hard||
 |1398|Customers Who Bought Products A and B but Not C||77.7%|Medium||
 |1399|Count Largest Group||67.2%|Easy||
@@ -1564,7 +1508,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1420|Build Array Where You Can Find The Maximum Exactly K Comparisons||63.6%|Hard||
 |1421|NPV Queries||84.1%|Easy||
 |1422|Maximum Score After Splitting a String||57.8%|Easy||
-|1423|Maximum Points You Can Obtain from Cards|[Go](https://www.swifttechco.com)|52.3%|Medium||
+|1423|Maximum Points You Can Obtain from Cards|Go|52.3%|Medium||
 |1424|Diagonal Traverse II||50.3%|Medium||
 |1425|Constrained Subsequence Sum||47.4%|Hard||
 |1426|Counting Elements||59.5%|Easy||
@@ -1578,16 +1522,16 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1434|Number of Ways to Wear Different Hats to Each Other||42.8%|Hard||
 |1435|Create a Session Bar Chart||78.3%|Easy||
 |1436|Destination City||77.6%|Easy||
-|1437|Check If All 1's Are at Least Length K Places Away|[Go](https://www.swifttechco.com)|59.2%|Easy||
-|1438|Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit|[Go](https://www.swifttechco.com)|48.0%|Medium||
-|1439|Find the Kth Smallest Sum of a Matrix With Sorted Rows|[Go](https://www.swifttechco.com)|61.4%|Hard||
+|1437|Check If All 1's Are at Least Length K Places Away|Go|59.2%|Easy||
+|1438|Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit|Go|48.0%|Medium||
+|1439|Find the Kth Smallest Sum of a Matrix With Sorted Rows|Go|61.4%|Hard||
 |1440|Evaluate Boolean Expression||76.5%|Medium||
 |1441|Build an Array With Stack Operations||71.3%|Medium||
-|1442|Count Triplets That Can Form Two Arrays of Equal XOR|[Go](https://www.swifttechco.com)|75.6%|Medium||
+|1442|Count Triplets That Can Form Two Arrays of Equal XOR|Go|75.6%|Medium||
 |1443|Minimum Time to Collect All Apples in a Tree||56.0%|Medium||
 |1444|Number of Ways of Cutting a Pizza||58.6%|Hard||
 |1445|Apples & Oranges||91.3%|Medium||
-|1446|Consecutive Characters|[Go](https://www.swifttechco.com)|61.7%|Easy||
+|1446|Consecutive Characters|Go|61.7%|Easy||
 |1447|Simplified Fractions||64.6%|Medium||
 |1448|Count Good Nodes in Binary Tree||74.6%|Medium||
 |1449|Form Largest Integer With Digits That Add up to Target||47.1%|Hard||
@@ -1596,22 +1540,22 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1452|People Whose List of Favorite Companies Is Not a Subset of Another List||56.8%|Medium||
 |1453|Maximum Number of Darts Inside of a Circular Dartboard||36.8%|Hard||
 |1454|Active Users||38.4%|Medium||
-|1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|[Go](https://www.swifttechco.com)|64.2%|Easy||
+|1455|Check If a Word Occurs As a Prefix of Any Word in a Sentence|Go|64.2%|Easy||
 |1456|Maximum Number of Vowels in a Substring of Given Length||57.9%|Medium||
 |1457|Pseudo-Palindromic Paths in a Binary Tree||68.1%|Medium||
 |1458|Max Dot Product of Two Subsequences||46.2%|Hard||
 |1459|Rectangles Area||70.0%|Medium||
 |1460|Make Two Arrays Equal by Reversing Subarrays||72.2%|Easy||
-|1461|Check If a String Contains All Binary Codes of Size K|[Go](https://www.swifttechco.com)|56.8%|Medium||
+|1461|Check If a String Contains All Binary Codes of Size K|Go|56.8%|Medium||
 |1462|Course Schedule IV||48.9%|Medium||
-|1463|Cherry Pickup II|[Go](https://www.swifttechco.com)|70.2%|Hard||
-|1464|Maximum Product of Two Elements in an Array|[Go](https://www.swifttechco.com)|79.2%|Easy||
-|1465|Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|[Go](https://www.swifttechco.com)|40.8%|Medium||
+|1463|Cherry Pickup II|Go|70.2%|Hard||
+|1464|Maximum Product of Two Elements in an Array|Go|79.2%|Easy||
+|1465|Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts|Go|40.8%|Medium||
 |1466|Reorder Routes to Make All Paths Lead to the City Zero||61.8%|Medium||
 |1467|Probability of a Two Boxes Having The Same Number of Distinct Balls||60.8%|Hard||
 |1468|Calculate Salaries||81.9%|Medium||
 |1469|Find All The Lonely Nodes||81.7%|Easy||
-|1470|Shuffle the Array|[Go](https://www.swifttechco.com)|88.5%|Easy||
+|1470|Shuffle the Array|Go|88.5%|Easy||
 |1471|The k Strongest Values in an Array||60.1%|Medium||
 |1472|Design Browser History||76.1%|Medium||
 |1473|Paint House III||62.0%|Hard||
@@ -1621,13 +1565,13 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1477|Find Two Non-overlapping Sub-arrays Each With Target Sum||37.0%|Medium||
 |1478|Allocate Mailboxes||55.3%|Hard||
 |1479|Sales by Day of the Week||82.4%|Hard||
-|1480|Running Sum of 1d Array|[Go](https://www.swifttechco.com)|89.8%|Easy||
+|1480|Running Sum of 1d Array|Go|89.8%|Easy||
 |1481|Least Number of Unique Integers after K Removals||57.2%|Medium||
-|1482|Minimum Number of Days to Make m Bouquets|[Go](https://www.swifttechco.com)|56.7%|Medium||
+|1482|Minimum Number of Days to Make m Bouquets|Go|56.7%|Medium||
 |1483|Kth Ancestor of a Tree Node||33.8%|Hard||
 |1484|Group Sold Products By The Date||84.1%|Easy||
 |1485|Clone Binary Tree With Random Pointer||79.5%|Medium||
-|1486|XOR Operation in an Array|[Go](https://www.swifttechco.com)|84.2%|Easy||
+|1486|XOR Operation in an Array|Go|84.2%|Easy||
 |1487|Making File Names Unique||35.6%|Medium||
 |1488|Avoid Flood in The City||26.1%|Medium||
 |1489|Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree||53.4%|Hard||
@@ -1653,13 +1597,13 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1509|Minimum Difference Between Largest and Smallest Value in Three Moves||54.6%|Medium||
 |1510|Stone Game IV||60.6%|Hard||
 |1511|Customer Order Frequency||73.1%|Easy||
-|1512|Number of Good Pairs|[Go](https://www.swifttechco.com)|88.2%|Easy||
+|1512|Number of Good Pairs|Go|88.2%|Easy||
 |1513|Number of Substrings With Only 1s||45.2%|Medium||
 |1514|Path with Maximum Probability||48.3%|Medium||
 |1515|Best Position for a Service Centre||38.4%|Hard||
 |1516|Move Sub-Tree of N-Ary Tree||63.9%|Hard||
 |1517|Find Users With Valid E-Mails||57.1%|Easy||
-|1518|Water Bottles|[Go](https://www.swifttechco.com)|60.3%|Easy||
+|1518|Water Bottles|Go|60.3%|Easy||
 |1519|Number of Nodes in the Sub-Tree With the Same Label||40.9%|Medium||
 |1520|Maximum Number of Non-Overlapping Substrings||37.9%|Hard||
 |1521|Find a Value of a Mysterious Function Closest to Target||43.6%|Hard||
@@ -1680,7 +1624,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1536|Minimum Swaps to Arrange a Binary Grid||46.4%|Medium||
 |1537|Get the Maximum Score||39.3%|Hard||
 |1538|Guess the Majority in a Hidden Array||63.0%|Medium||
-|1539|Kth Missing Positive Number|[Go](https://www.swifttechco.com)|55.9%|Easy||
+|1539|Kth Missing Positive Number|Go|55.9%|Easy||
 |1540|Can Convert String in K Moves||33.1%|Medium||
 |1541|Minimum Insertions to Balance a Parentheses String||49.9%|Medium||
 |1542|Find Longest Awesome Substring||41.6%|Hard||
@@ -1692,7 +1636,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1548|The Most Similar Path in a Graph||56.9%|Hard||
 |1549|The Most Recent Orders for Each Product||67.9%|Medium||
 |1550|Three Consecutive Odds||63.7%|Easy||
-|1551|Minimum Operations to Make Array Equal|[Go](https://www.swifttechco.com)|81.1%|Medium||
+|1551|Minimum Operations to Make Array Equal|Go|81.1%|Medium||
 |1552|Magnetic Force Between Two Balls||56.8%|Medium||
 |1553|Minimum Number of Days to Eat N Oranges||34.4%|Hard||
 |1554|Strings Differ by One Character||43.6%|Medium||
@@ -1713,14 +1657,14 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1569|Number of Ways to Reorder Array to Get Same BST||48.2%|Hard||
 |1570|Dot Product of Two Sparse Vectors||90.4%|Medium||
 |1571|Warehouse Manager||90.1%|Easy||
-|1572|Matrix Diagonal Sum|[Go](https://www.swifttechco.com)|79.7%|Easy||
-|1573|Number of Ways to Split a String|[Go](https://www.swifttechco.com)|32.4%|Medium||
+|1572|Matrix Diagonal Sum|Go|79.7%|Easy||
+|1573|Number of Ways to Split a String|Go|32.4%|Medium||
 |1574|Shortest Subarray to be Removed to Make Array Sorted||36.5%|Medium||
 |1575|Count All Possible Routes||56.9%|Hard||
-|1576|Replace All ?'s to Avoid Consecutive Repeating Characters|[Go](https://www.swifttechco.com)|49.2%|Easy||
+|1576|Replace All ?'s to Avoid Consecutive Repeating Characters|Go|49.2%|Easy||
 |1577|Number of Ways Where Square of Number Is Equal to Product of Two Numbers||39.9%|Medium||
 |1578|Minimum Time to Make Rope Colorful||63.7%|Medium||
-|1579|Remove Max Number of Edges to Keep Graph Fully Traversable|[Go](https://www.swifttechco.com)|52.7%|Hard||
+|1579|Remove Max Number of Edges to Keep Graph Fully Traversable|Go|52.7%|Hard||
 |1580|Put Boxes Into the Warehouse II||63.5%|Medium||
 |1581|Customer Who Visited but Did Not Make Any Transactions||89.0%|Easy||
 |1582|Special Positions in a Binary Matrix||65.3%|Easy||
@@ -1741,170 +1685,170 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1597|Build Binary Expression Tree From Infix Expression||62.2%|Hard||
 |1598|Crawler Log Folder||64.3%|Easy||
 |1599|Maximum Profit of Operating a Centennial Wheel||43.7%|Medium||
-|1600|Throne Inheritance|[Go](https://www.swifttechco.com)|63.6%|Medium||
+|1600|Throne Inheritance|Go|63.6%|Medium||
 |1601|Maximum Number of Achievable Transfer Requests||51.3%|Hard||
 |1602|Find Nearest Right Node in Binary Tree||75.3%|Medium||
-|1603|Design Parking System|[Go](https://www.swifttechco.com)|88.1%|Easy||
+|1603|Design Parking System|Go|88.1%|Easy||
 |1604|Alert Using Same Key-Card Three or More Times in a One Hour Period||47.4%|Medium||
 |1605|Find Valid Matrix Given Row and Column Sums||78.1%|Medium||
 |1606|Find Servers That Handled Most Number of Requests||42.8%|Hard||
 |1607|Sellers With No Sales||55.3%|Easy||
-|1608|Special Array With X Elements Greater Than or Equal X|[Go](https://www.swifttechco.com)|60.0%|Easy||
-|1609|Even Odd Tree|[Go](https://www.swifttechco.com)|53.6%|Medium||
+|1608|Special Array With X Elements Greater Than or Equal X|Go|60.0%|Easy||
+|1609|Even Odd Tree|Go|53.6%|Medium||
 |1610|Maximum Number of Visible Points||37.4%|Hard||
 |1611|Minimum One Bit Operations to Make Integers Zero||63.2%|Hard||
 |1612|Check If Two Expression Trees are Equivalent||69.9%|Medium||
 |1613|Find the Missing IDs||75.9%|Medium||
-|1614|Maximum Nesting Depth of the Parentheses|[Go](https://www.swifttechco.com)|82.7%|Easy||
+|1614|Maximum Nesting Depth of the Parentheses|Go|82.7%|Easy||
 |1615|Maximal Network Rank||58.1%|Medium||
 |1616|Split Two Strings to Make Palindrome||31.3%|Medium||
 |1617|Count Subtrees With Max Distance Between Cities||65.9%|Hard||
 |1618|Maximum Font to Fit a Sentence in a Screen||59.1%|Medium||
-|1619|Mean of Array After Removing Some Elements|[Go](https://www.swifttechco.com)|64.6%|Easy||
+|1619|Mean of Array After Removing Some Elements|Go|64.6%|Easy||
 |1620|Coordinate With Maximum Network Quality||37.3%|Medium||
 |1621|Number of Sets of K Non-Overlapping Line Segments||42.3%|Medium||
 |1622|Fancy Sequence||16.1%|Hard||
 |1623|All Valid Triplets That Can Represent a Country||88.0%|Easy||
-|1624|Largest Substring Between Two Equal Characters|[Go](https://www.swifttechco.com)|59.0%|Easy||
+|1624|Largest Substring Between Two Equal Characters|Go|59.0%|Easy||
 |1625|Lexicographically Smallest String After Applying Operations||66.0%|Medium||
 |1626|Best Team With No Conflicts||41.1%|Medium||
 |1627|Graph Connectivity With Threshold||45.5%|Hard||
 |1628|Design an Expression Tree With Evaluate Function||82.7%|Medium||
-|1629|Slowest Key|[Go](https://www.swifttechco.com)|59.4%|Easy||
+|1629|Slowest Key|Go|59.4%|Easy||
 |1630|Arithmetic Subarrays||79.9%|Medium||
-|1631|Path With Minimum Effort|[Go](https://www.swifttechco.com)|55.3%|Medium||
+|1631|Path With Minimum Effort|Go|55.3%|Medium||
 |1632|Rank Transform of a Matrix||41.0%|Hard||
 |1633|Percentage of Users Attended a Contest||68.8%|Easy||
 |1634|Add Two Polynomials Represented as Linked Lists||53.4%|Medium||
 |1635|Hopper Company Queries I||53.0%|Hard||
-|1636|Sort Array by Increasing Frequency|[Go](https://www.swifttechco.com)|68.6%|Easy||
+|1636|Sort Array by Increasing Frequency|Go|68.6%|Easy||
 |1637|Widest Vertical Area Between Two Points Containing No Points||84.2%|Medium||
 |1638|Count Substrings That Differ by One Character||71.5%|Medium||
 |1639|Number of Ways to Form a Target String Given a Dictionary||42.9%|Hard||
-|1640|Check Array Formation Through Concatenation|[Go](https://www.swifttechco.com)|56.1%|Easy||
-|1641|Count Sorted Vowel Strings|[Go](https://www.swifttechco.com)|77.3%|Medium||
-|1642|Furthest Building You Can Reach|[Go](https://www.swifttechco.com)|48.3%|Medium||
+|1640|Check Array Formation Through Concatenation|Go|56.1%|Easy||
+|1641|Count Sorted Vowel Strings|Go|77.3%|Medium||
+|1642|Furthest Building You Can Reach|Go|48.3%|Medium||
 |1643|Kth Smallest Instructions||46.3%|Hard||
 |1644|Lowest Common Ancestor of a Binary Tree II||59.3%|Medium||
 |1645|Hopper Company Queries II||38.8%|Hard||
-|1646|Get Maximum in Generated Array|[Go](https://www.swifttechco.com)|50.2%|Easy||
-|1647|Minimum Deletions to Make Character Frequencies Unique|[Go](https://www.swifttechco.com)|59.2%|Medium||
-|1648|Sell Diminishing-Valued Colored Balls|[Go](https://www.swifttechco.com)|30.6%|Medium||
-|1649|Create Sorted Array through Instructions|[Go](https://www.swifttechco.com)|37.2%|Hard||
+|1646|Get Maximum in Generated Array|Go|50.2%|Easy||
+|1647|Minimum Deletions to Make Character Frequencies Unique|Go|59.2%|Medium||
+|1648|Sell Diminishing-Valued Colored Balls|Go|30.6%|Medium||
+|1649|Create Sorted Array through Instructions|Go|37.2%|Hard||
 |1650|Lowest Common Ancestor of a Binary Tree III||77.3%|Medium||
 |1651|Hopper Company Queries III||68.0%|Hard||
-|1652|Defuse the Bomb|[Go](https://www.swifttechco.com)|61.1%|Easy||
-|1653|Minimum Deletions to Make String Balanced|[Go](https://www.swifttechco.com)|58.7%|Medium||
-|1654|Minimum Jumps to Reach Home|[Go](https://www.swifttechco.com)|28.6%|Medium||
-|1655|Distribute Repeating Integers|[Go](https://www.swifttechco.com)|39.7%|Hard||
-|1656|Design an Ordered Stream|[Go](https://www.swifttechco.com)|85.3%|Easy||
-|1657|Determine if Two Strings Are Close|[Go](https://www.swifttechco.com)|54.2%|Medium||
-|1658|Minimum Operations to Reduce X to Zero|[Go](https://www.swifttechco.com)|37.6%|Medium||
-|1659|Maximize Grid Happiness|[Go](https://www.swifttechco.com)|38.4%|Hard||
+|1652|Defuse the Bomb|Go|61.1%|Easy||
+|1653|Minimum Deletions to Make String Balanced|Go|58.7%|Medium||
+|1654|Minimum Jumps to Reach Home|Go|28.6%|Medium||
+|1655|Distribute Repeating Integers|Go|39.7%|Hard||
+|1656|Design an Ordered Stream|Go|85.3%|Easy||
+|1657|Determine if Two Strings Are Close|Go|54.2%|Medium||
+|1658|Minimum Operations to Reduce X to Zero|Go|37.6%|Medium||
+|1659|Maximize Grid Happiness|Go|38.4%|Hard||
 |1660|Correct a Binary Tree||72.5%|Medium||
 |1661|Average Time of Process per Machine||79.4%|Easy||
-|1662|Check If Two String Arrays are Equivalent|[Go](https://www.swifttechco.com)|81.8%|Easy||
-|1663|Smallest String With A Given Numeric Value|[Go](https://www.swifttechco.com)|67.0%|Medium||
-|1664|Ways to Make a Fair Array|[Go](https://www.swifttechco.com)|63.6%|Medium||
-|1665|Minimum Initial Energy to Finish Tasks|[Go](https://www.swifttechco.com)|56.2%|Hard||
+|1662|Check If Two String Arrays are Equivalent|Go|81.8%|Easy||
+|1663|Smallest String With A Given Numeric Value|Go|67.0%|Medium||
+|1664|Ways to Make a Fair Array|Go|63.6%|Medium||
+|1665|Minimum Initial Energy to Finish Tasks|Go|56.2%|Hard||
 |1666|Change the Root of a Binary Tree||69.4%|Medium||
 |1667|Fix Names in a Table||66.8%|Easy||
-|1668|Maximum Repeating Substring|[Go](https://www.swifttechco.com)|39.6%|Easy||
-|1669|Merge In Between Linked Lists|[Go](https://www.swifttechco.com)|74.5%|Medium||
-|1670|Design Front Middle Back Queue|[Go](https://www.swifttechco.com)|56.4%|Medium||
+|1668|Maximum Repeating Substring|Go|39.6%|Easy||
+|1669|Merge In Between Linked Lists|Go|74.5%|Medium||
+|1670|Design Front Middle Back Queue|Go|56.4%|Medium||
 |1671|Minimum Number of Removals to Make Mountain Array||42.6%|Hard||
-|1672|Richest Customer Wealth|[Go](https://www.swifttechco.com)|88.4%|Easy||
-|1673|Find the Most Competitive Subsequence|[Go](https://www.swifttechco.com)|49.3%|Medium||
-|1674|Minimum Moves to Make Array Complementary|[Go](https://www.swifttechco.com)|38.5%|Medium||
-|1675|Minimize Deviation in Array|[Go](https://www.swifttechco.com)|52.1%|Hard||
+|1672|Richest Customer Wealth|Go|88.4%|Easy||
+|1673|Find the Most Competitive Subsequence|Go|49.3%|Medium||
+|1674|Minimum Moves to Make Array Complementary|Go|38.5%|Medium||
+|1675|Minimize Deviation in Array|Go|52.1%|Hard||
 |1676|Lowest Common Ancestor of a Binary Tree IV||79.3%|Medium||
 |1677|Product's Worth Over Invoices||39.4%|Easy||
-|1678|Goal Parser Interpretation|[Go](https://www.swifttechco.com)|86.0%|Easy||
-|1679|Max Number of K-Sum Pairs|[Go](https://www.swifttechco.com)|57.4%|Medium||
-|1680|Concatenation of Consecutive Binary Numbers|[Go](https://www.swifttechco.com)|57.0%|Medium||
-|1681|Minimum Incompatibility|[Go](https://www.swifttechco.com)|37.3%|Hard||
+|1678|Goal Parser Interpretation|Go|86.0%|Easy||
+|1679|Max Number of K-Sum Pairs|Go|57.4%|Medium||
+|1680|Concatenation of Consecutive Binary Numbers|Go|57.0%|Medium||
+|1681|Minimum Incompatibility|Go|37.3%|Hard||
 |1682|Longest Palindromic Subsequence II||49.7%|Medium||
 |1683|Invalid Tweets||91.0%|Easy||
-|1684|Count the Number of Consistent Strings|[Go](https://www.swifttechco.com)|81.8%|Easy||
-|1685|Sum of Absolute Differences in a Sorted Array|[Go](https://www.swifttechco.com)|65.3%|Medium||
+|1684|Count the Number of Consistent Strings|Go|81.8%|Easy||
+|1685|Sum of Absolute Differences in a Sorted Array|Go|65.3%|Medium||
 |1686|Stone Game VI||54.3%|Medium||
 |1687|Delivering Boxes from Storage to Ports||38.2%|Hard||
-|1688|Count of Matches in Tournament|[Go](https://www.swifttechco.com)|83.1%|Easy||
-|1689|Partitioning Into Minimum Number Of Deci-Binary Numbers|[Go](https://www.swifttechco.com)|89.7%|Medium||
-|1690|Stone Game VII|[Go](https://www.swifttechco.com)|58.7%|Medium||
-|1691|Maximum Height by Stacking Cuboids|[Go](https://www.swifttechco.com)|54.2%|Hard||
+|1688|Count of Matches in Tournament|Go|83.1%|Easy||
+|1689|Partitioning Into Minimum Number Of Deci-Binary Numbers|Go|89.7%|Medium||
+|1690|Stone Game VII|Go|58.7%|Medium||
+|1691|Maximum Height by Stacking Cuboids|Go|54.2%|Hard||
 |1692|Count Ways to Distribute Candies||62.0%|Hard||
 |1693|Daily Leads and Partners||90.4%|Easy||
-|1694|Reformat Phone Number|[Go](https://www.swifttechco.com)|64.7%|Easy||
-|1695|Maximum Erasure Value|[Go](https://www.swifttechco.com)|57.7%|Medium||
-|1696|Jump Game VI|[Go](https://www.swifttechco.com)|46.3%|Medium||
+|1694|Reformat Phone Number|Go|64.7%|Easy||
+|1695|Maximum Erasure Value|Go|57.7%|Medium||
+|1696|Jump Game VI|Go|46.3%|Medium||
 |1697|Checking Existence of Edge Length Limited Paths||50.5%|Hard||
 |1698|Number of Distinct Substrings in a String||63.1%|Medium||
 |1699|Number of Calls Between Two Persons||85.8%|Medium||
-|1700|Number of Students Unable to Eat Lunch|[Go](https://www.swifttechco.com)|67.7%|Easy||
+|1700|Number of Students Unable to Eat Lunch|Go|67.7%|Easy||
 |1701|Average Waiting Time||62.3%|Medium||
 |1702|Maximum Binary String After Change||46.1%|Medium||
 |1703|Minimum Adjacent Swaps for K Consecutive Ones||41.3%|Hard||
-|1704|Determine if String Halves Are Alike|[Go](https://www.swifttechco.com)|77.4%|Easy||
-|1705|Maximum Number of Eaten Apples|[Go](https://www.swifttechco.com)|37.9%|Medium||
+|1704|Determine if String Halves Are Alike|Go|77.4%|Easy||
+|1705|Maximum Number of Eaten Apples|Go|37.9%|Medium||
 |1706|Where Will the Ball Fall||65.8%|Medium||
 |1707|Maximum XOR With an Element From Array||44.3%|Hard||
 |1708|Largest Subarray Length K||63.5%|Easy||
 |1709|Biggest Window Between Visits||77.8%|Medium||
-|1710|Maximum Units on a Truck|[Go](https://www.swifttechco.com)|74.0%|Easy||
+|1710|Maximum Units on a Truck|Go|74.0%|Easy||
 |1711|Count Good Meals||29.0%|Medium||
 |1712|Ways to Split Array Into Three Subarrays||32.4%|Medium||
 |1713|Minimum Operations to Make a Subsequence||49.2%|Hard||
 |1714|Sum Of Special Evenly-Spaced Elements In Array||49.8%|Hard||
 |1715|Count Apples and Oranges||77.8%|Medium||
-|1716|Calculate Money in Leetcode Bank|[Go](https://www.swifttechco.com)|65.0%|Easy||
+|1716|Calculate Money in Leetcode Bank|Go|65.0%|Easy||
 |1717|Maximum Score From Removing Substrings||46.0%|Medium||
 |1718|Construct the Lexicographically Largest Valid Sequence||51.7%|Medium||
 |1719|Number Of Ways To Reconstruct A Tree||42.5%|Hard||
-|1720|Decode XORed Array|[Go](https://www.swifttechco.com)|86.0%|Easy||
-|1721|Swapping Nodes in a Linked List|[Go](https://www.swifttechco.com)|67.8%|Medium||
+|1720|Decode XORed Array|Go|86.0%|Easy||
+|1721|Swapping Nodes in a Linked List|Go|67.8%|Medium||
 |1722|Minimize Hamming Distance After Swap Operations||48.6%|Medium||
 |1723|Find Minimum Time to Finish All Jobs||42.7%|Hard||
 |1724|Checking Existence of Edge Length Limited Paths II||51.3%|Hard||
-|1725|Number Of Rectangles That Can Form The Largest Square|[Go](https://www.swifttechco.com)|78.7%|Easy||
+|1725|Number Of Rectangles That Can Form The Largest Square|Go|78.7%|Easy||
 |1726|Tuple with Same Product||60.7%|Medium||
 |1727|Largest Submatrix With Rearrangements||60.8%|Medium||
 |1728|Cat and Mouse II||40.5%|Hard||
 |1729|Find Followers Count||71.6%|Easy||
 |1730|Shortest Path to Get Food||54.0%|Medium||
 |1731|The Number of Employees Which Report to Each Employee||51.1%|Easy||
-|1732|Find the Highest Altitude|[Go](https://www.swifttechco.com)|78.7%|Easy||
+|1732|Find the Highest Altitude|Go|78.7%|Easy||
 |1733|Minimum Number of People to Teach||41.6%|Medium||
-|1734|Decode XORed Permutation|[Go](https://www.swifttechco.com)|62.2%|Medium||
+|1734|Decode XORed Permutation|Go|62.2%|Medium||
 |1735|Count Ways to Make Array With Product||49.2%|Hard||
-|1736|Latest Time by Replacing Hidden Digits|[Go](https://www.swifttechco.com)|42.2%|Easy||
+|1736|Latest Time by Replacing Hidden Digits|Go|42.2%|Easy||
 |1737|Change Minimum Characters to Satisfy One of Three Conditions||35.2%|Medium||
-|1738|Find Kth Largest XOR Coordinate Value|[Go](https://www.swifttechco.com)|61.6%|Medium||
+|1738|Find Kth Largest XOR Coordinate Value|Go|61.6%|Medium||
 |1739|Building Boxes||51.7%|Hard||
 |1740|Find Distance in a Binary Tree||68.7%|Medium||
 |1741|Find Total Time Spent by Each Employee||92.0%|Easy||
-|1742|Maximum Number of Balls in a Box|[Go](https://www.swifttechco.com)|73.9%|Easy||
+|1742|Maximum Number of Balls in a Box|Go|73.9%|Easy||
 |1743|Restore the Array From Adjacent Pairs||68.7%|Medium||
-|1744|Can You Eat Your Favorite Candy on Your Favorite Day?|[Go](https://www.swifttechco.com)|32.8%|Medium||
+|1744|Can You Eat Your Favorite Candy on Your Favorite Day?|Go|32.8%|Medium||
 |1745|Palindrome Partitioning IV||46.3%|Hard||
 |1746|Maximum Subarray Sum After One Operation||62.2%|Medium||
 |1747|Leetflex Banned Accounts||68.2%|Medium||
-|1748|Sum of Unique Elements|[Go](https://www.swifttechco.com)|75.6%|Easy||
+|1748|Sum of Unique Elements|Go|75.6%|Easy||
 |1749|Maximum Absolute Sum of Any Subarray||58.2%|Medium||
 |1750|Minimum Length of String After Deleting Similar Ends||43.6%|Medium||
 |1751|Maximum Number of Events That Can Be Attended II||55.8%|Hard||
-|1752|Check if Array Is Sorted and Rotated|[Go](https://www.swifttechco.com)|49.2%|Easy||
+|1752|Check if Array Is Sorted and Rotated|Go|49.2%|Easy||
 |1753|Maximum Score From Removing Stones||66.1%|Medium||
 |1754|Largest Merge Of Two Strings||45.0%|Medium||
 |1755|Closest Subsequence Sum||36.6%|Hard||
 |1756|Design Most Recently Used Queue||79.0%|Medium||
 |1757|Recyclable and Low Fat Products||93.9%|Easy||
-|1758|Minimum Changes To Make Alternating Binary String|[Go](https://www.swifttechco.com)|58.3%|Easy||
+|1758|Minimum Changes To Make Alternating Binary String|Go|58.3%|Easy||
 |1759|Count Number of Homogenous Substrings||47.8%|Medium||
 |1760|Minimum Limit of Balls in a Bag||60.3%|Medium||
 |1761|Minimum Degree of a Connected Trio in a Graph||41.7%|Hard||
 |1762|Buildings With an Ocean View||79.2%|Medium||
-|1763|Longest Nice Substring|[Go](https://www.swifttechco.com)|61.7%|Easy||
+|1763|Longest Nice Substring|Go|61.7%|Easy||
 |1764|Form Array by Concatenating Subarrays of Another Array||52.7%|Medium||
 |1765|Map of Highest Peak||60.3%|Medium||
 |1766|Tree of Coprimes||38.5%|Hard||
@@ -1932,7 +1876,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1788|Maximize the Beauty of the Garden||66.4%|Hard||
 |1789|Primary Department for Each Employee||80.0%|Easy||
 |1790|Check if One String Swap Can Make Strings Equal||45.6%|Easy||
-|1791|Find Center of Star Graph|[Go](https://www.swifttechco.com)|83.6%|Easy||
+|1791|Find Center of Star Graph|Go|83.6%|Easy||
 |1792|Maximum Average Pass Ratio||51.9%|Medium||
 |1793|Maximum Score of a Good Subarray||53.2%|Hard||
 |1794|Count Pairs of Equal Substrings With Minimum Difference||65.2%|Medium||
@@ -1957,9 +1901,9 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1813|Sentence Similarity III||33.0%|Medium||
 |1814|Count Nice Pairs in an Array||41.9%|Medium||
 |1815|Maximum Number of Groups Getting Fresh Donuts||40.1%|Hard||
-|1816|Truncate Sentence|[Go](https://www.swifttechco.com)|81.9%|Easy||
+|1816|Truncate Sentence|Go|81.9%|Easy||
 |1817|Finding the Users Active Minutes||80.7%|Medium||
-|1818|Minimum Absolute Sum Difference|[Go](https://www.swifttechco.com)|30.1%|Medium||
+|1818|Minimum Absolute Sum Difference|Go|30.1%|Medium||
 |1819|Number of Different Subsequences GCDs||37.9%|Hard||
 |1820|Maximum Number of Accepted Invitations||49.7%|Medium||
 |1821|Find Customers With Positive Revenue this Year||89.4%|Easy||
@@ -1987,7 +1931,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1843|Suspicious Bank Accounts||48.0%|Medium||
 |1844|Replace All Digits with Characters||79.7%|Easy||
 |1845|Seat Reservation Manager||64.2%|Medium||
-|1846|Maximum Element After Decreasing and Rearranging|[Go](https://www.swifttechco.com)|59.1%|Medium||
+|1846|Maximum Element After Decreasing and Rearranging|Go|59.1%|Medium||
 |1847|Closest Room||35.1%|Hard||
 |1848|Minimum Distance to the Target Element||58.6%|Easy||
 |1849|Splitting a String Into Descending Consecutive Values||32.1%|Medium||
@@ -2018,7 +1962,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1874|Minimize Product Sum of Two Arrays||90.4%|Medium||
 |1875|Group Employees of the Same Salary||75.6%|Medium||
 |1876|Substrings of Size Three with Distinct Characters||70.2%|Easy||
-|1877|Minimize Maximum Pair Sum in Array|[Go](https://www.swifttechco.com)|80.4%|Medium||
+|1877|Minimize Maximum Pair Sum in Array|Go|80.4%|Medium||
 |1878|Get Biggest Three Rhombus Sums in a Grid||46.4%|Medium||
 |1879|Minimum XOR Sum of Two Arrays||44.6%|Hard||
 |1880|Check if Word Equals Summation of Two Words||73.6%|Easy||
@@ -2125,7 +2069,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |1981|Minimize the Difference Between Target and Chosen Elements||32.4%|Medium||
 |1982|Find Array Given Subset Sums||48.7%|Hard||
 |1983|Widest Pair of Indices With Equal Range Sum||53.1%|Medium||
-|1984|Minimum Difference Between Highest and Lowest of K Scores|[Go](https://www.swifttechco.com)|53.5%|Easy||
+|1984|Minimum Difference Between Highest and Lowest of K Scores|Go|53.5%|Easy||
 |1985|Find the Kth Largest Integer in the Array||44.6%|Medium||
 |1986|Minimum Number of Work Sessions to Finish the Tasks||33.1%|Medium||
 |1987|Number of Unique Good Subsequences||52.2%|Hard||
@@ -2162,8 +2106,8 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |2018|Check if Word Can Be Placed In Crossword||49.3%|Medium||
 |2019|The Score of Students Solving Math Expression||33.2%|Hard||
 |2020|Number of Accounts That Did Not Stream||73.2%|Medium||
-|2021|Brightest Position on Street|[Go](https://www.swifttechco.com)|62.9%|Medium||
-|2022|Convert 1D Array Into 2D Array|[Go](https://www.swifttechco.com)|58.3%|Easy||
+|2021|Brightest Position on Street|Go|62.9%|Medium||
+|2022|Convert 1D Array Into 2D Array|Go|58.3%|Easy||
 |2023|Number of Pairs of Strings With Concatenation Equal to Target||72.8%|Medium||
 |2024|Maximize the Confusion of an Exam||59.4%|Medium||
 |2025|Maximum Number of Ways to Partition an Array||32.0%|Hard||
@@ -2178,13 +2122,13 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |2034|Stock Price Fluctuation||49.3%|Medium||
 |2035|Partition Array Into Two Arrays to Minimize Sum Difference||17.9%|Hard||
 |2036|Maximum Alternating Subarray Sum||41.2%|Medium||
-|2037|Minimum Number of Moves to Seat Everyone|[Go](https://www.swifttechco.com)|82.2%|Easy||
-|2038|Remove Colored Pieces if Both Neighbors are the Same Color|[Go](https://www.swifttechco.com)|58.1%|Medium||
+|2037|Minimum Number of Moves to Seat Everyone|Go|82.2%|Easy||
+|2038|Remove Colored Pieces if Both Neighbors are the Same Color|Go|58.1%|Medium||
 |2039|The Time When the Network Becomes Idle||50.6%|Medium||
 |2040|Kth Smallest Product of Two Sorted Arrays||29.1%|Hard||
 |2041|Accepted Candidates From the Interviews||79.4%|Medium||
 |2042|Check if Numbers Are Ascending in a Sentence||65.9%|Easy||
-|2043|Simple Bank System|[Go](https://www.swifttechco.com)|65.9%|Medium||
+|2043|Simple Bank System|Go|65.9%|Medium||
 |2044|Count Number of Maximum Bitwise-OR Subsets||74.8%|Medium||
 |2045|Second Minimum Time to Reach Destination||38.5%|Hard||
 |2046|Sort Linked List Already Sorted Using Absolute Values||68.6%|Medium||
@@ -2237,7 +2181,7 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |2093|Minimum Cost to Reach City With Discounts||56.3%|Medium||
 |2094|Finding 3-Digit Even Numbers||57.4%|Easy||
 |2095|Delete the Middle Node of a Linked List||60.7%|Medium||
-|2096|Step-By-Step Directions From a Binary Tree Node to Another|[Go](https://www.swifttechco.com)|48.8%|Medium||
+|2096|Step-By-Step Directions From a Binary Tree Node to Another|Go|48.8%|Medium||
 |2097|Valid Arrangement of Pairs||40.9%|Hard||
 |2098|Subsequence of Size K With the Largest Even Sum||38.7%|Medium||
 |2099|Find Subsequence of Length K With the Largest Sum||42.5%|Easy||
@@ -2305,14 +2249,14 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |2161|Partition Array According to Given Pivot||84.3%|Medium||
 |2162|Minimum Cost to Set Cooking Time||39.2%|Medium||
 |2163|Minimum Difference in Sums After Removal of Elements||46.5%|Hard||
-|2164|Sort Even and Odd Indices Independently|[Go](https://www.swifttechco.com)|66.6%|Easy||
-|2165|Smallest Value of the Rearranged Number|[Go](https://www.swifttechco.com)|51.1%|Medium||
-|2166|Design Bitset|[Go](https://www.swifttechco.com)|31.3%|Medium||
-|2167|Minimum Time to Remove All Cars Containing Illegal Goods|[Go](https://www.swifttechco.com)|40.1%|Hard||
+|2164|Sort Even and Odd Indices Independently|Go|66.6%|Easy||
+|2165|Smallest Value of the Rearranged Number|Go|51.1%|Medium||
+|2166|Design Bitset|Go|31.3%|Medium||
+|2167|Minimum Time to Remove All Cars Containing Illegal Goods|Go|40.1%|Hard||
 |2168|Unique Substrings With Equal Digit Frequency||60.2%|Medium||
-|2169|Count Operations to Obtain Zero|[Go](https://www.swifttechco.com)|75.6%|Easy||
-|2170|Minimum Operations to Make the Array Alternating|[Go](https://www.swifttechco.com)|33.2%|Medium||
-|2171|Removing Minimum Number of Magic Beans|[Go](https://www.swifttechco.com)|42.0%|Medium||
+|2169|Count Operations to Obtain Zero|Go|75.6%|Easy||
+|2170|Minimum Operations to Make the Array Alternating|Go|33.2%|Medium||
+|2171|Removing Minimum Number of Magic Beans|Go|42.0%|Medium||
 |2172|Maximum AND Sum of Array||46.8%|Hard||
 |2173|Longest Winning Streak||59.7%|Hard||
 |2174|Remove All Ones With Row and Column Flips II||68.8%|Medium||
@@ -2321,10 +2265,10 @@ Install the PWA edition of *LeetCode Cookbook* to your home screen from an iOS /
 |2177|Find Three Consecutive Integers That Sum to a Given Number||63.5%|Medium||
 |2178|Maximum Split of Positive Even Integers||59.1%|Medium||
 |2179|Count Good Triplets in an Array||36.7%|Hard||
-|2180|Count Integers With Even Digit Sum|[Go](https://www.swifttechco.com)|64.5%|Easy||
-|2181|Merge Nodes in Between Zeros|[Go](https://www.swifttechco.com)|86.9%|Medium||
-|2182|Construct String With Repeat Limit|[Go](https://www.swifttechco.com)|51.8%|Medium||
-|2183|Count Array Pairs Divisible by K|[Go](https://www.swifttechco.com)|28.3%|Hard||
+|2180|Count Integers With Even Digit Sum|Go|64.5%|Easy||
+|2181|Merge Nodes in Between Zeros|Go|86.9%|Medium||
+|2182|Construct String With Repeat Limit|Go|51.8%|Medium||
+|2183|Count Array Pairs Divisible by K|Go|28.3%|Hard||
 |2184|Number of Ways to Build Sturdy Brick Wall||52.1%|Medium||
 |2185|Counting Words With a Given Prefix||77.1%|Easy||
 |2186|Minimum Number of Steps to Make Two Strings Anagram II||71.9%|Medium||
@@ -2601,12 +2545,12 @@ None
 ## Array
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## String
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Two Pointers
@@ -2635,7 +2579,7 @@ Problems List in [there](https://www.swifttechco.com)
 - The SUM problem set. Problems 1, 15, 16, 18, 167, 923, 1074.
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Linked List
@@ -2653,7 +2597,7 @@ Problems List in [there](https://www.swifttechco.com)
 - Detecting whether a linked list has a cycle and, if so, outputting the index of the cycle's entry node; detecting whether two linked lists intersect and, if so, outputting the intersection node. Problems 141, 142, 160.
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Stack
@@ -2665,18 +2609,18 @@ Problems List in [there](https://www.swifttechco.com)
 - Using a stack for encoding/decoding problems. Problems 394, 682, 856, 880.
 - **Monotonic stack**. **Use a stack to maintain a monotonically increasing or decreasing array of indices**. Problems 84, 456, 496, 503, 739, 901, 907, 1019.
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Tree
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Dynamic Programming
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Backtracking
@@ -2774,19 +2718,19 @@ func updateMatrix_BFS(matrix [][]int) [][]int {
 ```
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Depth First Search
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Breadth First Search
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Binary Search
@@ -2915,19 +2859,19 @@ func peakIndexInMountainArray(A []int) int {
 
 - The max-min (minimize-the-maximum) problem: find the largest value while satisfying the constraint as tightly as possible. Problems 410, 875, 1011, 1283.
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Math
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Hash Table
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Sort
@@ -2941,7 +2885,7 @@ Problems List in [there](https://www.swifttechco.com)
 - Reordering so that no two adjacent elements are equal. Problems 767, 1054.
 - "Pancake sorting". Problem 969.
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Bit Manipulation
@@ -2980,14 +2924,14 @@ X & -X isolates the lowest set bit (LSB)
 X & ~X = 0
 ```
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Union Find
 
 [![](./topic/Union_Find.png)](https://www.swifttechco.com)
 
-- Use the union-find idea flexibly and get comfortable with the union-find [template](https://www.swifttechco.com). The template offers two implementations: one with path compression + union by rank, and one that tracks the size of each set + the largest set size; each has its own use cases. Problems that fit the first template: 128, 130, 547, 684, 721, 765, 778, 839, 924, 928, 947, 952, 959, 990. Problems that fit the second template: 803, 952. In Problem 803, union by rank and counting set sizes are where time gets tight; skip these optimizations and you'll TLE.
+- Use the union-find idea flexibly and get comfortable with the union-find template. The template offers two implementations: one with path compression + union by rank, and one that tracks the size of each set + the largest set size; each has its own use cases. Problems that fit the first template: 128, 130, 547, 684, 721, 765, 778, 839, 924, 928, 947, 952, 959, 990. Problems that fit the second template: 803, 952. In Problem 803, union by rank and counting set sizes are where time gets tight; skip these optimizations and you'll TLE.
 - Union-Find is an idea; some problems require applying it flexibly rather than blindly reusing the template, e.g. Problem 399, a stringUnionFind built on the union-find idea. Here each node is keyed by strings and a map rather than plain integer node IDs.
 - Some problems can't be solved by blindly applying the template, e.g. Problem 685: it cannot use path compression or union by rank, because it involves a directed graph and you need each node's predecessor; with path compression, the problem becomes unsolvable. This one needs neither path compression nor union by rank.
 - Abstract the given information flexibly, number it sensibly, solve with union-find, and use a map to lower the time complexity, e.g. Problems 721, 959.
@@ -2995,7 +2939,7 @@ Problems List in [there](https://www.swifttechco.com)
 - Problems solvable with union-find can generally also be solved with DFS and BFS, just at a somewhat higher time complexity.
 
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Sliding Window
@@ -3020,7 +2964,7 @@ Problems List in [there](https://www.swifttechco.com)
 ```
 - Classic sliding-window problems. Problems 239, 480.
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Segment Tree
@@ -3035,32 +2979,32 @@ Problems List in [there](https://www.swifttechco.com)
 - Build segment trees flexibly. A node can store multiple pieces of information, and the pushUp that merges two nodes can take many forms. Problems 850, 1157.
 
 
-Segment-tree [problem types](https://www.swifttechco.com), from easy to hard:
+Segment-tree problem types, from easy to hard:
 
 1. Point update:
-	[HDU 1166 敌兵布阵](https://www.swifttechco.com) update: point add/subtract; query: range sum
-	[HDU 1754 I Hate It](https://www.swifttechco.com) update: point assignment; query: range min/max
-	[HDU 1394 Minimum Inversion Number](https://www.swifttechco.com) update: point add/subtract; query: range sum
-	[HDU 2795 Billboard](https://www.swifttechco.com) query: the position of the range maximum (the update is folded into the query)
+	HDU 1166 敌兵布阵 update: point add/subtract; query: range sum
+	HDU 1754 I Hate It update: point assignment; query: range min/max
+	HDU 1394 Minimum Inversion Number update: point add/subtract; query: range sum
+	HDU 2795 Billboard query: the position of the range maximum (the update is folded into the query)
 2. Range update:
-	[HDU 1698 Just a Hook](https://www.swifttechco.com) update: range assignment (since the whole range is queried only once, you can simply output the info at node 1)
-	[POJ 3468 A Simple Problem with Integers](https://www.swifttechco.com) update: range add/subtract; query: range sum
-	[POJ 2528 Mayor’s posters](https://www.swifttechco.com) discretization + update: range assignment; query: simple hash
-	[POJ 3225 Help with Intervals](https://www.swifttechco.com) update: range assignment, range XOR; query: simple hash
+	HDU 1698 Just a Hook update: range assignment (since the whole range is queried only once, you can simply output the info at node 1)
+	POJ 3468 A Simple Problem with Integers update: range add/subtract; query: range sum
+	POJ 2528 Mayor’s posters discretization + update: range assignment; query: simple hash
+	POJ 3225 Help with Intervals update: range assignment, range XOR; query: simple hash
 3. Range merging (these problems ask for the longest contiguous range satisfying a condition, so pushUp must merge the ranges of the left and right children):
-	[POJ 3667 Hotel](https://www.swifttechco.com) update: range assignment; query: the leftmost endpoint satisfying the condition
+	POJ 3667 Hotel update: range assignment; query: the leftmost endpoint satisfying the condition
 4. Sweep line (these problems require sorting some operations, then sweeping a line from left to right; the most typical are union of rectangle areas, union of perimeters, etc.):
-	[HDU 1542 Atlantis](https://www.swifttechco.com) update: range add/subtract; query: read the root node's value directly
-	[HDU 1828 Picture](https://www.swifttechco.com) update: range add/subtract; query: read the root node's value directly
+	HDU 1542 Atlantis update: range add/subtract; query: read the root node's value directly
+	HDU 1828 Picture update: range add/subtract; query: read the root node's value directly
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ## Binary Indexed Tree
 
 [![](./topic/Binary_Indexed_Tree.png)](https://www.swifttechco.com)
 
-Problems List in [there](https://www.swifttechco.com)
+Problems List in there
 
 
 ----------------------------------------------------------------------------------------
@@ -3069,12 +3013,12 @@ Problems List in [there](https://www.swifttechco.com)
 <a href="https://www.swifttechco.com"></a>
 </p>
 
-Thank you for reading this far  here's a bonus. You can download my [ACM-ICPC Algorithm Template](https://www.swifttechco.com).
+Thank you for reading this far  here's a bonus. You can download my ACM-ICPC Algorithm Template.
 
 
 ## License
 
-The **code** in this repository (all Go solutions) is licensed under the [MIT License](https://www.swifttechco.com). The **book content** of *LeetCode Cookbook* (the articles and illustrations served from the website) is licensed under a Creative Commons (CC) license. In short: feel free to reuse the code under MIT; the written/illustrated book content is shared under CC.
+The **code** in this repository (all Go solutions) is licensed under the MIT License. The **book content** of *LeetCode Cookbook* (the articles and illustrations served from the website) is licensed under a Creative Commons (CC) license. In short: feel free to reuse the code under MIT; the written/illustrated book content is shared under CC.
 
 ## ♥️ Thanks
 
@@ -3092,14 +3036,22 @@ AI Automation | FinTech Platforms | Custom Software and Mobile Apps | SaaS Platf
 
 **Join our community on Telegram:** [t.me/+Qt_eFvkb2rliMzNh](https://t.me/+Qt_eFvkb2rliMzNh)
 
-[Home](https://www.swifttechco.com) | [Services](https://www.swifttechco.com/services) | [Careers](https://www.swifttechco.com/careers) | [Referral Program](https://www.swifttechco.com/referral) | [Influencers](https://www.swifttechco.com/influencers) | [About](https://www.swifttechco.com/about) | [Contact](https://www.swifttechco.com/contact)
+Home | Services | Careers | Referral Program | Influencers | About | Contact
 
 **Connect**
 
-- Website: [swifttechco.com](https://www.swifttechco.com)
+- Website: swifttechco.com
 - LinkedIn: [linkedin.com/in/stephenoladoke](https://www.linkedin.com/in/stephenoladoke/)
 - LinkedIn (Company): [linkedin.com/company/swift-tech-co](https://www.linkedin.com/company/swift-tech-co)
 - X: [@MrOladoke](https://x.com/MrOladoke)
 - Instagram: [@mr.oladoke](https://www.instagram.com/mr.oladoke/)
 - Instagram (Company): [@swifttechco](https://www.instagram.com/swifttechco/)
 - Organization: [github.com/Swift-Tech-Co](https://github.com/Swift-Tech-Co)
+
+## Sources
+
+Compiled and maintained from upstream [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) under permissive open-source license.
+
+---
+
+Maintained by [Swift Tech Co.](https://github.com/Swift-Tech-Co) - [Telegram](https://t.me/+Qt_eFvkb2rliMzNh)
